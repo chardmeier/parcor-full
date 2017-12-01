@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotationscheme>
+<attribute id="imported_tag_type_level" name="imported_tag_type" type="freetext">
+<value id="imported_tag_type_level_value" name="imported_tag_type"/>
+</attribute>
+</annotationscheme>

@@ -1,0 +1,65 @@
+Falls ich Ihnen heute eine Sache näherbringen möchte ist es , dass die Gesamtheit der Daten , die wir konsumieren , größer ist als die Summe ihrer Einzelteile und anstatt dabei an Informationsüberladung zu denken möchte ich , dass Sie darüber nachdenken wie wir Information so nutzen können , dass sich Muster ergeben und wir so Trends erkennen , die ansonsten nicht sichtbar geworden wären .
+So , was wir hier sehen ist ein typisches Sterbediagramm nach Alter angeordnet .
+Das Programm , das ich hier benutze , ist ein kleines Experiment .
+Es heißt Pivot und was ich mit Pivot machen kann ist , dass ich nach einer bestimmten Todesursache filtern kann , sagen wir Unfälle .
+Und sofort sehe ich ein anderes Muster , das sich ergibt .
+Und zwar , weil im Mittelbereich hier die Menschen am aktivsten sind und sie hier drüben am gebrechlichsten sind .
+Wir können einen Schritt weiter rausgehen und ordnen die Daten dann neu und sehen , dass Kreislauferkrankungen und Krebs die üblichen Verdächtigen sind , jedoch nicht für jeden .
+Wenn wir nun weitergehen und nach Alter sortieren , sagen wir 40 Jahre oder jünger sehen wir , dass Unfälle sogar die Hauptursache ist über die sich die Menschen Sorgen machen sollten .
+Und wer weiterforscht sieht , dass ist dies besonders bei Männern zutrifft .
+Sie erkennen also , dass das Ansehen von Informationen und Daten in dieser Weise sehr an Schwimmen in einer lebendigen Informationsgrafik erinnert .
+Und wenn wir dies für Rohdaten machen können warum nicht auch für Inhalte selbst ?
+Was wir nun hier haben sind die Titelbilder jeder einzelnen " Sports Illustrated " , die jemals gedruckt wurden .
+Es ist alles hier .
+Es ist alles online .
+Sie können es gerne nach meinem Vortrag in Ihren Zimmern testen .
+Mit Pivot können sie eintauchen in ein Jahrzehnt .
+Sie können eintauchen in ein bestimmtes Jahr .
+Sie können direkt zu einer bestimmten Ausgabe springen .
+Wenn ich nun hier schaue , sehe ich die Athleten , die in dieser Ausgabe erscheinen und die Sportarten .
+Ich bin ein Lance Armstrong Fan , also klicke ich hierhin wodurch sich mir alle Ausgaben zeigen in denen Lance Armstrong erwähnt wird .
+Jetzt , wenn ich nur einen gröberen Überblick bekommen möchte , könnte ich denken " Ok , was wenn ich mir alles mit dem Thema Fahrradfahren ansehe ? "
+Also gehe ich einen Schritt zurück und erweitere die Sichtweise .
+Nun sehe ich Greg Lemond .
+Und so bekommt man eine Idee davon , dass wenn man auf diese Art Informationen durchsucht , gezielter , breiter , reinzoomen , rauszoomen , dann sucht man nicht oder surft nicht einfach nur .
+Man macht etwas , das eigentlich ein wenig anders ist .
+Es ist etwas dazwischen und wir denken es ändert die Art und Weise wie Informationen genutzt werden können .
+Ich möchte diese Idee nun ein bisschen weiter ausführen mit etwa was ein bisschen verrückt ist .
+Was wir hier gemacht haben ist , wir haben jede einzelne Wikipediaseite genommen und sie auf eine kleine Zusammenfassung reduziert .
+Die Zusammenfassung enthält eine kurze Übersicht und ein Symbol für den Bereich aus dem sie kommt .
+Ich zeige nur mal die Top 500 der populärsten Wikipediaseiten .
+Aber sogar in dieser eingeschränkten Ansicht können wir eine Menge Dinge tun .
+Sofort bekommen wir einen Eindruck über die Themen , die auf Wikipedia am populärsten sind .
+Ich werde nun das Thema ' Regierung ' wählen .
+Nun , nachdem ich ' Regierung ' gewählt habe erkenne ich , dass die Wikipediakategorien , die sich am meisten damit decken Time Magazines " Menschen des Jahres " sind .
+Dies ist wirklich wichtig , da dies eine Erkenntnis ist , die nicht in einer einzelnen Wikipediaseite steckt .
+Das ist nur zu erkennen wenn man einen Schritt zurückgeht und das Ganze betrachtet .
+Schauend auf eine bestimmte dieser Zusammenfassungen kann ich dann in das Thema Time Magazines " Menschen des Jahres " hinein gehen , und alle zusammen sehen .
+Wenn ich nun all diese Personen betrachte erkenne ich , dass die Mehrheit davon Regierungsbeamte sind .
+Manche kommen aus der Wissenschaft .
+Manche , noch weniger , kommen aus der Wirtschaft .
+Hier ist mein Chef .
+Und einer kommt aus dem Musikbereich .
+Und interessanterweise ist Bono auch ein TED Prize Gewinner .
+So können wir nun springen und einen Blick auf alle TED Prize Gewinner werfen .
+Man sieht , wir surfen im Netz das erste Mal als ob es auch wirklich ein Netz ist , nicht nur von Seite zu Seite , sondern viel abstrakter .
+Und so möchte ich Ihnen was anderes zeigen was eine kleine Überraschung sein könnte .
+Ich zeige Ihnen hier einfach nur die New York Times Website .
+Pivot , diese Anwendung -- Ich möchte es nicht einen Browser nennen ; es ist wirklich kein Browser , aber man kann Webseiten damit ansehen -- und wir bringen diese Zoom-Technologie zu jeder einzelnen Webseite wie dieser .
+Ich kann also einen Schritt zurückgehen , und direkt zu einer spezifischen Sektion springen .
+Das ist deshalb wichtig , weil man nur durch das Anschauen von Webseiten in dieser Art und Weise , den ganzen Internet-Verlauf auf die gleiche Art und Weise betrachten kann .
+Ich kann also in meinen Verlauf hineinzoomen in einem bestimmten Zeitrahmen .
+Hier ist der Stand der gesamten Demonstration , die ich bis hierhin gehalten habe .
+Und ich kann sozusagen alles , was ich heute bisher angesehen habe , wieder zurückholen .
+Und , wenn ich wieder einen Schritt rausgehe und auf alles schaue , kann ich meinen Verlauf neu anordnen vielleicht nach meiner Such-Vergangenheit .
+Hier , habe ich nach ' nepotistisch ' gesucht , hier nach Bing , oder hier nach Live Labs Pivot .
+Und von hier kann ich in die Seite hineingehen und sie wieder aufrufen .
+Es ist eine Metapher , die immer wieder verwendet wird , und jedes Mal macht es das Gesamtbild größer als die Summe der Datenteile .
+Im Moment , in dieser Welt , denken wir , dass Daten ein Fluch sind .
+Wir reden von dem Fluch des Informationsüberflusses .
+Wir reden vom " Ertrinken in Informationen " .
+Was , wenn wir diese Situation umdrehen könnten und das Internet auf den Kopf stellen , so dass wir anstatt immer von einem zum anderen zu gehen , beginnen von vielen Dingen zu vielen Dingen gehen zu können , und dadurch Muster erkennen , welche ansonsten verborgen geblieben wären ?
+Falls wir dies tun können , dann wird diese bisherige Datenfalle , vielleicht eine neue Quelle sinnvoller Informationen .
+Und , anstatt sich einfach nur in Informationen zu bewegen , können wir Wissen daraus bekommen .
+Und wenn wir Wissen erfahren , dann können wir vielleicht sogar Weisheiten daraus ziehen .
+Damit höre ich auf , vielen Dank .

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/checks">
+ <markable check="markable-without-chain" id="markable_7878" mmax_level="checks" span="word_3281"/>
+ <markable check="chain-without-antecedent" id="markable_5471" mmax_level="checks" span="word_2299"/>
+ <markable check="chain-without-antecedent" id="markable_5482" mmax_level="checks" span="word_2303"/>
+ <markable check="markable-without-chain" id="markable_4100" mmax_level="checks" span="word_1692"/>
+ <markable check="chain-without-antecedent" id="markable_5681" mmax_level="checks" span="word_2369"/>
+ <markable check="chain-without-antecedent" id="markable_5441" mmax_level="checks" span="word_2271"/>
+ <markable check="chain-without-antecedent" id="markable_3699" mmax_level="checks" span="word_1527"/>
+ <markable check="markable-without-chain antecedent-not-first" id="markable_3749" mmax_level="checks" span="word_1567"/>
+ <markable check="markable-without-chain" id="markable_5938" mmax_level="checks" span="word_2485..word_2486"/>
+ <markable check="antecedent-not-first" id="markable_5725" mmax_level="checks" span="word_2403"/>
+ <markable check="chain-without-antecedent" id="markable_3539" mmax_level="checks" span="word_1485"/>
+ <markable check="chain-without-antecedent" id="markable_2870" mmax_level="checks" span="word_1197"/>
+ <markable check="markable-without-chain" id="markable_3962" mmax_level="checks" span="word_1659"/>
+ <markable check="markable-without-chain" id="markable_5913" mmax_level="checks" span="word_2482..word_2483"/>
+ <markable check="chain-without-antecedent" id="markable_1798" mmax_level="checks" span="word_723"/>
+ <markable check="chain-without-antecedent" id="markable_1799" mmax_level="checks" span="word_724"/>
+ <markable check="antecedent-not-first" id="markable_9457" mmax_level="checks" span="word_1227"/>
+ <markable check="markable-without-chain" id="markable_9458" mmax_level="checks" span="word_1332"/>
+ <markable check="antecedent-not-first" id="markable_9467" mmax_level="checks" span="word_2821"/>
+ <markable check="antecedent-not-first" id="markable_9463" mmax_level="checks" span="word_2398"/>
+ <markable check="antecedent-not-first" id="markable_9461" mmax_level="checks" span="word_2292"/>
+ <markable check="antecedent-not-first" id="markable_9462" mmax_level="checks" span="word_2324"/>
+ <markable check="antecedent-not-first" id="markable_9478" mmax_level="checks" span="word_1042"/>
+ <markable check="antecedent-not-first" id="markable_9479" mmax_level="checks" span="word_1284"/>
+ <markable check="antecedent-not-first" id="markable_9476" mmax_level="checks" span="word_493"/>
+ <markable check="markable-without-chain" id="markable_2844" mmax_level="checks" span="word_1163..word_1164"/>
+ <markable check="markable-without-chain" id="markable_9470" mmax_level="checks" span="word_2962"/>
+ <markable check="antecedent-not-first" id="markable_9472" mmax_level="checks" span="word_3411"/>
+ <markable check="chain-without-antecedent" id="markable_2851" mmax_level="checks" span="word_1193..word_1194"/>
+ <markable check="antecedent-not-first" id="markable_9482" mmax_level="checks" span="word_1616"/>
+ <markable check="markable-without-chain" id="markable_9483" mmax_level="checks" span="word_2174"/>
+ <markable check="antecedent-not-first" id="markable_9480" mmax_level="checks" span="word_1305"/>
+ <markable check="chain-without-antecedent" id="markable_9433" mmax_level="checks" span="word_1482..word_1483"/>
+ <markable check="chain-without-antecedent" id="markable_9448" mmax_level="checks" span="word_3675..word_3678"/>
+ <markable check="chain-without-antecedent" id="markable_9444" mmax_level="checks" span="word_3372"/>
+ <markable check="chain-without-antecedent" id="markable_5392" mmax_level="checks" span="word_2254"/>
+ <markable check="chain-without-antecedent" id="markable_5343" mmax_level="checks" span="word_2243..word_2244"/>
+ <markable check="markable-without-chain" id="markable_4499" mmax_level="checks" span="word_1876"/>
+ <markable check="chain-without-antecedent" id="markable_5356" mmax_level="checks" span="word_2249"/>
+ <markable check="chain-without-antecedent" id="markable_8800" mmax_level="checks" span="word_3681"/>
+ <markable check="chain-without-antecedent" id="markable_5560" mmax_level="checks" span="word_2321"/>
+ <markable check="chain-without-antecedent" id="markable_4889" mmax_level="checks" span="word_2046"/>
+ <markable check="chain-without-antecedent" id="markable_4890" mmax_level="checks" span="word_2056"/>
+ <markable check="markable-without-chain" id="markable_7925" mmax_level="checks" span="word_3319"/>
+ <markable check="chain-without-antecedent" id="markable_3584" mmax_level="checks" span="word_1502..word_1503"/>
+ <markable check="chain-without-antecedent" id="markable_8085" mmax_level="checks" span="word_3374"/>
+ <markable check="antecedent-not-first" id="markable_8090" mmax_level="checks" span="word_3388"/>
+ <markable check="markable-without-chain" id="markable_3825" mmax_level="checks" span="word_1598..word_1600"/>
+ <markable check="markable-without-chain" id="markable_8043" mmax_level="checks" span="word_3366"/>
+ <markable check="antecedent-not-first" id="markable_2994" mmax_level="checks" span="word_1241"/>
+ <markable check="chain-without-antecedent" id="markable_3621" mmax_level="checks" span="word_1514"/>
+ <markable check="chain-without-antecedent" id="markable_3624" mmax_level="checks" span="word_1519..word_1525"/>
+ <markable check="markable-without-chain antecedent-not-first" id="markable_6062" mmax_level="checks" span="word_2540"/>
+ <markable check="antecedent-not-first" id="markable_2949" mmax_level="checks" span="word_1234"/>
+ <markable check="markable-without-chain" id="markable_9539" mmax_level="checks" span="word_1271"/>
+ <markable check="antecedent-not-first" id="markable_9556" mmax_level="checks" span="word_2930"/>
+</markables>
