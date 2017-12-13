@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/checks">
+ <markable check="chain-without-antecedent" id="markable_925" mmax_level="checks" span="word_3351"/>
+ <markable check="chain-without-antecedent" id="markable_927" mmax_level="checks" span="word_3358"/>
+ <markable check="chain-without-antecedent" id="markable_929" mmax_level="checks" span="word_3364"/>
+ <markable check="chain-without-antecedent" id="markable_937" mmax_level="checks" span="word_3394"/>
+ <markable check="chain-without-antecedent" id="markable_936" mmax_level="checks" span="word_3387"/>
+ <markable check="markable-without-chain" id="markable_290" mmax_level="checks" span="word_1071"/>
+ <markable check="antecedent-not-first" id="markable_1012" mmax_level="checks" span="word_1778..word_1779"/>
+ <markable check="chain-without-antecedent" id="markable_1015" mmax_level="checks" span="word_1865"/>
+ <markable check="split-discontinuous" id="markable_153" mmax_level="checks" span="word_567..word_577"/>
+ <markable check="markable-without-chain" id="markable_397" mmax_level="checks" span="word_1480"/>
+ <markable check="chain-without-antecedent" id="markable_502" mmax_level="checks" span="word_1875"/>
+ <markable check="chain-without-antecedent" id="markable_501" mmax_level="checks" span="word_1870"/>
+ <markable check="chain-without-antecedent" id="markable_505" mmax_level="checks" span="word_1888"/>
+ <markable check="antecedent-not-first" id="markable_1176" mmax_level="checks" span="word_1957..word_1959"/>
+ <markable check="antecedent-not-first" id="markable_1130" mmax_level="checks" span="word_436"/>
+ <markable check="antecedent-not-first" id="markable_1146" mmax_level="checks" span="word_692..word_695"/>
+ <markable check="antecedent-not-first" id="markable_1158" mmax_level="checks" span="word_1206"/>
+ <markable check="markable-without-chain" id="markable_690" mmax_level="checks" span="word_2550"/>
+ <markable check="split-discontinuous" id="markable_607" mmax_level="checks" span="word_2275..word_2276"/>
+ <markable check="markable-without-chain" id="markable_85" mmax_level="checks" span="word_297"/>
+</markables>
