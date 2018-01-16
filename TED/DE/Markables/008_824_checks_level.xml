@@ -1,43 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE markables SYSTEM "markables.dtd">
 <markables xmlns="www.eml.org/NameSpaces/checks">
- <markable check="chain-without-antecedent" id="markable_8542" mmax_level="checks" span="word_2961"/>
- <markable check="chain-without-antecedent" id="markable_8541" mmax_level="checks" span="word_2956"/>
- <markable check="markable-without-chain" id="markable_8545" mmax_level="checks" span="word_3127"/>
- <markable check="chain-without-antecedent" id="markable_8553" mmax_level="checks" span="word_3443"/>
- <markable check="chain-without-antecedent" id="markable_8554" mmax_level="checks" span="word_3446"/>
- <markable check="markable-without-chain" id="markable_6563" mmax_level="checks" span="word_2734"/>
- <markable check="split-discontinuous" id="markable_1056" mmax_level="checks" span="word_426..word_437"/>
- <markable check="chain-without-antecedent" id="markable_3489" mmax_level="checks" span="word_1470"/>
- <markable check="chain-without-antecedent" id="markable_5870" mmax_level="checks" span="word_2437..word_2445"/>
- <markable check="chain-without-antecedent" id="markable_5879" mmax_level="checks" span="word_2465"/>
- <markable check="chain-without-antecedent" id="markable_5645" mmax_level="checks" span="word_2366"/>
- <markable check="chain-without-antecedent" id="markable_5644" mmax_level="checks" span="word_2364"/>
- <markable check="chain-without-antecedent" id="markable_5647" mmax_level="checks" span="word_2368"/>
- <markable check="split-discontinuous" id="markable_3998" mmax_level="checks" span="word_1670..word_1673"/>
- <markable check="chain-without-antecedent" id="markable_1990" mmax_level="checks" span="word_824"/>
- <markable check="chain-without-antecedent" id="markable_1993" mmax_level="checks" span="word_831"/>
- <markable check="markable-without-chain antecedent-not-first" id="markable_8562" mmax_level="checks" span="word_193..word_198"/>
- <markable check="antecedent-not-first" id="markable_8597" mmax_level="checks" span="word_1921..word_1924"/>
- <markable check="markable-without-chain antecedent-not-first" id="markable_1713" mmax_level="checks" span="word_721"/>
- <markable check="markable-without-chain antecedent-not-first" id="markable_8619" mmax_level="checks" span="word_2717..word_2723"/>
- <markable check="antecedent-not-first" id="markable_8613" mmax_level="checks" span="word_2375"/>
- <markable check="chain-without-antecedent" id="markable_7714" mmax_level="checks" span="word_3214"/>
- <markable check="chain-without-antecedent" id="markable_2278" mmax_level="checks" span="word_959..word_961"/>
- <markable check="markable-without-chain" id="markable_7501" mmax_level="checks" span="word_3129"/>
- <markable check="chain-without-antecedent" id="markable_3559" mmax_level="checks" span="word_1475"/>
- <markable check="markable-without-chain" id="markable_5980" mmax_level="checks" span="word_2506"/>
- <markable check="markable-without-chain" id="markable_8048" mmax_level="checks" span="word_3360"/>
- <markable check="split-discontinuous" id="markable_8486" mmax_level="checks" span="word_411..word_415"/>
- <markable check="markable-without-chain" id="markable_1855" mmax_level="checks" span="word_775..word_776"/>
- <markable check="markable-without-chain" id="markable_8482" mmax_level="checks" span="word_295"/>
- <markable check="markable-without-chain" id="markable_8481" mmax_level="checks" span="word_289"/>
- <markable check="chain-without-antecedent" id="markable_8495" mmax_level="checks" span="word_995"/>
- <markable check="markable-without-chain" id="markable_8016" mmax_level="checks" span="word_3338"/>
- <markable check="markable-without-chain" id="markable_8493" mmax_level="checks" span="word_672"/>
- <markable check="split-discontinuous" id="markable_8442" mmax_level="checks" span="word_566..word_575"/>
- <markable check="chain-without-antecedent" id="markable_8445" mmax_level="checks" span="word_819"/>
- <markable check="chain-without-antecedent" id="markable_7113" mmax_level="checks" span="word_2969"/>
- <markable check="markable-without-chain" id="markable_8451" mmax_level="checks" span="word_1499"/>
- <markable check="chain-without-antecedent" id="markable_8471" mmax_level="checks" span="word_3212"/>
 </markables>
