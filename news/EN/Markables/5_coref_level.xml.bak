@@ -69,6 +69,8 @@
 <markable id="markable_59" span="word_447" coref_class="set_36"  mmax_level="coref"  nptype="antecedent"  mention="np" />
 <markable id="markable_9" span="word_79" type_of_pronoun="possessive"  split="simple antecedent"  agreement="they (sg.)"  coref_class="set_6"  mmax_level="coref"  position="it (non-subject)"  type="anaphoric"  mention="pronoun"  antetype="entity" />
 <markable id="markable_8" span="word_76..word_77" coref_class="set_6"  mmax_level="coref"  nptype="antecedent"  mention="np" />
+<markable id="markable_81" span="word_787" type_of_pronoun="demonstrative"  split="simple antecedent"  agreement="none"  coref_class="set_44"  mmax_level="coref"  position="it (subject)"  type="anaphoric"  mention="pronoun"  antetype="event" />
+<markable id="markable_80" span="word_777..word_785" coref_class="set_44"  mmax_level="coref"  clausetype="antecedent"  mention="clause" />
 <markable id="markable_43" span="word_338..word_339" coref_class="set_29"  mmax_level="coref"  nptype="antecedent"  mention="np" />
 <markable id="markable_42" span="word_283" coref_class="set_24"  mmax_level="coref"  nptype="antecedent"  mention="np" />
 <markable id="markable_41" span="word_323" type_of_pronoun="personal"  split="simple antecedent"  agreement="they (sg.)"  coref_class="set_24"  mmax_level="coref"  position="it (subject)"  type="anaphoric"  mention="pronoun"  antetype="entity" />
