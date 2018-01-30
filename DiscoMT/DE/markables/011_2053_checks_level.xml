@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE markables SYSTEM "markables.dtd">
 <markables xmlns="www.eml.org/NameSpaces/checks">
- <markable check="markable-without-chain" id="markable_330" mmax_level="checks" span="word_2035"/>
- <markable check="markable-without-chain antecedent-not-first" id="markable_375" mmax_level="checks" span="word_2581"/>
- <markable check="markable-without-chain" id="markable_168" mmax_level="checks" span="word_298..word_300"/>
 </markables>
