@@ -5,7 +5,7 @@
 <scheme_path>Schemes/</scheme_path>
 <style_path>Styles/</style_path>
 <customization_path>Customizations/</customization_path>
-<markable_path>markables/</markable_path>
+<markable_path>Markables/</markable_path>
 <views>
 <stylesheet>with_handles.xsl</stylesheet>
 <stylesheet>just_text.xsl</stylesheet>
