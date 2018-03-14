@@ -56,7 +56,7 @@ def main():
 
     snt = get_sentences_from_mmax(mmax_dir, mmax_id)
     for s in snt:
-        print(' '.join(s))
+        print(' '.join(w[1] for w in s))
 
 
 if __name__ == '__main__':
