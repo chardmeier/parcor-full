@@ -1,0 +1,787 @@
+Chris Anderson: Bürgerrechte, 
+die Zukunft des Internet. 
+Ich möchte auf der Bühne von TED 
+den Mann hinter diesen Enthüllungen begrüßen: 
+Ed Snowden. 
+ 
+Ed hält sich an einem entfernten Ort in Russland auf. 
+Er steuert diesen Roboter von seinem Laptop aus. 
+Er sieht, was der Bot sieht. 
+Ed, willkommen bei TED! 
+Was kannst du eigentlich wirklich sehen? 
+Edward Snowden: Ich kann alle sehen. 
+Es ist fantastisch. 
+ 
+CA: Ed, ich habe ein paar Fragen an dich. 
+Man hat dich vieles genannt 
+in den letzten Monaten: 
+einen Whistleblower, einen Verräter, 
+einen Helden. 
+In welchen Worten würdest du dich beschreiben? 
+ES: Jeder, der an dieser 
+Debatte beteiligt ist, 
+hat sich mit mir und meiner Persönlichkeit beschäftigt 
+und damit, wie man mich beschreiben sollte. 
+Aber, wenn ich darüber nachdenke: 
+Das ist nicht die Frage, mit der wir ringen sollten. 
+Wer ich bin, spielt keine Rolle. 
+Wenn ich der schlimmste Mensch der Welt bin, 
+kann man mich hassen und zur Tagesordnung übergehen. 
+Was zählt, sind die Sachfragen. 
+Was zählt, ist die Art von Regierung, die wir wollen, 
+die Art von Internet, die wir wollen, 
+die Art von Beziehung zwischen Menschen 
+und Gesellschaften. 
+Das ist die Richtung, die ich mir für diese Diskussion erhoffe. 
+Wir haben gesehen, dass dies zunehmend der Fall ist. 
+Wenn ich mich beschreiben müsste, 
+würde ich keine Wörter wie "Held" benutzen, 
+Ich würde nicht "Patriot" sagen oder "Verräter". 
+Ich würde sagen, ich bin Amerikaner und ein Bürger, 
+so wie jeder andere auch. 
+CA: Um jenen etwas Kontext zu liefern, 
+die nicht mit der ganzen Geschichte vertraut sind: 
+ 
+Vor einem Jahr warst du noch in Hawaii 
+und hast im Auftrag der NSA gearbeitet. 
+Als Systemadministrator hattest du 
+Zugang zu ihren Systemen. 
+Du hast angefangen, vertrauliche Dokumente 
+ausgewählten Journalisten zu übergeben. 
+Das hat dann zu den Enthüllungen im Juni geführt. 
+Was hat dich dazu veranlasst? 
+ES: Weißt du, 
+als ich auf Hawaii saß, 
+und in den Jahren davor, als ich für die Nachrichtendienste arbeitete, 
+sah ich viele Dinge, die mich beunruhigten. 
+Wir tun viel Gutes in den Nachrichtendiensten, 
+Dinge, die getan werden müssen, 
+Dinge, die allen helfen. 
+Aber es gibt auch Dinge, die zu weit gehen. 
+Da sind Dinge, die man nicht tun sollte, 
+und Entscheidungen, die im Geheimen getroffen wurden, 
+von denen die Öffentlichkeit nichts wusste, 
+ohne Zustimmung der Öffentlichkeit, 
+und sogar unsere Regierungsvertreter 
+wussten nichts von diesen Programmen. 
+Als ich anfing, mich an diesen Problemen zu stoßen, 
+habe ich mich gefragt: 
+Wie kann ich diese Sache so verantwortungsbewusst wie möglich angehen, 
+damit die Öffentlichkeit den maximalen Nutzen zieht, 
+aber die Risiken minimal bleiben? 
+Bei allen Lösungen, die mir einfielen, 
+außer "Ich wende mich an den Kongress", 
+wenn es keine Gesetze gab, 
+wenn es keinen rechtlichen Schutz gab 
+für eine angestellte Privatperson, 
+für einen Subunternehmer im Nachrichtendienst wie mich, 
+bestand das Risiko, dass man mich mit der Information begraben würde, 
+ohne dass die Öffentlichkeit davon je erführe. 
+Aber der erste Zusatzartikel der amerikanischen Verfassung 
+garantiert uns die Pressefreiheit aus gutem Grund, 
+nämlich um eine Presse zu ermöglichen, die unbequem ist, 
+die die Regierung herausfordert, 
+aber auch mit der Regierung arbeitet, 
+um Dialog und Debatte zu ermöglichen, 
+wie wir die Öffentlichkeit über entscheidende Fragen informieren können, 
+ohne die nationale Sicherheit zu gefährden. 
+Indem ich mit Journalisten gearbeitet habe, 
+indem ich all meine Informationen 
+dem amerikanischen Volk zurückgegeben habe, 
+statt nur auf mich selbst zu vertrauen 
+bei Entscheidungen über die Veröffentlichung, 
+hatten wir eine handfeste Debatte, 
+an der sich die Regierung intensiv beteiligt 
+und die allen einen Nutzen gebracht hat. 
+Die Risiken, mit denen gedroht wurde, 
+die Risiken, die von der Regierung 
+hochgespielt wurden, 
+haben sich nie materialisiert. 
+Wir haben keinerlei Hinweis, 
+dass auch nur ein Schaden entstanden wäre, 
+und deshalb kann ich 
+mit meinen Entscheidungen gut leben. 
+CA: Lass mich dem Publikum 
+ein paar Beispiele für deine Enthüllungen geben. 
+Können wir jetzt bitte das Schaubild haben? 
+Ed, ich weiß nicht, ob du dies sehen kannst: 
+Die Bilder der Präsentation sind da. 
+Diese Grafik zeigt das Programm PRISM. 
+Kannst du dem Publikum erläutern, 
+was darüber bekannt wurde? 
+ES: Um zu verstehen, was PRISM ist, 
+-- denn da war man geteilter Ansicht -- 
+sollte man erst klären, was es nicht ist. 
+Ein großer Teil der Debatte in den USA bezog sich auf Metadaten. 
+Sie sagten, es seien nur Metadaten. 
+Sie beziehen sich dabei auf eine rechtliche Grundlage: 
+den Abschnitt 215 des Patriot Act. 
+Er erlaubt eine Art Abhören ohne richterlichen Beschluss, 
+eine Massenüberwachung der Verbindungsdaten 
+des ganzen Landes, solche Dinge ... 
+Mit wem du sprichst, 
+wann du mit jemandem sprichst, 
+wohin du gereist bist. 
+All das sind Metadaten-Ereignisse. 
+Bei PRISM geht es um Inhalt. 
+Es ist ein Programm, mit dem die Regierung 
+die Unternehmen Amerikas zwingen kann, 
+an ihrer Stelle und in ihrem Namen 
+die Dreckarbeit für die NSA zu übernehmen. 
+Obwohl sich einige Unternehmen gewehrt haben 
+und obwohl einige 
+-- ich denke, Yahoo war eines von ihnen -- 
+vor Gericht zogen, haben alle verloren, 
+weil die Fälle nie öffentlich verhandelt wurden. 
+Über sie entschied ein geheimes Gericht. 
+Wir haben im Zusammenhang 
+mit Prism etwas festgestellt, das ich besorgniserregend finde: 
+Es gab Gespräche in der US-Regierung, 
+in denen gesagt wurde, 15 Bundesrichter 
+hätten diese Programme begutachtet und als gesetzmäßig befunden. 
+Aber sie verraten nicht, 
+dass dies geheime Richter sind 
+in einem geheimen Gericht, 
+das auf der Grundlage vertraulicher Rechtsauslegungen 
+über 34.000 Überwachungsanträge entschieden hat 
+im Lauf von 33 Jahren 
+und in 33 Jahren 
+nur elf Anträge der Regierung abgelehnt hat. 
+Dies sind nicht die Leute, die wir als Entscheider wollen, 
+wenn es um die Rolle amerikanischer Konzerne 
+in einem freien und offenen Internet geht. 
+CA: Die Grafik, die wir hier zeigen, 
+listet die Daten auf, 
+wann diverse Technologie- und Internetunternehmen 
+sich dem Programm mutmaßlich anschlossen 
+und wann die Sammlung von Daten bei ihnen begann. 
+Sie haben die Kooperation mit der NSA bestritten. 
+Wie hat die NSA diese Daten gesammelt? 
+ES: Die eigenen Präsentationen der NSA 
+bezeichnen das als direkten Zugang. 
+Für einen tatsächlichen NSA-Analysten, 
+jemanden wie mich, der in Hawaii als Analyst für den Geheimdienst 
+chinesische Cyber-Hacker oder ähnliches 
+im Visier hatte, bedeutet das, 
+dass die Daten direkt 
+von ihren Servern kommen. 
+Das heißt nicht, 
+dass eine Gruppe von Mitarbeitern des Unternehmens 
+mit der NSA in einem verrauchten Raum sitzt, 
+sich langweilt und im Hinterzimmer aushandelt, 
+wie sie dieses Zeug weitergeben werden. 
+Jedes Unternehmen handhabt das anders. 
+Manche sind verantwortungsbewusst. 
+Manche sind etwas weniger verantwortungsbewusst. 
+Unterm Strich aber, wenn wir davon sprechen, 
+wie diese Informationen übergeben werden: 
+Sie kommen von den Unternehmen selbst. 
+Sie werden nicht aus Leitungen gestohlen. 
+Man darf einen wichtigen Punkt nicht vergessen: 
+Obwohl die Unternehmen sich wehrten, 
+obwohl die Unternehmen forderten: 
+"Lasst uns das mit einem Genehmigungsverfahren machen. 
+Lasst uns das so machen, 
+dass wir eine Art rechtlicher Prüfung haben, 
+eine Art Grundlage für die Herausgabe 
+von Anwenderdaten haben." 
+Letztes Jahr brachte die Washington Post Berichte, 
+die weniger Medienecho hatten als der Bericht über Prism, 
+in denen es hieß, die NSA sei 
+in die interne Kommunikation 
+zwischen Google-Datenzentren 
+und Yahoo-Datenzentren eingedrungen. 
+Also selbst bei Unternehmen, die 
+-- unter gewissem Zwang, aber auf hoffentlich legale Weise -- 
+mit der NSA kooperieren, 
+gibt sich die NSA damit nicht zufrieden. 
+Deshalb brauchen wir Unternehmen, 
+die sich intensiv engagieren, 
+um zu garantieren, dass sie die Interessen 
+der Nutzer vertreten werden 
+und sich für die Rechte der Nutzer einsetzen. 
+Im letzten Jahr haben wir gesehen, 
+dass die Unternehmen in den Prism-Präsentationen 
+große Anstrengungen unternehmen, das zu tun. 
+Ich ermutige sie, weiterzumachen. 
+CA: Was sollten sie denn noch tun? 
+ES: Das Größte, was ein Internetunternehmen 
+in Amerika jetzt und heute tun kann, 
+ohne Anwälte zu Rate zu ziehen, 
+um die Rechte ihrer Nutzer weltweit zu schützen, 
+ist das Ermöglichen von SSL-Netzverschlüsselung 
+auf jeder Seite, die man besucht. 
+Der Grund, weshalb das wichtig ist: 
+Wenn du dir heute auf Amazon.com eine Ausgabe von "1984" ansiehst, 
+kann die NSA das in einem Protokoll sehen. 
+Der russische Geheimdienst kann das in einem Protokoll sehen. 
+Der chinesische Geheimdienst, 
+der französische, der deutsche 
+und der Geheimdienst von Andorra. 
+Sie alle können das sehen, weil es nicht verschlüsselt ist. 
+Amazon.com ist die Bibliothek der Welt. 
+Aber es verzichtet nicht nur auf Verschlüsselung als generellen Standard, 
+man kann auch Verschlüsselung nicht wählen, 
+wenn man in den Büchern stöbert. 
+Das ist etwas, das wir ändern müssen, 
+nicht nur bei Amazon. Ich möchte die Seite nicht herausgreifen, 
+aber sie ist ein großartiges Beispiel. 
+Alle Unternehmen müssen zum 
+gewohnheitsmäßig verschlüsselten Surfen als Standard übergehen 
+für alle Nutzer, die nicht selbst Maßnahmen ergriffen 
+oder eine eigene Methode gewählt haben. 
+Das stärkt die Privatsphäre und die Rechte, 
+die Menschen weltweit genießen. 
+CA: Komm mit mir auf diese Seite der Bühne. 
+Ich möchte dir das nächste Bild zeigen.  
+Dieses Programm heißt "Boundless Informant". 
+Was ist das? 
+ES: Ich muss der NSA hier Anerkennung zollen 
+für die Verwendung treffender Namen. 
+Dies ist einer meiner Lieblingscodenamen der NSA. 
+"Boundless Informant" ["Informant ohne Grenzen"] 
+ist ein Programm, das die NSA vor dem Kongress verborgen hielt. 
+Der Kongress hatte die NSA im Vorfeld gefragt, 
+ob sie irgendeine Möglichkeit besäße, 
+eine sehr grobe Schätzung abzugeben 
+über den Umfang an amerikanischer Kommunikation, 
+den sie überwachen. 
+Sie sagte: Nein, wir erheben diese Daten nicht 
+und wir können diese Daten nicht erheben. 
+Wir können Ihnen nicht sagen, 
+wie viel Kommunikation wir weltweit überwachen, 
+weil wir Ihre Privatsphäre verletzen würden, 
+wenn wir Ihnen das mitteilen. 
+Das ist eine Haltung, die ich begrüße. 
+Tatsache aber ist, wie diese Grafik zeigt, 
+dass sie dazu nicht nur fähig sind, 
+sondern die Fähigkeit selbst bereits existiert. 
+Sie ist bereits umgesetzt. 
+Die NSA verwendet ein eigenes internes Datenformat, 
+das beide Endpunkte einer Kommunikation erfasst. 
+Wenn es besagt, 
+dass die Kommunikation aus den USA kommt, 
+dann können sie dem Kongress auch sagen, wie viel solcher Kommunikation 
+sie haben, heute, in diesem Moment. 
+"Informant ohne Grenzen" verrät uns, 
+dass mehr Kommunikation abgehört wird, 
+in Amerika, über Amerikaner, 
+als in Russland über Russen. 
+Ich bin nicht sicher, ob dies das Ziel 
+eines Geheimdienstes sein sollte. 
+CA: Die Washington Post hat einen Artikel gebracht, 
+der ebenfalls auf deinen Daten fußt. 
+Die Schlagzeile lautet: 
+"Die NSA hat Datenschutzbestimmungen 
+Tausende Male pro Jahr verletzt." 
+Erzähl uns darüber. 
+ES: Wir haben bei der Anhörung im Kongressausschuss letztes Jahr auch gehört 
+-- und es hat mich erstaunt, 
+als jemand, der von der NSA kam 
+und die internen Unterlagen gesehen hat 
+und weiß, was darin steht, 
+zu beobachten, wie Beamte unter Eid aussagen, -- 
+dass es keinen Missbrauch gegeben hat, 
+dass die NSA-Bestimmungen nicht verletzt wurden, 
+obwohl wir wussten, dass dieser Artikel kommen würde. 
+Aber was daran besonders interessant ist, 
+an der Tatsache, dass die NSA 
+ihre eigenen Regeln, ihre Gesetze 
+tausende Male in einem einzigen Jahr verletzt, 
+darunter ein Vorfall, der für sich genommen, 
+ein Vorfall unter diesen 2776 Fällen, 
+der über 3000 Menschen betraf. 
+In einem anderen Fall 
+haben sie alle Anrufe in Washington, D.C. abgehört -- aus Versehen. 
+Was an diesem Bericht erstaunlich ist, 
+der für sich genommen nicht viel Aufsehen erregte, 
+ist nicht nur, dass es 2776 Übergriffe gab, 
+sondern, dass die Vorsitzende des Ausschusses für Nachrichtendienste, 
+Dianne Feinstein, den Bericht nicht gesehen hatte, 
+bis die Washington Post sie kontaktierte 
+und um eine Stellungnahme bat. 
+Sie forderte daraufhin eine Kopie von der NSA an 
+und bekam sie, 
+hatte den Bericht aber vorher nie gesehen. 
+Was sagt das über den Zustand der Aufsicht 
+über den amerikanischen Nachrichtendienst, 
+wenn die Vorsitzende des Senatsausschusses für Nachrichtendienste 
+keine Ahnung davon hat, dass die Bestimmungen 
+tausende Male jedes Jahr verletzt werden? 
+CA: Ed, eine Reaktion auf diese ganze Debatte ist: 
+Warum sollte uns 
+die ganze Überwachung etwas ausmachen? 
+Wenn man nichts verbrochen hat, 
+muss man sich auch keine Gedanken machen. 
+Was ist an dieser Einstellung falsch? 
+ES: Der erste Punkt ist: 
+Du verzichtest auf deine Rechte. 
+Du sagst: "Weißt du, 
+ich glaube, ich werde sie nicht brauchen. 
+Also vertraue ich einfach darauf. 
+Wir schaffen sie ab, es ist nicht wirklich wichtig. 
+Diese Leute werden schon das Richtige tun." 
+Eure Rechte sind wichtig, 
+weil ihr nie wisst, wann ihr sie brauchen werdet. 
+Darüber hinaus ist es Teil unserer kulturellen Identität, 
+nicht nur in Amerika, 
+sondern auch in westlichen Gesellschaften 
+und in demokratischen Gesellschaften in der ganzen Welt. 
+Leute sollten in der Lage sein, einen Hörer in die Hand zu nehmen 
+und ihre Familie anzurufen; 
+Leute sollten in der Lage sein, 
+ihren Lieben eine SMS zu schicken; 
+Leute sollten in der Lage sein, online ein Buch zu kaufen; 
+sie sollten mit dem Zug reisen können; 
+sie sollten sich ein Flugticket kaufen können, 
+ohne sich fragen zu müssen, wie diese Handlungen 
+für eine Agenten der Regierung aussehen werden, 
+vielleicht nicht einmal deiner Regierung, 
+Jahre in der Zukunft, 
+wie sie misinterpretiert werden, 
+und wie sie deine Absichten deuten. 
+Wir haben ein Recht auf Privatsphäre. 
+Als Grundlage für einen Haftbefehl verlangen wir einen hinreichenden Verdacht 
+oder eine Art von Verdacht gegen ein Individuum, 
+weil wir wissen, dass irgendjemandem zu vertrauen, 
+irgendeiner Regierungsbehörde, 
+wenn es um die Summe menschlicher Kommunikationen, 
+im Geheimen und ohne Aufsicht geht, 
+einfach eine zu große Versuchung darstellt, als dass wir darüber hinwegsehen könnten. 
+CA: Einige Leute sind über das, was du getan hast, aufgebracht. 
+Ich habe kürzlich ein Zitat von Dick Cheney gehört, 
+der sagte: "Julian Assange war ein Flohbiss. 
+Edward Snowden ist der Löwe, der dem Hund den Kopf abgebissen hat." 
+Er denkt, du hättest 
+einen der schlimmsten Akte des Verrats 
+in der US-Geschichte begangen. 
+Was würdest du Leuten entgegnen, die das denken? 
+ES: Dick Cheney ist eine ganz eigene Marke. 
+  
+Danke.  
+Es ist bemerkenswert, weil damals, 
+als Julian Assange einige seiner wichtigsten Aktionen unternahm, 
+sagte Dick Cheney, 
+dass er das Ende für Regierungen in aller Welt bedeute, 
+der Himmel würde in Flammen aufgehen 
+und die Ozeane würden überkochen, 
+und nun sagt er, das ist ein Flohbiss. 
+Wir sollten also misstrauisch sein 
+von solchen Amtsträgern, was den Schaden für die nationale Sicherheit angeht. 
+Aber angenommen, diese Leute glauben, was sie sagen. 
+Ich würde entgegenhalten, 
+dass sie eine enge Sicht auf die nationale Sicherheit haben. 
+Die Vorrechte von Leuten wie Dick Cheney 
+tragen nicht zur Sicherheit der Nation bei. 
+Das öffentliche Interesse deckt sich nicht immer 
+mit dem nationalen Interesse. 
+In den Krieg zu ziehen, gegen Leute, die nicht unsere Feinde sind, 
+an Orten, die keine Bedrohung darstellen, 
+gibt uns keine Sicherheit, 
+und das trifft zu, ob es im Irak ist 
+oder im Internet. 
+Das Internet ist nicht der Feind. 
+Unsere Wirtschaft ist nicht der Feind. 
+Amerikanische Unternehmen, chinesische Unternehmen 
+und jedes andere Unternehmen da draußen 
+sind Teil unserer Gesellschaft. 
+Sie sind Teil unserer vernetzten Welt. 
+Es gibt Bande der Bruderschaft, die uns verbinden. 
+Wenn wir diese zerstören, 
+in dem wir die Normen unterminieren, die Sicherheit, 
+die Verhaltensregeln, 
+von denen Nationen und Bürger in aller Welt erwarten, 
+dass wir sie befolgen. 
+CA: Man hat dir vorgeworfen, 
+du hättest 1,7 Millionen Dokumente gestohlen. 
+Es scheint, als seien bisher nur ein paar Hundert 
+an Journalisten weitergegeben worden. 
+Wird es weitere Enthüllungen geben? 
+ES: Es wird auf jeden Fall weitere Enthüllungen geben. 
+Es steht außer Frage, 
+dass einige der wichtigsten Berichterstattungen 
+erst noch kommen werden. 
+CA: Komm hier herüber, ich möchte dir eine Frage stellen 
+zu dieser speziellen Enthüllung. 
+Komm und sieh dir dies an. 
+Womöglich ist diese Geschichte für die Tech-Freunde in diesem Raum 
+die schockierendste Sache, 
+die sie in den letzten Monaten gehört haben. 
+Es geht um ein Programm namens "Bullrun". 
+Könntest du uns erklären, was das ist? 
+ES: Bullrun, also. 
+Wieder ein Fall, wo ich der NSA für ihre Freimütigkeit danke. 
+Dieses Programm wurde nach einer Schlacht im amerikanischen Bürgerkrieg benannt. 
+Das britische Gegenstück heißt "Edgehill", 
+nach einer britischen Bürgerkriegsschlacht. 
+Ich denke, dass sie es so nennen, 
+weil das Ziel unsere eigene Infrastruktur ist. 
+Es sind Programme, mit denen die NSA 
+gezielt Partnerunternehmen in die Irre führt. 
+Sie sagen Partnerunternehmen, 
+dass dies sichere Standards sind. 
+Sie sagen: "Wir müssen mit dir arbeiten, 
+um deine Systeme abzusichern." 
+In Wirklichkeit geben sie diesen Unternehmen 
+schlechte Ratschläge, die die Sicherheit 
+ihrer Systeme schwächen. 
+Sie bauen Hintertüren ein, die nicht nur 
+die NSA ausbeuten kann, 
+sondern jeder, der Zeit und Geld hat, 
+sie zu recherchieren und zu finden, 
+kann sie nutzen, um sich Zugang zu verschaffen 
+in die Kommunikationen der Welt. 
+Das ist wirklich gefährlich. 
+Denn wenn wir auch nur einen Standard verlieren, 
+wenn wir das Vertrauen in so etwas wie SSL verlieren, 
+das ein ausgemachtes Ziel 
+des Programms Bullrun war, 
+werden wir in einer Welt leben, die insgesamt weniger sicher ist. 
+Wir werden keinen Zugriff auf unsere Banken haben, 
+wir werden keinen Zugang zum Handel haben, 
+ohne uns über Leute zu sorgen, die diese Kommunikation überwachen 
+oder für ihre Zwecke missbrauchen könnten. 
+CA: Und machen dieselben Entscheidungen 
+Amerika potenziell verwundbar für Cyberangriffe 
+von anderer Seite? 
+ES: Absolut. 
+Eines der Probleme, 
+eines der gefährlichen Vermächtnisse 
+in der Ära nach dem 11. September ist die Erkenntnis, 
+dass die NSA schon immer zwei Gesichter hatte. 
+Sie waren verantwortlich für offensive Operationen, 
+in denen es um Hacking ging. 
+Aber sie leitete auch defensive Operationen. 
+Traditionsgemäß hat die NSA stets 
+die Defensive der Offensive vorgezogen, 
+ausgehend von dem Prinzip, 
+dass amerikanische Geheimnisse schlicht wertvoller sind. 
+Wenn wir ein chinesisches Unternehmen hacken 
+und seine Geheimnisse stehlen; 
+wenn wir eine Regierungsbehörde in Berlin hacken 
+und ihre Geheimnisse stehlen, 
+dann ist das für das amerikanische Volk weniger wertvoll, 
+als sicherzustellen, dass die Chinesen 
+keinen Zugang zu unseren Geheimnissen haben. 
+Also indem sie die Sicherheit unserer Kommunikationen schwächen, 
+setzen sie nicht nur die Welt Risiken aus, 
+sie gefährden auch die USA auf fundamentale Weise, 
+weil geistiges Eigentum 
+die Grundlage unserer Wirtschaft ist. 
+Wenn wir das durch schwache Sicherheit gefährden, 
+werden wir auf Jahre hinaus dafür zahlen. 
+CA: Aber die NSA hat ich ausgerechnet, 
+dass es diese Maßnahme 
+als Teil der US-Verteidigung gegen Terrorismus wert ist. 
+Dann ist das doch gewiss ein Preis, der sich lohnt. 
+ES: Wenn man sich die Resultate 
+dieser Programme beim Verhindern von Terrorismus ansieht, 
+sieht man, dass es dafür keine Belege gibt. 
+Sie müssen sich nicht auf mein Wort verlassen, 
+weil wir das erste öffentliche Gerichtsverfahren haben. 
+Der erste Bundesgerichtshof, der sie außerhalb 
+der Geheimhaltungsvereinbarungen untersuchte, 
+nannte sie Orwellsche Programme 
+und wahrscheinlich verfassungswidrig. 
+Der Kongress, der in diesen Angelegenheiten 
+Auskunft verlangen kann 
+und nun auch einfordern möchte, 
+hat Gesetze vorgelegt, um es zu reformieren. 
+Zwei unabhängige Ausschüsse des Weißen Hauses, 
+die all das vertrauliche Beweismaterial geprüft haben, 
+sagen, diese Programme haben nie 
+auch nur einen Terroristenangriff verhindert, 
+der in den USA bevorstand. 
+Also ist es wirklich Terrorismus, den wir verhindern? 
+Haben diese Programme überhaupt einen Wert? 
+Ich sage nein, und auch alle drei Staatsorgane 
+der amerikanischen Regierung sagen nein. 
+CA: Denkst du, es gibt einen tieferen Beweggrund 
+für sie als den Krieg gegen den Terror? 
+ES: Verzeihung, ich konnte dich nicht hören. Kannst du das wiederholen? 
+CA: Entschuldige. Denkst du, es gibt einen anderen, tieferliegenden Beweggrund 
+für sie als den Krieg gegen den Terror? 
+ES: Ja. Unterm Strich ist Terrorismus 
+immer das gewesen, was wir in der Welt der Geheimdienste 
+eine Auftragslegende nennen würden. 
+Terrorismus ist etwas, das eine 
+emotionale Reaktion hervorruft, die es Leuten ermöglicht, 
+das Autorisieren von Vollmachten und Programmen 
+zu rationalisieren, denen sie sonst nicht zustimmen würden. 
+Für Programme, die Bullrun oder Edgehill ähneln, 
+bat die NSA bereits in den 1990er-Jahren 
+um Ermächtigungen. 
+Sie bat das FBI, sich beim Kongress dafür einzusetzen. 
+Und das FBI setzte sich beim Kongress dafür ein. 
+Aber der Kongress und das amerikanische Volk sagten nein. 
+Sie sagten, es sei das Risiko für unsere Wirtschaft nicht wert. 
+Sie sagten, der Schaden für die Gesellschaft sei zu groß, 
+um den Nutzen zu rechtfertigen. 
+Aber wir haben in der Zeit nach dem 11. September gesehen, 
+dass sie zur Geheimhaltung griffen und den Terrorismus als Rechtfertigung benutzten, 
+um die Programme im Geheimen zu starten, 
+ohne den Kongress zu fragen, 
+ohne das amerikanische Volk zu fragen, 
+und es ist diese Art von Regierung hinter verschlossenen Türen, 
+vor der wir uns schützen müssen, 
+weil sie unsere Sicherheit schwächt 
+und keinen Gegenwert bietet. 
+CA: Kommst du einen Moment mit mir? 
+Ich habe eine etwas persönlichere Frage an dich. 
+Wo wir gerade von Terror sprechen: 
+Die meisten Leute finden deine gegenwärtige Situation 
+in Russland recht furchteinflößend. 
+Du hast offensichtlich gehört, 
+welche Behandlung Bradley Manning widerfahren ist, 
+Chelsea Manning, wie sie jetzt heißt. 
+Ein Beitrag auf Buzzfeed schrieb, 
+es gibt Leute in der Geheimdienstgemeinde 
+die dich tot sehen möchten. 
+Wie gehst du damit um? 
+Wie gehst du mit der Angst um? 
+ES: Es ist kein Geheimnis, 
+dass es da draußen Regierungen gibt, die mich tot sehen möchten. 
+Ich habe immer und immer wieder betont, 
+dass ich jeden Morgen, wenn ich schlafen gehe, 
+darüber nachdenke, was ich für das amerikanische Volk tun kann. 
+Ich möchte meiner Regierung nicht schaden. 
+Ich möchte meiner Regierung helfen, 
+aber die Tatsache, dass sie bereit ist, 
+die Rechtstaatlichkeit völlig zu ignorieren, 
+dass sie bereit ist, jemanden schuldig zu erklären, 
+ohne jemals ein Verfahren zu sehen, 
+das sind Dinge, gegen die wir uns einsetzen müssen 
+als Gesellschaft, und sagen: "Hey, dies ist nicht angemessen." 
+Wir sollten Dissidenten nicht bedrohen. 
+Wir sollten Journalismus nicht kriminalisieren. 
+Was auch immer ich tun kann, um das zu erreichen, 
+tue ich gern, ungeachtet der Risiken. 
+CA: Ich möchte an dieser Stelle um Stimmen 
+aus dem Pubikum bitten, 
+weil ich weiß, dass es sehr unterschiedliche Reaktionen 
+auf Edward Snowden gibt. 
+Angenommen Sie hätten die Wahl zwischen zwei Optionen: 
+Sie könnten das, was er getan hat, 
+als im Wesentlichen rücksichtslose Tat sehen, 
+die die USA in Gefahr gebracht hat, 
+oder Sie können es im Wesentlichen als Heldentat sehen, 
+die den USA und und der Welt langfristig 
+zum Vorteil gereichen wird? 
+Dies sind de beiden Optionen, die ich Ihnen gebe. 
+Ich bin gespannt, zu sehen, wer bereit ist, 
+die erste Option zu wählen, 
+dass es eine rücksichtslose Aktion war. 
+Da gehen ein paar Hände hoch. 
+Einige Hände gehen hoch. 
+Es ist schwer, seine Hand zu heben, 
+wenn der Mann direkt hier steht, 
+aber ich sehe sie. 
+ES: Ich kann euch sehen.  
+CA: Und wer wählt die zweite Option, 
+dass dies im Grunde eine Heldentat ist? 
+  
+Ich denke, da waren viele, 
+die ihre Hand nicht gehoben haben und die, wie ich glaube, 
+über dieses Thema noch nachdenken, 
+weil die Debatte um dich, wie mir scheint, 
+nicht zwischen traditionellen politischen Lagern entbrennt. 
+Es geht nicht um links oder rechts, es geht nicht wirklich darum, 
+ob du pro Regierung, libertär bist, oder nicht nur darum. 
+Ein Aspekt davon ist geradezu eine Generationenfrage. 
+Du gehörst einer Generation an, 
+die mit dem Internet aufgewachsen ist. 
+Es scheint fast, als würde es dich zutiefst kränken, 
+wenn du beobachtest, wie etwas getan wird, 
+von dem du denkst, dass es dem Internet schaden wird. 
+Ist da etwas dran? 
+ES: Das ist so, weißt du -- 
+Das ist sehr wahr. Es ist keine Frage von links oder rechts. 
+Unsere grundlegenden Freiheiten, und wenn ich "unsere" sage, 
+meine ich nicht nur Amerikaner, 
+ich meine Leute überall in der Welt, 
+sind keine Frage der Partei. 
+Es sind die Dinge, an die alle Menschen glauben, 
+und es liegt an uns, sie zu schützen, 
+an denen, die ein freies und offenes Internet 
+gesehen und genossen haben. 
+Es liegt an uns, diese Freiheit zu erhalten, 
+damit die nächste Generation in ihren Genuss kommt. 
+Wenn wir die Dinge nicht verändern, 
+wenn wir nicht die Stirn bieten, um diese Veränderungen zu erreichen 
+-- wir müssen das Internet schützen, 
+nicht nur für uns, sondern für alle -- 
+werden wir es verlieren, 
+Das wäre ein gewaltiger Verlust, 
+nicht nur für uns, sondern für die Welt. 
+CA: Ich habe ähnliche Worte kürzlich 
+vom Gründer des World-Wide-Web gehört, 
+der, glaube ich, sogar bei uns ist: Sir Tim Berners-Lee. 
+Tim, möchtest du hochkommen und etwas sagen? 
+Haben wir ein Mikrofon für Tim? 
+ 
+Tim, gut dich zu sehen. Komm dort hoch. 
+Übrigens, in welchem Lager bist du? 
+Verräter oder Held? Ich habe eine Theorie, aber ... 
+Tim Berners-Lee: Ich habe auf diese Frage 
+wesentlich längere Antworten gegeben, aber "Held", 
+wenn ich zwischen diesen beiden wählen muss. 
+CA: Und Ed, ich denke, du hast den Vorschlag gelesen, 
+von dem Sir Tim gesprochen hat, 
+über eine neue Magna Charta, um das Internet zurückzuerobern. 
+Ist das etwas, das Sinn macht? 
+ES: Absolut. Meine Generation ... Ich bin nicht nur 
+mit Gedanken über das Internet aufgewachsen, 
+ich bin im Internet aufgewachsen, 
+und obwohl ich nie erwartet hätte, die Chance zu haben, 
+es auf eine so direkte und praktische Art und Weise zu verteidigen 
+und es auf so ungewöhnliche Weise 
+fast wie ein Avatar zu verkörpern. 
+Es ist etwas Poetisches an der Tatsache, 
+dass einer der Söhne des Internet 
+dem Internet so nahe gekommen ist 
+durch eine politische Meinungsäußerung. 
+Ich glaube, eine Magna Charta für das Internet 
+ist genau, was wir brauchen. 
+Wir müssen unsere Werte festschreiben 
+nicht nur in Worten, sondern in der Struktur des Internet. 
+Es ist etwas, auf das ich hoffe. 
+Ich lade jeden im Publikum, 
+nicht nur hier in Vancouver, sondern in der ganzen Welt ein, 
+sich anzuschließen und mitzumachen. 
+CA: Hast du eine Frage an Ed? 
+TBL: Zwei Fragen: 
+eine allgemeine Frage ... 
+CA: Ed, kannst du uns noch hören? 
+ES: Ja, ich kann dich hören. CA: Er ist wieder da. 
+TBL: Die Wanze an deiner Leitung 
+hatte für einen Moment Schluckauf. 
+ 
+ES: Es ist ein kleines NSA-Problem. 
+TBL: Wenn wir von den 25 Jahren 
+einen Schritt zurücktreten und nachdenken, 
+was denkst du, wäre das Beste, 
+was wir erreichen könnten, 
+aus all den Diskussionen, 
+die wir über das Netz führen, das wir haben wollen? 
+ES: Wenn wir darüber nachdenken, 
+was wir erreichen können, 
+dann, denke ich, wird das nur begrenzt durch das, 
+was wir bereit sind, hineinzustecken 
+Ich denke, das Internet, in dessen Genuss wir in der Vergangenheit gekommen sind, 
+ist genau das, was wir -- nicht nur als Nation, 
+sondern als ein Volk in aller Welt -- brauchen 
+und das wir verteidigen müssen, indem wir kooperieren, 
+indem wir nicht nur die technologischen Gesellschaftsanteile einbeziehen, 
+sondern, wie du sagtest, die Nutzer, 
+die Leute in aller Welt, die beitragen 
+durch das Internet, durch soziale Medien, 
+die nur nach dem Wetter sehen, 
+die darauf als alltäglichen Teil ihres Lebens angewiesen sind. 
+Wir erhalten nicht nur das Internet, das wir hatten, 
+sondern ein besseres Internet, ein besseres Jetzt, 
+etwas, das wir nutzen können, um eine Zukunft aufzubauen, 
+die nicht nur besser sein wird, als wir erhoffen, 
+sondern besser, als wir uns vorstellen können. 
+CA: Vor 30 Jahren wurde TED gegründet, 1984. 
+Viele Gespräche habe sich seither 
+darum gedreht, 
+dass George Orwell sich getäuscht hat. 
+Es ist nicht der Große Bruder, der uns überwacht. 
+Wir, kraft der Macht des Netzes 
+und der Transparenz, überwachen nun den Großen Bruder. 
+Deine Enthüllungen haben einen Holzpflock 
+durch das Herz dieser recht optimistischen Sicht getrieben, 
+aber du glaubst dennoch, dass es einen Weg gibt, 
+etwas dagegen zu tun. 
+Und das tust du auch. 
+ES: Richtig. Man kann argumentieren, 
+dass die Möglichkeiten des Großen Bruders gewaltig zugenommen haben. 
+Es gab kürzlich einen juristischen Aufsatz in Yale, 
+der das sogenannte Bankston-Soltani-Prinzip formulierte. 
+Es besagt, dass unser Anspruch auf Privatsphäre verletzt wird, 
+wenn die Technologien staatlicher Überwachung 
+um einen Faktor zehn billiger geworden sind. 
+Jedes Mal, wenn das passiert, müssen wir uns aufs Neue 
+mit unserem Recht auf Datenschutz beschäftigen und es anpassen. 
+Nun ist das nicht mehr geschehen, 
+seit die Überwachungstechnologien der Regierung 
+um ein Vielfaches des Faktors zehn zugenommen haben, 
+und deshalb stecken wir in den heutigen Schwierigkeiten. 
+Aber es gibt immer noch Hoffnung, 
+weil auch die Macht des Einzelnen 
+durch Technologie zugenommen hat. 
+Ich bin der lebende Beweis, 
+dass ein Einzelner den mächtigsten Gegnern 
+die Stirn bieten kann, 
+den mächtigsten Nachrichtendiensten der Welt, 
+und gewinnen kann. 
+Das ist etwas, das wir brauchen, 
+um daraus Hoffnung zu schöpfen 
+und darauf aufzubauen, 
+um es nicht nur technischen Fachleuten zugänglich zu machen, 
+sondern einfachen Bürgern in aller Welt. 
+Journalismus ist kein Verbrechen. 
+Kommunikation ist kein Verbrechen, 
+und wir sollten bei unseren Aktivitäten im Alltag nicht überwacht werden. 
+CA. Ich bin mit nicht sicher, wie man einem Bot die Hand schüttelt, 
+aber ich schätze, das hier ist die Hand. TBL: Auch die kommt sehr bald. 
+ES: Es freut mich, Sie kennenzulernen. 
+Ich hoffe, meine Übertragung sieht so gut aus 
+wie mein Bild von euch zwei. 
+CA: Danke, Tim. 
+ 
+Die New York Times forderte kürzlich eine Amnestie für dich. 
+Würdest du die Chance, nach Amerika zurückzukommen, begrüßen? 
+ES: Absolut. Das steht außer Frage. 
+Die Prinzipien, die die Grundlage 
+dieses Projektes bilden, 
+sind das öffentliche Interesse 
+und die Prinzipen, 
+die den etablierten journalistischen Organen in den USA 
+und rund um die Welt zugrundeliegen, 
+und ich denke, wenn die Presse sagt, 
+wir unterstützen das, 
+das ist etwas, das passieren muss, 
+dann ist das ein kräftiges Argument, aber es ist nicht das letzte Argument. 
+Ich denke, das ist etwas, das die Öffentlichkeit entscheiden sollte. 
+Aber zur gleichen Zeit 
+hat die Regierung angedeutet, 
+dass sie eine Art Handel wünscht, 
+dass sie möchte, dass ich die Journalisten, 
+die mit mir gearbeitet haben, kompromittiere, 
+damit ich zurückkommen kann. 
+Ich möchte sehr deutlich machen, 
+dass ich das nicht für meine Sicherheit getan habe. 
+Ich habe das getan, um das Richtige zu tun, 
+und ich werde meine Arbeit 
+für das öffentliche Interesse 
+nicht zu meinem eigenen Vorteil aufgeben. 
+ 
+CA: In der Zwischenzeit, 
+dank des Internets und dieser Technologie, 
+bist du wieder zurück in Nordamerika, 
+nicht ganz die USA, aber in Kanada in dieser Form. 
+Ich bin neugierig, wie fühlt sich das an? 
+ES: Kanada ist anders, als ich es erwartet hatte. 
+Es ist viel wärmer. 
+ 
+CA: Die Mission von TED sind "Ideen mit Verbreitungswert". 
+Wenn du es in einer einzigen Idee zusammenfassen könntest, 
+Was ist deine Idee, die es wert ist, 
+hier und jetzt verbreitet zu werden? 
+ES: Ich würde sagen, dass das letzte Jahr uns daran erinnert hat, 
+dass Demokratie hinter verschlossenen Türen sterben kann, 
+aber wir als Individuen werden 
+hinter denselben verschlossenen Türen geboren, 
+und wir müssen unsere Privatspäre nicht aufgeben, 
+um eine gute Regierung zu haben. 
+Wir müssen unsere Freiheit nicht aufgeben, 
+um Sicherheit zu haben. 
+Und ich denke, indem wir zusammenarbeiten, 
+können wir eine offene Regierung haben 
+und Privatsphäre. 
+Ich freue mich darauf, mit jedem in der Welt 
+zusammenzuarbeiten, um das durchzusetzen. 
+Ich danke euch sehr. 
+CA: Ed, danke! 
+ 

@@ -1,0 +1,787 @@
+Chris Anderson: The rights of citizens,
+the future of the Internet.
+So I would like to welcome to the TED stage
+the man behind those revelations,
+Ed Snowden.
+
+Ed is in a remote location somewhere in Russia
+controlling this bot from his laptop,
+so he can see what the bot can see.
+Ed, welcome to the TED stage.
+What can you see, as a matter of fact?
+Edward Snowden: Ha, I can see everyone.
+This is amazing.
+
+CA: Ed, some questions for you.
+You've been called many things
+in the last few months.
+You've been called a whistleblower, a traitor,
+a hero.
+What words would you describe yourself with?
+ES: You know, everybody who is involved
+with this debate
+has been struggling over me and my personality
+and how to describe me.
+But when I think about it,
+this isn't the question that we should be struggling with.
+Who I am really doesn't matter at all.
+If I'm the worst person in the world,
+you can hate me and move on.
+What really matters here are the issues.
+What really matters here is the kind of government we want,
+the kind of Internet we want,
+the kind of relationship between people
+and societies.
+And that's what I'm hoping the debate will move towards,
+and we've seen that increasing over time.
+If I had to describe myself,
+I wouldn't use words like "hero."
+I wouldn't use "patriot," and I wouldn't use "traitor."
+I'd say I'm an American and I'm a citizen,
+just like everyone else.
+CA: So just to give some context
+for those who don't know the whole story --
+ —
+this time a year ago, you were stationed in Hawaii
+working as a consultant to the NSA.
+As a sysadmin, you had access
+to their systems,
+and you began revealing certain classified documents
+to some handpicked journalists
+leading the way to June's revelations.
+Now, what propelled you to do this?
+ES: You know,
+when I was sitting in Hawaii,
+and the years before, when I was working in the intelligence community,
+I saw a lot of things that had disturbed me.
+We do a lot of good things in the intelligence community,
+things that need to be done,
+and things that help everyone.
+But there are also things that go too far.
+There are things that shouldn't be done,
+and decisions that were being made in secret
+without the public's awareness,
+without the public's consent,
+and without even our representatives in government
+having knowledge of these programs.
+When I really came to struggle with these issues,
+I thought to myself,
+how can I do this in the most responsible way,
+that maximizes the public benefit
+while minimizing the risks?
+And out of all the solutions that I could come up with,
+out of going to Congress,
+when there were no laws,
+there were no legal protections
+for a private employee,
+a contractor in intelligence like myself,
+there was a risk that I would be buried along with the information
+and the public would never find out.
+But the First Amendment of the United States Constitution
+guarantees us a free press for a reason,
+and that's to enable an adversarial press,
+to challenge the government,
+but also to work together with the government,
+to have a dialogue and debate about how we can
+inform the public about matters of vital importance
+without putting our national security at risk.
+And by working with journalists,
+by giving all of my information
+back to the American people,
+rather than trusting myself to make
+the decisions about publication,
+we've had a robust debate
+with a deep investment by the government
+that I think has resulted in a benefit for everyone.
+And the risks that have been threatened,
+the risks that have been played up
+by the government
+have never materialized.
+We've never seen any evidence
+of even a single instance of specific harm,
+and because of that,
+I'm comfortable with the decisions that I made.
+CA: So let me show the audience
+a couple of examples of what you revealed.
+If we could have a slide up, and Ed,
+I don't know whether you can see,
+the slides are here.
+This is a slide of the PRISM program,
+and maybe you could tell the audience
+what that was that was revealed.
+ES: The best way to understand PRISM,
+because there's been a little bit of controversy,
+is to first talk about what PRISM isn't.
+Much of the debate in the U.S. has been about metadata.
+They've said it's just metadata, it's just metadata,
+and they're talking about a specific legal authority
+called Section 215 of the Patriot Act.
+That allows sort of a warrantless wiretapping,
+mass surveillance of the entire country's
+phone records, things like that --
+who you're talking to,
+when you're talking to them,
+where you traveled.
+These are all metadata events.
+PRISM is about content.
+It's a program through which the government could
+compel corporate America,
+it could deputize corporate America
+to do its dirty work for the NSA.
+And even though some of these companies did resist,
+even though some of them --
+I believe Yahoo was one of them —
+challenged them in court, they all lost,
+because it was never tried by an open court.
+They were only tried by a secret court.
+And something that we've seen,
+something about the PRISM program that's very concerning to me is,
+there's been a talking point in the U.S. government
+where they've said 15 federal judges
+have reviewed these programs and found them to be lawful,
+but what they don't tell you
+is those are secret judges
+in a secret court
+based on secret interpretations of law
+that's considered 34,000 warrant requests
+over 33 years,
+and in 33 years only rejected
+11 government requests.
+These aren't the people that we want deciding
+what the role of corporate America
+in a free and open Internet should be.
+CA: Now, this slide that we're showing here
+shows the dates in which
+different technology companies, Internet companies,
+are alleged to have joined the program,
+and where data collection began from them.
+Now, they have denied collaborating with the NSA.
+How was that data collected by the NSA?
+ES: Right. So the NSA's own slides
+refer to it as direct access.
+What that means to an actual NSA analyst,
+someone like me who was working as an intelligence analyst
+targeting, Chinese cyber-hackers,
+things like that, in Hawaii,
+is the provenance of that data
+is directly from their servers.
+It doesn't mean
+that there's a group of company representatives
+sitting in a smoky room with the NSA
+palling around and making back-room deals
+about how they're going to give this stuff away.
+Now each company handles it different ways.
+Some are responsible.
+Some are somewhat less responsible.
+But the bottom line is, when we talk about
+how this information is given,
+it's coming from the companies themselves.
+It's not stolen from the lines.
+But there's an important thing to remember here:
+even though companies pushed back,
+even though companies demanded,
+hey, let's do this through a warrant process,
+let's do this
+where we actually have some sort of legal review,
+some sort of basis for handing over
+these users' data,
+we saw stories in the Washington Post last year
+that weren't as well reported as the PRISM story
+that said the NSA broke in
+to the data center communications
+between Google to itself
+and Yahoo to itself.
+So even these companies that are cooperating
+in at least a compelled but hopefully lawful manner
+with the NSA,
+the NSA isn't satisfied with that,
+and because of that, we need our companies
+to work very hard to guarantee that they're going to represent
+the interests of the user, and also advocate
+for the rights of the users.
+And I think over the last year,
+we've seen the companies that are named
+on the PRISM slides
+take great strides to do that,
+and I encourage them to continue.
+CA: What more should they do?
+ES: The biggest thing that an Internet company
+in America can do today, right now,
+without consulting with lawyers,
+to protect the rights of users worldwide,
+is to enable SSL web encryption
+on every page you visit.
+The reason this matters is today,
+if you go to look at a copy of "1984" on Amazon.com,
+the NSA can see a record of that,
+the Russian intelligence service can see a record of that,
+the Chinese service can see a record of that,
+the French service, the German service,
+the services of Andorra.
+They can all see it because it's unencrypted.
+The world's library is Amazon.com,
+but not only do they not support encryption by default,
+you cannot choose to use encryption
+when browsing through books.
+This is something that we need to change,
+not just for Amazon, I don't mean to single them out,
+but they're a great example.
+All companies need to move
+to an encrypted browsing habit by default
+for all users who haven't taken any action
+or picked any special methods on their own.
+That'll increase the privacy and the rights
+that people enjoy worldwide.
+CA: Ed, come with me to this part of the stage.
+I want to show you the next slide here. 
+This is a program called Boundless Informant.
+What is that?
+ES: So, I've got to give credit to the NSA
+for using appropriate names on this.
+This is one of my favorite NSA cryptonyms.
+Boundless Informant
+is a program that the NSA hid from Congress.
+The NSA was previously asked by Congress,
+was there any ability that they had
+to even give a rough ballpark estimate
+of the amount of American communications
+that were being intercepted.
+They said no. They said, we don't track those stats,
+and we can't track those stats.
+We can't tell you how many communications
+we're intercepting around the world,
+because to tell you that would be
+to invade your privacy.
+Now, I really appreciate that sentiment from them,
+but the reality, when you look at this slide is,
+not only do they have the capability,
+the capability already exists.
+It's already in place.
+The NSA has its own internal data format
+that tracks both ends of a communication,
+and if it says,
+this communication came from America,
+they can tell Congress how many of those communications
+they have today, right now.
+And what Boundless Informant tells us
+is more communications are being intercepted
+in America about Americans
+than there are in Russia about Russians.
+I'm not sure that's what an intelligence agency
+should be aiming for.
+CA: Ed, there was a story broken in the Washington Post,
+again from your data.
+The headline says,
+"NSA broke privacy rules
+thousands of times per year."
+Tell us about that.
+ES: We also heard in Congressional testimony last year,
+it was an amazing thing for someone like me
+who came from the NSA
+and who's seen the actual internal documents,
+knows what's in them,
+to see officials testifying under oath
+that there had been no abuses,
+that there had been no violations of the NSA's rules,
+when we knew this story was coming.
+But what's especially interesting about this,
+about the fact that the NSA has violated
+their own rules, their own laws
+thousands of times in a single year,
+including one event by itself,
+one event out of those 2,776,
+that affected more than 3,000 people.
+In another event, they intercepted
+all the calls in Washington, D.C., by accident.
+What's amazing about this,
+this report, that didn't get that much attention,
+is the fact that not only were there 2,776 abuses,
+the chairman of the Senate Intelligence Committee,
+Dianne Feinstein, had not seen this report
+until the Washington Post contacted her
+asking for comment on the report.
+And she then requested a copy from the NSA
+and received it,
+but had never seen this before that.
+What does that say about the state of oversight
+in American intelligence
+when the chairman of the Senate Intelligence Committee
+has no idea that the rules are being broken
+thousands of times every year?
+CA: Ed, one response to this whole debate is this:
+Why should we care about
+all this surveillance, honestly?
+I mean, look, if you've done nothing wrong,
+you've got nothing to worry about.
+What's wrong with that point of view?
+ES: Well, so the first thing is,
+you're giving up your rights.
+You're saying hey, you know,
+I don't think I'm going to need them,
+so I'm just going to trust that, you know,
+let's get rid of them, it doesn't really matter,
+these guys are going to do the right thing.
+Your rights matter
+because you never know when you're going to need them.
+Beyond that, it's a part of our cultural identity,
+not just in America,
+but in Western societies
+and in democratic societies around the world.
+People should be able to pick up the phone
+and to call their family,
+people should be able to send a text message
+to their loved ones,
+people should be able to buy a book online,
+they should be able to travel by train,
+they should be able to buy an airline ticket
+without wondering about how these events
+are going to look to an agent of the government,
+possibly not even your government
+years in the future,
+how they're going to be misinterpreted
+and what they're going to think your intentions were.
+We have a right to privacy.
+We require warrants to be based on probable cause
+or some kind of individualized suspicion
+because we recognize that trusting anybody,
+any government authority,
+with the entirety of human communications
+in secret and without oversight
+is simply too great a temptation to be ignored.
+CA: Some people are furious at what you've done.
+I heard a quote recently from Dick Cheney
+who said that Julian Assange was a flea bite,
+Edward Snowden is the lion that bit the head off the dog.
+He thinks you've committed
+one of the worst acts of betrayal
+in American history.
+What would you say to people who think that?
+ES: Dick Cheney's really something else.
+ 
+Thank you. 
+I think it's amazing, because at the time
+Julian Assange was doing some of his greatest work,
+Dick Cheney was saying
+he was going to end governments worldwide,
+the skies were going to ignite
+and the seas were going to boil off,
+and now he's saying it's a flea bite.
+So we should be suspicious about the same sort of
+overblown claims of damage to national security from these kind of officials.
+But let's assume that these people really believe this.
+I would argue that they have kind of
+a narrow conception of national security.
+The prerogatives of people like Dick Cheney
+do not keep the nation safe.
+The public interest is not always the same
+as the national interest.
+Going to war with people who are not our enemy
+in places that are not a threat
+doesn't make us safe,
+and that applies whether it's in Iraq
+or on the Internet.
+The Internet is not the enemy.
+Our economy is not the enemy.
+American businesses, Chinese businesses,
+and any other company out there
+is a part of our society.
+It's a part of our interconnected world.
+There are ties of fraternity that bond us together,
+and if we destroy these bonds
+by undermining the standards, the security,
+the manner of behavior,
+that nations and citizens all around the world
+expect us to abide by.
+CA: But it's alleged that you've stolen
+1.7 million documents.
+It seems only a few hundred of them
+have been shared with journalists so far.
+Are there more revelations to come?
+ES: There are absolutely more revelations to come.
+I don't think there's any question
+that some of the most important reporting
+to be done is yet to come.
+CA: Come here, because I want to ask you
+about this particular revelation.
+Come and take a look at this.
+I mean, this is a story which I think for a lot of the techies in this room
+is the single most shocking thing
+that they have heard in the last few months.
+It's about a program called "Bullrun."
+Can you explain what that is?
+ES: So Bullrun, and this is again
+where we've got to thank the NSA for their candor,
+this is a program named after a Civil War battle.
+The British counterpart is called Edgehill,
+which is a U.K. civil war battle.
+And the reason that I believe they're named this way
+is because they target our own infrastructure.
+They're programs through which the NSA
+intentionally misleads corporate partners.
+They tell corporate partners that these
+are safe standards.
+They say hey, we need to work with you
+to secure your systems,
+but in reality, they're giving bad advice
+to these companies that makes them
+degrade the security of their services.
+They're building in backdoors that not only
+the NSA can exploit,
+but anyone else who has time and money
+to research and find it
+can then use to let themselves in
+to the world's communications.
+And this is really dangerous,
+because if we lose a single standard,
+if we lose the trust of something like SSL,
+which was specifically targeted
+by the Bullrun program,
+we will live a less safe world overall.
+We won't be able to access our banks
+and we won't be able to access commerce
+without worrying about people monitoring those communications
+or subverting them for their own ends.
+CA: And do those same decisions also potentially
+open America up to cyberattacks
+from other sources?
+ES: Absolutely.
+One of the problems,
+one of the dangerous legacies
+that we've seen in the post-9/11 era,
+is that the NSA has traditionally worn two hats.
+They've been in charge of offensive operations,
+that is hacking,
+but they've also been in charge of defensive operations,
+and traditionally they've always prioritized
+defense over offense
+based on the principle
+that American secrets are simply worth more.
+If we hack a Chinese business
+and steal their secrets,
+if we hack a government office in Berlin
+and steal their secrets,
+that has less value to the American people
+than making sure that the Chinese
+can't get access to our secrets.
+So by reducing the security of our communications,
+they're not only putting the world at risk,
+they're putting America at risk in a fundamental way,
+because intellectual property is the basis,
+the foundation of our economy,
+and if we put that at risk through weak security,
+we're going to be paying for it for years.
+CA: But they've made a calculation
+that it was worth doing this
+as part of America's defense against terrorism.
+Surely that makes it a price worth paying.
+ES: Well, when you look at the results
+of these programs in stopping terrorism,
+you will see that that's unfounded,
+and you don't have to take my word for it,
+because we've had the first open court,
+the first federal court that's reviewed this,
+outside the secrecy arrangement,
+called these programs Orwellian
+and likely unconstitutional.
+Congress, who has access
+to be briefed on these things,
+and now has the desire to be,
+has produced bills to reform it,
+and two independent White House panels
+who reviewed all of the classified evidence
+said these programs have never stopped
+a single terrorist attack
+that was imminent in the United States.
+So is it really terrorism that we're stopping?
+Do these programs have any value at all?
+I say no, and all three branches
+of the American government say no as well.
+CA: I mean, do you think there's a deeper motivation
+for them than the war against terrorism?
+ES: I'm sorry, I couldn't hear you, say again?
+CA: Sorry. Do you think there's a deeper motivation
+for them other than the war against terrorism?
+ES: Yeah. The bottom line is that terrorism
+has always been what we in the intelligence world
+would call a cover for action.
+Terrorism is something that provokes
+an emotional response that allows people
+to rationalize authorizing powers and programs
+that they wouldn't give otherwise.
+The Bullrun and Edgehill-type programs,
+the NSA asked for these authorities
+back in the 1990s.
+They asked the FBI to go to Congress and make the case.
+The FBI went to Congress and did make the case.
+But Congress and the American people said no.
+They said, it's not worth the risk to our economy.
+They said it's worth too much damage
+to our society to justify the gains.
+But what we saw is, in the post-9/11 era,
+they used secrecy and they used the justification of terrorism
+to start these programs in secret
+without asking Congress,
+without asking the American people,
+and it's that kind of government behind closed doors
+that we need to guard ourselves against,
+because it makes us less safe,
+and it offers no value.
+CA: Okay, come with me here for a sec,
+because I've got a more personal question for you.
+Speaking of terror,
+most people would find the situation you're in right now
+in Russia pretty terrifying.
+You obviously heard what happened,
+what the treatment that Bradley Manning got,
+Chelsea Manning as now is,
+and there was a story in Buzzfeed saying that
+there are people in the intelligence community
+who want you dead.
+How are you coping with this?
+How are you coping with the fear?
+ES: It's no mystery
+that there are governments out there that want to see me dead.
+I've made clear again and again and again
+that I go to sleep every morning
+thinking about what I can do for the American people.
+I don't want to harm my government.
+I want to help my government,
+but the fact that they are willing to
+completely ignore due process,
+they're willing to declare guilt
+without ever seeing a trial,
+these are things that we need to work against
+as a society, and say hey, this is not appropriate.
+We shouldn't be threatening dissidents.
+We shouldn't be criminalizing journalism.
+And whatever part I can do to see that end,
+I'm happy to do despite the risks.
+CA: So I'd actually like to get some feedback
+from the audience here,
+because I know there's widely differing reactions
+to Edward Snowden.
+Suppose you had the following two choices, right?
+You could view what he did
+as fundamentally a reckless act
+that has endangered America
+or you could view it as fundamentally a heroic act
+that will work towards America and the world's
+long-term good?
+Those are the two choices I'll give you.
+I'm curious to see who's willing to vote with
+the first of those,
+that this was a reckless act?
+There are some hands going up.
+Some hands going up.
+It's hard to put your hand up
+when the man is standing right here,
+but I see them.
+ES: I can see you. 
+CA: And who goes with the second choice,
+the fundamentally heroic act?
+ 
+And I think it's true to say that there are a lot of people
+who didn't show a hand and I think
+are still thinking this through,
+because it seems to me that the debate around you
+doesn't split along traditional political lines.
+It's not left or right, it's not really about
+pro-government, libertarian, or not just that.
+Part of it is almost a generational issue.
+You're part of a generation that grew up
+with the Internet, and it seems as if
+you become offended at almost a visceral level
+when you see something done
+that you think will harm the Internet.
+Is there some truth to that?
+ES: It is. I think it's very true.
+This is not a left or right issue.
+Our basic freedoms, and when I say our,
+I don't just mean Americans,
+I mean people around the world,
+it's not a partisan issue.
+These are things that all people believe,
+and it's up to all of us to protect them,
+and to people who have seen and enjoyed
+a free and open Internet,
+it's up to us to preserve that liberty
+for the next generation to enjoy,
+and if we don't change things,
+if we don't stand up to make the changes
+we need to do to keep the Internet safe,
+not just for us but for everyone,
+we're going to lose that,
+and that would be a tremendous loss,
+not just for us, but for the world.
+CA: Well, I have heard similar language recently
+from the founder of the world wide web,
+who I actually think is with us, Sir Tim Berners-Lee.
+Tim, actually, would you like to come up and say,
+do we have a microphone for Tim?
+
+Tim, good to see you. Come up there.
+Which camp are you in, by the way,
+traitor, hero? I have a theory on this, but --
+Tim Berners-Lee: I've given much longer
+answers to that question, but hero,
+if I have to make the choice between the two.
+CA: And Ed, I think you've read
+the proposal that Sir Tim has talked about
+about a new Magna Carta to take back the Internet.
+Is that something that makes sense?
+ES: Absolutely. I mean, my generation, I grew up
+not just thinking about the Internet,
+but I grew up in the Internet,
+and although I never expected to have the chance
+to defend it in such a direct and practical manner
+and to embody it in this unusual,
+almost avatar manner,
+I think there's something poetic about the fact that
+one of the sons of the Internet
+has actually become close to the Internet
+as a result of their political expression.
+And I believe that a Magna Carta for the Internet
+is exactly what we need.
+We need to encode our values
+not just in writing but in the structure of the Internet,
+and it's something that I hope,
+I invite everyone in the audience,
+not just here in Vancouver but around the world,
+to join and participate in.
+CA: Do you have a question for Ed?
+TBL: Well, two questions,
+a general question —
+CA: Ed, can you still hear us?
+ES: Yes, I can hear you. CA: Oh, he's back.
+TBL: The wiretap on your line
+got a little interfered with for a moment.
+
+ES: It's a little bit of an NSA problem.
+TBL: So, from the 25 years,
+stepping back and thinking,
+what would you think would be
+the best that we could achieve
+from all the discussions that we have
+about the web we want?
+ES: When we think about
+in terms of how far we can go,
+I think that's a question that's really only limited
+by what we're willing to put into it.
+I think the Internet that we've enjoyed in the past
+has been exactly what we as not just a nation
+but as a people around the world need,
+and by cooperating, by engaging not just
+the technical parts of society,
+but as you said, the users,
+the people around the world who contribute
+through the Internet, through social media,
+who just check the weather,
+who rely on it every day as a part of their life, to champion that.
+We'll get not just the Internet we've had,
+but a better Internet, a better now,
+something that we can use to build a future
+that'll be better not just than what we hoped for
+but anything that we could have imagined.
+CA: It's 30 years ago that TED was founded, 1984.
+A lot of the conversation since then has been
+along the lines that
+actually George Orwell got it wrong.
+It's not Big Brother watching us.
+We, through the power of the web,
+and transparency, are now watching Big Brother.
+Your revelations kind of drove a stake
+through the heart of that rather optimistic view,
+but you still believe there's a way of doing something
+about that.
+And you do too.
+ES: Right, so there is an argument to be made
+that the powers of Big Brother have increased enormously.
+There was a recent legal article at Yale
+that established something called the Bankston-Soltani Principle,
+which is that our expectation of privacy is violated
+when the capabilities of government surveillance
+have become cheaper by an order of magnitude,
+and each time that occurs, we need to revisit
+and rebalance our privacy rights.
+Now, that hasn't happened since
+the government's surveillance powers
+have increased by several orders of magnitude,
+and that's why we're in the problem that we're in today,
+but there is still hope,
+because the power of individuals
+have also been increased by technology.
+I am living proof
+that an individual can go head to head
+against the most powerful adversaries
+and the most powerful intelligence agencies
+around the world and win,
+and I think that's something
+that we need to take hope from,
+and we need to build on
+to make it accessible not just to technical experts
+but to ordinary citizens around the world.
+Journalism is not a crime,
+communication is not a crime,
+and we should not be monitored in our everyday activities.
+CA: I'm not quite sure how you shake the hand of a bot,
+but I imagine it's, this is the hand right here. TBL: That'll come very soon.
+ES: Nice to meet you,
+and I hope my beam looks as nice
+as my view of you guys does.
+CA: Thank you, Tim.
+
+I mean, The New York Times recently called for an amnesty for you.
+Would you welcome the chance to come back to America?
+ES: Absolutely. There's really no question,
+the principles that have been the foundation
+of this project
+have been the public interest
+and the principles that underly
+the journalistic establishment in the United States
+and around the world,
+and I think if the press is now saying,
+we support this,
+this is something that needed to happen,
+that's a powerful argument, but it's not the final argument,
+and I think that's something that public should decide.
+But at the same time,
+the government has hinted that they want
+some kind of deal,
+that they want me to compromise
+the journalists with which I've been working,
+to come back,
+and I want to make it very clear
+that I did not do this to be safe.
+I did this to do what was right,
+and I'm not going to stop my work
+in the public interest
+just to benefit myself.
+
+CA: In the meantime,
+courtesy of the Internet and this technology,
+you're here, back in North America,
+not quite the U.S., Canada, in this form.
+I'm curious, how does that feel?
+ES: Canada is different than what I expected.
+It's a lot warmer.
+
+CA: At TED, the mission is "ideas worth spreading."
+If you could encapsulate it in a single idea,
+what is your idea worth spreading
+right now at this moment?
+ES: I would say the last year has been a reminder
+that democracy may die behind closed doors,
+but we as individuals are born
+behind those same closed doors,
+and we don't have to give up
+our privacy to have good government.
+We don't have to give up our liberty
+to have security.
+And I think by working together
+we can have both open government
+and private lives,
+and I look forward to working with everyone
+around the world to see that happen.
+Thank you very much.
+CA: Ed, thank you.
+

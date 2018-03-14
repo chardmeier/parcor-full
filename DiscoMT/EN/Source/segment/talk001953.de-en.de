@@ -1,0 +1,530 @@
+Charlie Rose: Larry hat mir eine Mail geschickt. 
+Im Grunde schrieb er, 
+wir müssten dafür sorgen, dass wir nicht wirken 
+wie ein paar langweilige Männer mittleren Alters. 
+Ich sagte, das schmeichele mir -- 
+ -- 
+weil ich ein wenig älter bin 
+und er einen etwas höheren Nettowert hat als ich. 
+Larry Page: Vielen Dank! 
+CR: Wir werden uns über das Internet 
+und über Google unterhalten. 
+Wir werden über das Suchen sprechen, 
+über Privatsphäre 
+und auch über deine Philosophie. 
+Wir werden sehen, wie du diese Punkte verknüpfst, 
+und warum diese Reise, die schon vor einiger Zeit begann, 
+so interessante Perspektiven hat. 
+Vor allem wollen wir über die Zukunft sprechen. 
+Meine erste Frage: Wo steht Google und wo will es hin? 
+LP: Darüber denken wir viel nach. 
+Unsere Aufgabe haben wir uns vor langer Zeit gestellt: 
+die Information der Welt organisieren 
+und sie universell zugänglich und nutzbar machen. 
+Die Leute fragen immer: 
+Stimmt es denn, dass ihr das noch immer macht? 
+Darüber denke ich selbst immer nach, 
+und ich bin mir nicht ganz sicher. 
+Aber wenn ich über das Suchen nachdenke: 
+Es ist für uns alle ein so tief greifendes Thema -- 
+wirklich zu verstehen, was wir wollen, 
+die Information der Welt zu verstehen. 
+Wir stehen noch am Anfang -- 
+was wirklich Wahnsinn ist. 
+Wir arbeiten schon seit 15 Jahren daran, 
+aber der Prozess ist längst nicht abgeschlossen. 
+CR: Wenn er abgeschlossen ist, wie wird das aussehen? 
+LP: Wenn ich überlege, wo wir hingehen: 
+Warum ist [der Prozess] nicht abgeschlossen? 
+Ein wichtiger Grund ist die Unordnung im Computerwesen. 
+Dein Computer weiß nicht, wo du bist. 
+Er weiß nicht, was du tust. 
+Er weiß nicht, was du weißt. 
+In letzter Zeit versuchen wir vor allem, 
+Geräte dazu zu bringen, 
+dass sie deinen Kontext verstehen. 
+Google Now weiß, wo du bist, 
+weiß, was du brauchen könntest. 
+Computer, die funktionieren und dich verstehen, 
+die Informationen begreifen, 
+das haben wir noch nicht erreicht. 
+Es ist alles noch sehr klobig. 
+CR: Wenn man sich ansieht, was Google macht, 
+wie passt DeepMind da hinein? 
+LP: DeepMind ist ein Unternehmen, 
+das wir kürzlich erworben haben. 
+Es ist in Großbritannien. 
+Ich möchte zunächst erzählen, wie wir dazu kamen: 
+Wir haben uns mit Suchen 
+und echtem Verstehen befasst. 
+Wir wollten alles verstehen, 
+Computer weniger schwerfällig machen 
+und erreichen, dass sie dich ganz verstehen. 
+Stimme war wirklich wichtig. 
+Was ist der neueste Stand in der Spracherkennung? 
+Sie ist nicht sonderlich gut. 
+Sie versteht dich nicht richtig. 
+Wir haben maschinelles Lernen erforscht, 
+um [Spracherkennung] zu verbessern. 
+Das hat uns weitergebracht. 
+Wir fingen an, uns Sachen wie YouTube anzusehen. 
+Können wir YouTube verstehen? 
+Wir haben maschinelles Lernen über YouTube laufen lassen. 
+Die Maschine hat Katzen entdeckt, ganz von alleine. 
+Das ist ein wichtiges Konzept. 
+Wir begriffen, dass da wirklich etwas ist. 
+Wenn wir lernen können, was Katzen sind, 
+dann muss das wichtig sein. 
+Ich denke, das Faszinierende 
+an DeepMind ist: 
+Es kann tatsächlich 
+Dinge ohne Anleitung lernen. 
+Sie haben mit Videospielen angefangen. 
+Vielleicht kann ich das Video zeigen. 
+Die Computer haben einfach Videospiele gespielt 
+und automatisch gelernt, wie man das macht. 
+CR: Sehen Sie sich im Video an, 
+wie Maschinen zunehmend in der Lage sind, 
+Bemerkenswertes zu leisten. 
+LP: Das Faszinierende ist: 
+Das sind zwar offensichtlich 
+alte Computerspiele, 
+aber das System sieht, was du siehst: Pixel. 
+Es hat die Steuerung und den Spielstand. 
+Es hat gelernt, all diese Spiele zu spielen. 
+Dasselbe Programm hat gelernt, 
+Menschen in diesen Spielen zu übertreffen. 
+Bisher konnten wir solche Dinge 
+mit Computern nicht machen. 
+Ich erzähle schnell, was wir hier sehen. 
+Dies ist Boxen. Er hat herausgefunden, 
+dass er den Gegner in die Ecke drängen kann. 
+Der Computer ist links. 
+Er häuft einfach Punkte an. 
+Stell dir vor, man würde diese Intelligenz auf deinen Terminkalender 
+oder auf deine Informationsbedürfnisse oder Ähnliches loslassen! 
+Wir stehen in dieser Sache erst am Anfang. 
+Das ist es, was mich wirklich begeistert. 
+CR: Wenn man sich diese Entwicklung 
+mit DeepMind und dem Boxen ansieht, 
+dann bewegen wir uns 
+in Richtung künstliche Intelligenz. 
+Wo stehen wir da aus deiner Sicht? 
+LP: Für mich ist das eine der aufregendsten Sachen, 
+die ich seit Langem gesehen habe. 
+Der Gründer der Firma, Demis, 
+hat Neurowissenschaften und Informatik studiert. 
+Er ging zurück an die Uni, 
+um seinen Doktor in der Gehirnforschung zu machen. 
+Wir sehen also sehr viel aufregende Arbeit, 
+die Informatik und Neurowissenschaft verbindet, 
+um wirklich zu verstehen, 
+wie man etwas "schlau" machen kann, 
+damit es interessante Dinge tut. 
+CR: Aber in welchem Stadium ist es jetzt? 
+Wie schnell, denkst du, schreiten wir voran? 
+LP: Das ist der aktuelle Stand der Dinge: 
+Katzenerkennung auf YouTube 
+und ähnliche Dinge, 
+auch bessere Spracherkennung. 
+Wir haben viel maschinelles Lernen eingesetzt, 
+um Dinge schrittweise zu verbessern. 
+Für mich ist dieses Beispiel spannend, 
+weil es ein Programm ist, 
+das viele verschiedene Dinge tun kann. 
+CR: Vielleicht geht das? 
+Wir haben das Katzenbild. 
+Es wäre wunderbar, es zu zeigen. 
+Computer sahen Katzen und 
+dies war das Resultat. Können wir das sehen? 
+LP: Ja. CR: Da ist es. Sehen Sie die Katze? 
+Von Computern gesehen und gestaltet. 
+LP: Richtig. 
+Das haben sie nur aus YouTube-Videos gelernt. 
+Es gab kein Training, 
+keine Vorstellung einer Katze. 
+Aber dieses Konzept einer Katze 
+ist etwas Wichtiges, das du verstehen würdest 
+und das nun auch Computer gewissermaßen verstehen. 
+Nur um den Teil über die Suche abzuschließen: 
+Angefangen hatte es mit dem Suchen und Verstehen 
+von Zusammenhängen und dem Informationsstand der Menschen. 
+Ich habe diesbezüglich ein Video, 
+das ich schnell zeigen wollte, 
+das wir gefunden haben. 
+ ["Soy, Kenya"]  
+Zack Matere: Vor einer Weile habe ich Kartoffeln gepflanzt. 
+Dann sind die Pflanzen plötzlich eine nach der anderen eingegangen. 
+Ich habe Bücher gelesen, aber die verrieten nicht viel. 
+Also habe ich eine Suche gestartet. 
+[»Zack Matere, Landwirt«] 
+Kartoffelkrankheiten. 
+Eine der Websites schrieb, 
+Ameisen könnten das Problem sein. 
+Man solle Holzasche über die Pflanzen streuen. 
+Nach ein paar Tagen waren die Ameisen weg. 
+Das Internet fing an, mich zu begeistern. 
+Ich habe einen Freund, 
+der sein Geschäft gern ausweiten würde. 
+Also bin ich mit ihm ins Internetcafé gegangen, 
+und wir haben uns mehrere Seiten angesehen. 
+Beim nächsten Treffen wollte er ein Windrad 
+in der Dorfschule errichten. 
+Ich war stolz, weil etwas, 
+das vorher nicht existierte, 
+nun plötzlich da war. 
+Ich begriff, dass nicht jeder 
+auf das zugreifen konnte, 
+auf das ich zugreifen konnte. 
+Ich dachte, ich brauche ein Internet, 
+das meine Großmutter nutzen kann. 
+Also dachte ich an ein Schwarzes Brett. 
+Ein einfaches Schwarzes Brett aus Holz. 
+Wenn ich auf mein Telefon Informationen bekomme, 
+kann ich diese Informationen 
+am Schwarzen Brett aushängen. 
+Es ist also im Grunde wie ein Computer. 
+Ich nutze das Internet, um Leuten zu helfen. 
+Ich denke, ich suche nach einem besseren Leben 
+für mich und meine Nachbarn. 
+So viele Leute haben Zugang zu Informationen, 
+aber es entsteht nichts daraus. 
+Ich denke, was daraus entsteht, ist unser Wissen. 
+Wenn Leute Wissen besitzen, 
+können sie Lösungen finden, 
+ohne dass man ihnen helfen muss. 
+Information ist mächtig, 
+aber die Art, wie wir sie nutzen, wird uns definieren. 
+ 
+LP: Das Erstaunliche an diesem Video: 
+Wir lasen in den Nachrichten davon. 
+Wir haben diesen Herrn besucht 
+und dieses kurze Video gedreht. 
+CR: Wenn ich mit Leuten über dich spreche, 
+sagen die, die dich gut kennen: 
+Larry will die Welt verändern 
+und er glaubt, die Technik weist den Weg. 
+Das bedeutet Zugang zum Internet. 
+Das hat mit Sprachen zu tun. 
+Es bedeutet auch, dass Menschen Zugang bekommen 
+und etwas tun können, das ihre Gemeinde verändert. 
+Dies ist ein Beispiel dafür. 
+LP: Ja, das ist richtig. Was mich betrifft, 
+ich konzentriere mich mehr auf den Zugang, 
+wenn wir von Zukunft sprechen. 
+Wir haben kürzlich das Loon-Projekt gestartet, 
+wobei Ballons eingesetzt werden, um das zu erreichen. 
+Es klingt völlig verrückt. 
+Wir können hier das Video zeigen. 
+Zwei Drittel der Weltbevölkerung 
+hat heute keinen guten Internetzugang. 
+Wir denken, dies könnte Leuten 
+auf günstige Weise helfen. 
+CR: Es ist ein Ballon. LP: Für den Internetzugang. 
+CR: Wie verschafft dir dieser Ballon 
+Zugang zum Internet? 
+Du musstest interessante Probleme lösen, 
+damit man die Ballons nicht festbinden muss. 
+LP: Ja, es ist ein gutes Beispiel für Innovation. 
+Wir haben über diese Idee 
+5 Jahre oder länger nachgedacht, 
+bevor wir mit der Arbeit anfingen. 
+Im Grunde ging es darum: 
+Wie können wir Internetzugang günstig aus großen Höhen anbieten? 
+Normalerweise nimmt man Satelliten. 
+Aber es dauert sehr lange, bis man sie starten kann. 
+Du hast gesehen, wie leicht man Ballons steigen 
+und hoch hinaufbringen kann. 
+Auch das ist die Macht des Internets. 
+Ich habe nachgeforscht 
+und gelesen, dass jemand vor 30 oder 40 Jahren 
+einen Ballon fliegen ließ, 
+der die Erde mehrere Male umkreiste. 
+Ich dachte, warum machen wir das nicht auch heute? 
+Damit war der erste Schritt für das Projekt getan. 
+CR: Aber bist du nicht dem Wind ausgeliefert? 
+LP: Ja, aber Wettersimulationen haben gezeigt -- 
+die man wohl bis dahin noch nicht angestellt hatte -- 
+dass man die Ballonhöhe kontrollieren kann, 
+indem man Luft in sie hineinpumpt 
+oder andere Methoden einsetzt, 
+und so steuern kann, wo die Ballons ungefähr hinfliegen. 
+Ich denke, wir können ein weltweites Netz 
+mit diesen Ballons errichten, das den ganzen Planeten umspannt. 
+CR: Bevor ich über Zukunft und Verkehr spreche -- 
+womit du dich schon länger beschäftigst -- 
+und deine Faszination für Verkehr, 
+automatisiertem Fahren und Fahrrädern, 
+möchte ich kurz darüber sprechen, 
+was hier gerade mit Edward Snowden Thema war. 
+Es geht um Sicherheit und Datenschutz. 
+Du musst darüber nachgedacht haben. 
+LP: Absolut. Ich habe das Foto von Sergey und Edward Snowden gestern gesehen. 
+Einige von Ihnen haben es vielleicht gesehen. 
+Ich denke, für mich sind 
+Privatsphäre und Sicherheit wirklich wichtig. 
+Für uns hängt beides zusammen. 
+Ich glaube, ohne Sicherheit gibt es keine Privatsphäre. 
+Zuerst möchte ich etwas zur Sicherheit sagen, 
+weil du nach Snowden und all dem gefragt hast, 
+und dann sage ich etwas zur Privatsphäre. 
+Für mich persönlich ist es unglaublich enttäuschend, 
+dass die Regierung 
+all das heimlich getan und uns nichts gesagt hat. 
+Ich denke nicht, dass wir eine Demokratie haben können, 
+wenn wir dich und unsere Nutzer vor der Regierung schützen müssen 
+wegen Dingen, über die nie gesprochen wurde. 
+Ich meine nicht, dass wir wissen müssen, 
+vor welchem Terroranschlag genau sie uns beschützen wollen. 
+Aber wir müssen wissen, 
+was die Parameter sind, 
+welche Art von Überwachung die Regierung 
+durchführen wird, wie und warum. 
+Ich denke, darüber ist nicht gesprochen worden. 
+Deshalb meine ich, dass die Regierung 
+sich selbst schwer geschadet hat, 
+indem sie all das heimlich getan hat. 
+CR: Indem sie nie zu Google kamen, um danach zu fragen. 
+LP: Nicht Google, die Öffentlichkeit. 
+Ich meine, wir müssen eine Debatte darüber führen, 
+sonst können wir keine funktionierende Demokratie haben. 
+Das ist einfach nicht möglich. 
+Es stimmt mich traurig, dass Google 
+in der Situation ist, dass wir dich und unsere Nutzer 
+vor der Regierung schützen, 
+die heimlich Dinge tut, von denen keiner weiß. 
+Das ergibt keinen Sinn. 
+CR: Das Thema hat noch eine Seite, die Privatsphäre. 
+LP: Ja, die Privatsphäre. 
+Ich denke, die Welt verändert sich. 
+Man hat ein Telefon bei sich. Es weiß, wo man ist. 
+Es gibt so viel mehr Informationen über dich her. 
+Das ist ein wichtiger Aspekt. 
+Es leuchtet ein, dass Leute schwierige Fragen stellen. 
+Wir verwenden viel Zeit darauf, über diese Sache 
+und die auftretenden Probleme nachzudenken. 
+Ich bin ein bisschen ... 
+Unsere Hauptaufgabe ist es, 
+Leuten die Wahl zu lassen, 
+ihnen zu zeigen, welche Daten gesammelt werden: 
+Suchverlauf, Standortdaten. 
+Wir sind begeistert vom Inkognito-Modus in Chrome. 
+Wir wollen mehr Möglichkeiten bieten, 
+Leuten mehr Optionen geben 
+und ein Bewusstsein schaffen für das, was vor sich geht. 
+Ich denke, dass das sehr einfach ist. 
+Meine Sorge ist, dass wir das Kind mit dem Bade ausschütten. 
+In deiner Show habe ich gewissermaßen 
+meine Stimme verloren und habe sie noch nicht zurück. 
+Ich hoffe, indem ich mit dir rede, kommt sie zurück. 
+CR: Ich würde dir helfen, wenn ich könnte. 
+LP: Gut. Hol deine Voodoo-Puppe raus 
+und tu, was du tun musst. 
+Aber weißt du was? Ich sehe mir das an ... 
+Ich habe es öffentlich gemacht und viele Hinweise erhalten. 
+Wir haben eine Studie über die Erkrankung 
+mit Leuten durchgeführt, die ähnliche Beschwerden haben. 
+Wenn ich die Krankenberichte sehe, sage ich mir: 
+Wäre es nicht fantastisch, 
+wenn die Krankenberichte von allen 
+anonym verfügbar wären 
+für Ärzte in der Forschung? 
+Wenn jemand auf deinen Krankenbericht zugreift -- 
+in der medizinischen Forschung --, 
+könntest du sehen, welcher Arzt 
+darauf zugegriffen hat und warum. 
+Du könntest vielleicht mehr 
+über deine Beschwerden erfahren. 
+Wenn wir das machen würden, 
+könnten wir dieses Jahr 100 000 Leben retten. 
+CR: Auf jeden Fall, lass mich ...  
+LP: Ich bin einfach sehr besorgt, 
+dass wir beim Datenschutz im Internet 
+dasselbe tun wie bei Krankenberichten -- 
+das Kind mit dem Bade ausschütten -- 
+und eigentlich nicht daran denken, wie enorm viel Gutes 
+durch Informationsaustausch 
+mit den richtigen Leuten auf die richtige Weise entstehen kann. 
+CR: Die notwendige Voraussetzung ist, 
+dass Leute Vertrauen haben müssen, 
+dass ihre Daten nicht missbraucht werden. 
+LP: Ja. Ich habe ein Stimmproblem. Ich hatte Angst, darüber zu sprechen. 
+Sergey hat mich dazu ermutigt, 
+und es war eine großartige Sache. 
+CR: Das Echo ist überwältigend. 
+LP: Die Leute sind sehr positiv. 
+Wir haben Tausende und Abertausende mit ähnlichen Beschwerden, 
+über die es heute keinerlei Daten gibt. 
+Es ist eine wirklich gute Sache. 
+CR: Zum Thema Zukunft: 
+Um was geht es dir bei Verkehrssystemen? 
+LP: Ja, ich war einfach frustriert, 
+als ich in Michigan im College war. 
+Ich musste mit dem Bus fahren, und auf ihn warten. 
+Es war kalt und es schneite. 
+Ich habe nachgerechnet, was er kostet, 
+und so entstand mein Interesse an Verkehrssystemen. 
+CR: So kamst du auf die Idee des automatisierten Fahrens. 
+LP: Vor 18 Jahren erfuhr ich, dass Leute am automatisierten Fahren arbeiten, 
+und das hat mich fasziniert. 
+Es dauert eine Weile, diese Projekte an den Start zu bringen, 
+aber ich finde ihr Potenzial, die Welt zu verbessern, unglaublich aufregend. 
+Es werden 20 Mio. Menschen oder mehr pro Jahr verletzt. 
+Es ist die führende Todesursache 
+bei US-Amerikanern unter 34 Jahren. 
+CR: Du sprichst davon, Leben zu retten. 
+LP: Ja, und Platz zu sparen 
+und das Leben besser zu machen. 
+Los Angeles besteht zur Hälfte aus Parkplätzen und Straßen -- 
+die Hälfte der Fläche. 
+In den meisten Städten ist es nicht viel weniger. 
+Es ist einfach verrückt, 
+dass wir unseren Raum dafür nutzen. 
+CR: Wann werden wir das erreicht haben? 
+LP: Ich schätze sehr, sehr bald. 
+Wir sind jetzt weit über 161 000 km 
+voll automatisiert gefahren. 
+Ich total begeistert und will es schnell herausbringen. 
+CR: Du sprichst nicht nur vom automatisierten Fahren. 
+Du hast auch eine Idee für Fahrräder. 
+LP: Bei Google hatten wir die Idee, 
+dass wir jedem gratis Fahrräder zur Verfügung stellen sollten. 
+Das ist fantastisch für die meisten Fahrten. 
+Man sieht die Fahrräder überall. Die Räder haben Verschleiß. 
+Man nutzt sie rund um die Uhr. 
+CR: Du willst sie auch über die Straße bringen. 
+LP: Ich fragte: Wie bringt man Leute dazu, mehr Rad zu fahren? 
+CR: Wir haben ein Video. 
+LP: Zeigen wir es. Es hat mich einfach begeistert. 
+ 
+So könnten wir bei minimalen Kosten 
+Autos und Fahrräder trennen. 
+Es sieht wirklich verrückt aus, aber ich dachte an unser Firmengelände, 
+an die Arbeit mit den Zippies etc., 
+und versuchte, die Fahrradnutzung zu erhöhen. 
+Ich überlegte, wie man Fahrräder und Verkehr kosteneffizient trennen könnte. 
+Ich habe recherchiert und das gefunden. 
+Wir arbeiten eigentlich nicht 
+an dieser speziellen Sache, 
+aber es regt die Fantasie an. 
+CR: Ich möchte mit Folgendem schließen: 
+Sag mir etwas über deine persönliche Philosophie. 
+Du hast eine Idee für Google X. 
+Du willst nicht einfach nur 
+einen kleinen messbaren Fortschritt. 
+LP: Das trifft auf vieles zu, worüber wir geredet haben, 
+weil es wirklich ... 
+Ich verwende fast das ökonomische Prinzip der "Zusätzlichkeit". 
+Das heißt: Du tust etwas, 
+das nicht passieren würde, wenn du es nicht tätest. 
+Je mehr solcher Dinge du realisieren kannst, 
+desto größer ist die Wirkung, die du erzielst. 
+Das beziehe ich auf Dinge, die Leute vielleicht für unmöglich halten. 
+Es erstaunt mich: 
+Je mehr ich über Technologien lerne, desto klarer wird mir, was ich nicht weiß. 
+Das liegt am technologischen Horizont, 
+also die Sache, die du als nächsten Schritt siehst. 
+Je mehr du über Technologien erfährst, 
+desto mehr erfährst du darüber, was möglich ist. 
+Du erfährst, dass Ballons möglich sind, 
+weil es Material gibt, mit dem sie funktionieren. 
+CR: Was ich an dir aber auch interessant finde: 
+Wir haben viele Leute, 
+die über die Zukunft nachdenken; 
+sie suchen nach Antworten und kommen wieder, 
+aber wir sehen nie eine Umsetzung. 
+Ich denke an jemanden, den du kennst und von dem du gelesen hast: Tesla. 
+Welches Prinzip steckt für dich dahinter? 
+LP: Ich denke, Erfindung ist nicht genug -- 
+Tesla hat die Elektrizität, die wir benutzen, erfunden, 
+aber er hatte Probleme, sie unter die Leute zu bringen. 
+Das mussten andere Leute erledigen. 
+Es hat sehr lang gebraucht. 
+Ich denke, wir können tatsächlich beides verbinden, 
+wenn wir Innovation und Erfindung in den Fokus rücken 
+und zusätzlich die Fähigkeit haben, ... 
+ein Unternehmen, das Dinge wirklich kommerzialisieren 
+und auf eine Weise unter die Leute bringen kann, die positiv für die Welt ist 
+und den Menschen Hoffnung gibt. 
+Weißt du, das Loon-Projekt fasziniert mich -- 
+wie begeistert die Leute waren, 
+weil es ihnen Hoffnung gab 
+für die zwei Drittel der Welt, 
+die noch kein brauchbares Internet haben. 
+CR: Was uns zum Thema "Unternehmen" führt. 
+Du gehörst zu den Leuten, die glauben, 
+dass Unternehmen Wandel herbeiführen können, 
+wenn sie gut geführt werden. 
+LP: Ja, es bestürzt mich wirklich, 
+dass die meisten Leute denken, Unternehmen seien dem Wesen nach böse. 
+Sie bekommen einen schlechten Ruf. 
+In gewisser Weise stimmt das. 
+Unternehmen gehen immer noch so schrittweise vor 
+wie vor 50 Jahren 
+oder vor 20 Jahren. 
+Das ist nicht, was wir brauchen. Wir brauchen -- 
+vor allem in der Technikbranche -- 
+revolutionären Wandel, nicht schrittweise Veränderung. 
+CR: Du hast einmal gesagt -- ich glaube, ich sage das richtig --, 
+du könntest dir eher vorstellen, dein Geld -- 
+wenn du es schon einem guten Zweck hinterlassen wolltest -- 
+einfach Elon Musk zu geben, weil du das Vertrauen hättest, 
+dass er die Zukunft verändern würde, 
+und du deshalb -- 
+LP: Ja, wenn du zum Mars willst, 
+er will zum Mars fliegen, 
+um den Fortbestand der Menschheit zu sichern. 
+Das ist ein würdiges Ziel, 
+aber es ist ein Unternehmen, und es ist philanthropisch. 
+Also denke ich, dass wir Ähnliches erreichen wollen. 
+Wir haben viele Mitarbeiter bei Google, 
+die ziemlich wohlhabend geworden sind. 
+Leute verdienen viel Geld in der Technikbranche. 
+Viele Leute hier im Raum sind recht wohlhabend. 
+Du arbeitest, weil du die Welt verändern willst. 
+Du willst sie besser machen. 
+Warum soll das Unternehmen, für das du arbeitest, 
+nur deine Zeit wert sein, 
+aber nicht auch dein Geld? 
+Aber dafür haben wir kein Konzept. 
+Das ist nicht die Art, wie wir Unternehmen sehen. 
+Ich finde das traurig, weil das Gros unserer Bemühungen in Unternehmen fließt. 
+In sie stecken Menschen den Großteil ihrer Zeit und viel Geld. 
+Ich wünschte, wir wären hilfreicher, als das der Fall ist. 
+CR: Ich beende Gespräche immer gern mit dieser Frage: 
+Welche Geisteshaltung, welche Denkqualität hat dir die besten Dienste geleistet? 
+Leute wie Rupert Murdoch sagten "Neugier". 
+Auch andere in den Medien haben so geantwortet. 
+Bill Gates und Warren Buffett sagten "Konzentration". 
+Welche Geisteshaltung -- so verabschiede ich mich vom Publikum -- 
+hat dich befähigt, über die Zukunft nachzudenken 
+und zugleich die Gegenwart zu verändern? 
+LP: Das Wichtigste ... 
+Ich habe mir viele Unternehmen angesehen und nachgedacht, 
+warum sie sich langfristig nicht durchsetzen. 
+Wir haben einen rascheren Umschlag an Unternehmen. 
+Ich fragte mich: Was haben sie grundlegend falsch gemacht? 
+Was haben diese Unternehmen alle falsch gemacht? 
+Üblicherweise haben sie nur die Zukunft außer Acht gelassen. 
+Ich selbst versuche, mich darauf zu konzentrieren und zu fragen: 
+Wie wird die Zukunft aussehen? 
+Wir erschaffen wir sie? 
+Wie bringen wir unsere Organisation dazu, 
+sich auf sie zu konzentrieren und sie mit Nachdruck voranzutreiben? 
+Also war es die Neugier, 
+das Sich-Dinge-ansehen, über die andere vielleicht nicht nachdenken; 
+das Arbeiten an Dingen, an denen kein anderer arbeitet, 
+weil dort echte Zusätzlichkeit liegt; 
+die Bereitschaft, das zu tun, das Risiko einzugehen. 
+Sieh dir Android an ... 
+Ich hatte ein schlechtes Gewissen, an Android zu arbeiten, 
+als es herauskam: Es war ein kleiner Start-up, den wir kauften. 
+Es war nicht, woran wir zu der Zeit arbeiteten. 
+Ich hatte Schuldgefühle, weil ich Zeit darauf verwandte. 
+Das war dumm, denn das war die Zukunft, richtig? 
+Es war eine gute Sache, daran zu arbeiten. 
+CR: Es ist toll, dich hier zu sehen, toll, dich zu hören, und 
+ein Vergnügen, mit dir an diesem Tisch zu sitzen. Danke, Larry! 
+LP: Ich danke dir. 
+ 
+CR: Larry Page. 
