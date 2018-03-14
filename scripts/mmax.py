@@ -51,6 +51,9 @@ def main():
     mmax_dir, mmax_file = os.path.split(in_mmax)
     mmax_id = os.path.splitext(mmax_file)[0]
 
+    if not mmax_dir:
+        mmax_dir = '.'
+
     snt = get_sentences_from_mmax(mmax_dir, mmax_id)
     for s in snt:
         print(' '.join(s))
