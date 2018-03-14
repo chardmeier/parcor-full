@@ -53,9 +53,9 @@ def parse_span(span):
 
 def get_sentences_from_mmax(top_dir, docid):
     with open(words_file(top_dir, docid), 'r') as f:
-        w_soup = bs4.BeautifulSoup(f, 'lxml')
+        w_soup = bs4.BeautifulSoup(f, 'xml')
     with open(sentences_file(top_dir, docid), 'r') as f:
-        s_soup = bs4.BeautifulSoup(f, 'lxml')
+        s_soup = bs4.BeautifulSoup(f, 'xml')
 
     words = [(w['id'], w.string) for w in w_soup.find_all('word')]
     spans = [parse_span(m['span']) for m in s_soup.find_all({'markable'})]
@@ -72,7 +72,7 @@ def get_sentences_from_mmax(top_dir, docid):
 
 def get_penntok_from_wmt_xml(infile):
     with open(infile, 'r') as f:
-        soup = bs4.BeautifulSoup(f, 'lxml')
+        soup = bs4.BeautifulSoup(f, 'xml')
 
     sentences = []
     for seg in soup.find_all('seg'):
@@ -113,7 +113,7 @@ def write_sentences(filename, sentences):
 
 def translate_coref(infile, outfile, translated):
     with open(infile, 'r') as f:
-        soup = bs4.BeautifulSoup(f, 'lxml')
+        soup = bs4.BeautifulSoup(f, 'xml')
 
     total = 0
     skipped = 0
