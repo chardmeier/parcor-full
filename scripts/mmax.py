@@ -1,4 +1,5 @@
 import bs4
+import sys
 
 
 def words_file(top_dir, docid):
@@ -34,11 +35,24 @@ def get_sentences_from_mmax(top_dir, docid):
     words = [(w['id'], w.string) for w in w_soup.find_all('word')]
     spans = [parse_span(m['span']) for m in s_soup.find_all({'markable'})]
 
-    #for i, (w1, w2) in enumerate(zip(words, words[1:])):
-    #    if w1.endswith('n') and w2 == "'t":
-    #        words[i] = words[i][:-1]
-    #        words[i + 1] = "n't"
-
     sentences = [words[slice(*sl)] for sl in spans]
 
     return sentences
+
+
+def main():
+    if len(sys.argv) != 2:
+        print('Usage: %s input.mmax' % sys.argv[0], file=sys.stderr)
+        sys.exit(1)
+
+    mmax_dir, mmax_file = os.path.split(in_mmax)
+    mmax_id = os.path.splitext(mmax_file)[0]
+
+    snt = get_sentences_from_mmax(mmax_dir, mmax_id)
+    for s in snt:
+        print(' '.join(s))
+
+
+if __name__ == '__main__':
+    main()
+
