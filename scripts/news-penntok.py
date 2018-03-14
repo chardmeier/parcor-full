@@ -6,6 +6,7 @@ import os
 import xml
 import sys
 
+import mmax
 import tokalign
 
 
@@ -25,49 +26,6 @@ class AlignApostropheS:
                 return [tokalign.Hypothesis(hypo.cost + self.cost, hypo.pos1 + 1, hypo.pos2 + 2, ext, hypo)]
 
         return []
-
-
-def words_file(top_dir, docid):
-    return '%s/Basedata/%s_words.xml' % (top_dir, docid)
-
-
-def sentences_file(top_dir, docid):
-    return '%s/markables/%s_sentence_level.xml' % (top_dir, docid)
-
-
-def coref_file(top_dir, docid):
-    return '%s/markables/%s_coref_level.xml' % (top_dir, docid)
-
-
-def parse_span(span):
-    if ',' in span:
-        # discontinuous spans are not supported
-        return None
-
-    idx = [int(w.lstrip('word_')) - 1 for w in span.split('..')]
-    if len(idx) == 1:
-        return idx[0], idx[0] + 1
-    else:
-        return idx[0], idx[1] + 1
-
-
-def get_sentences_from_mmax(top_dir, docid):
-    with open(words_file(top_dir, docid), 'r') as f:
-        w_soup = bs4.BeautifulSoup(f, 'xml')
-    with open(sentences_file(top_dir, docid), 'r') as f:
-        s_soup = bs4.BeautifulSoup(f, 'xml')
-
-    words = [(w['id'], w.string) for w in w_soup.find_all('word')]
-    spans = [parse_span(m['span']) for m in s_soup.find_all({'markable'})]
-
-    #for i, (w1, w2) in enumerate(zip(words, words[1:])):
-    #    if w1.endswith('n') and w2 == "'t":
-    #        words[i] = words[i][:-1]
-    #        words[i + 1] = "n't"
-
-    sentences = [words[slice(*sl)] for sl in spans]
-
-    return sentences
 
 
 def get_penntok_from_wmt_xml(infile):
@@ -122,7 +80,7 @@ def translate_coref(infile, outfile, translated):
 
         span_parts = []
         for in_span in mrk['span'].split(','):
-            from_idx, to_idx = parse_span(in_span)
+            from_idx, to_idx = mmax.parse_span(in_span)
             if from_idx not in translated:
                 print('Unaligned start word: ' + str(mrk), file=sys.stderr)
                 skipped += 1
@@ -158,7 +116,7 @@ def main():
     mmax_dir, mmax_file = os.path.split(in_mmax)
     mmax_id = os.path.splitext(mmax_file)[0]
 
-    mmax_sent = get_sentences_from_mmax(mmax_dir, mmax_id)
+    mmax_sent = mmax.get_sentences_from_mmax(mmax_dir, mmax_id)
     penn_sent = get_penntok_from_wmt_xml(in_wmt)
 
     for d in ['Basedata', 'Markables']:
@@ -180,9 +138,9 @@ def main():
         mmax_start += len(m)
         penn_start += len(p)
 
-    write_basedata(words_file(out_dir, mmax_id), penn_sent)
-    write_sentences(sentences_file(out_dir, mmax_id), penn_sent)
-    translate_coref(coref_file(mmax_dir, mmax_id), coref_file(out_dir, mmax_id), translated)
+    write_basedata(mmax.words_file(out_dir, mmax_id), penn_sent)
+    write_sentences(mmax.sentences_file(out_dir, mmax_id), penn_sent)
+    translate_coref(mmax.coref_file(mmax_dir, mmax_id), mmax.coref_file(out_dir, mmax_id), translated)
 
 
 if __name__ == '__main__':
