@@ -129,12 +129,12 @@ def translate_coref(infile, outfile, translated):
 
 def main():
     if len(sys.argv) != 4:
-        print('Usage: %s input.mmax input.txt outdir' % sys.argv[0], file=sys.stderr)
+        print('Usage: %s outdir input.mmax input.txt' % sys.argv[0], file=sys.stderr)
         sys.exit(1)
 
-    in_mmax = sys.argv[1]
-    in_txt = sys.argv[2]
-    out_dir = sys.argv[3]
+    out_dir = sys.argv[1]
+    in_mmax = sys.argv[2]
+    in_txt = sys.argv[3]
 
     mmax_dir, mmax_file = os.path.split(in_mmax)
     mmax_id = os.path.splitext(mmax_file)[0]
