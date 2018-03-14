@@ -1,0 +1,64 @@
+If I can leave you with one big idea today, it's that the whole of the data in which we consume is greater that the sum of the parts, and, instead of thinking about information overload, what I'd like you to think about is how we can use information so that patterns pop and we can see trends that would otherwise be invisible.
+So what we're looking at right here is a typical mortality chart organized by age.
+This tool that I'm using here is a little experiment.
+It's called Pivot, and with Pivot what I can do is I can choose to filter in one particular cause of deaths, say accidents.
+And, right away, I see there's a different pattern that emerges.
+This is because, in the mid-area here, people are at their most active, and over here they're at their most frail.
+We can step back out again and then reorganize the data by cause of death, seeing that circulatory diseases and cancer are the usual suspects, but not for everyone.
+If we go ahead and we filter by age, say 40 years or less, we see that accidents are actually the greatest cause that people have to be worried about.
+And if you drill into that, it's especially the case for men.
+So you get the idea that viewing information, viewing data in this way, is a lot like swimming in a living information info-graphic.
+And if we can do this for raw data, why not do it for content as well?
+So what we have right here, is the cover of every single Sports Illustrated ever produced.
+It's all here. It's all on the web.
+You can go back to your rooms and try this after my talk.
+With Pivot, you can drill into a decade.
+You can drill into a particular year.
+You can jump right into a specific issue.
+So I'm looking at this; I see the athletes that have appeared in this issue, the sports.
+I'm a Lance Armstrong fan, so I'll go ahead and I'll click on that, which reveals, for me, all the issues in which Lance Armstrong's been a part of.
+Now, if I want to just kind of take a peek at these, I might think, "Well, what about taking a look at all of cycling?"
+So I can step back, and expand on that.
+And I see Greg Lemond now.
+And so you get the idea that when you navigate over information this way, going narrower, broader, backing in, backing out, you're not searching, you're not browsing.
+You're doing something that's actually a little bit different.
+It's in between, and we think it changes the way information can be used.
+So I want to extrapolate on this idea a bit something that's a little bit crazy.
+What we're done here is we've taken every single Wikipedia page and reduced it down to a little summary.
+So the summary consisted of just little synopsis and an icon to indicate the topical area that it comes from.
+I'm only showing the top 500 most popular Wikipedia pages right here.
+But even in this limited view, we can do a lot of things.
+Right away, we get a sense of what are the topical domains that are most popular on Wikipedia.
+I'm going to go ahead and select government.
+Now, having selected government, I can now see that the Wikipedia categories that most frequently correspond to that are Time magazine People of the Year.
+So this is really important because this is an insight that was not contained within any one Wikipedia page.
+It's only possible to see that insight when you step back and look at all of them.
+Looking at one of these particular summaries, I can then drill into the concept of Time magazine Person of the Year, bringing up all of them.
+So looking at these people, I can see that the majority come from government.
+Some have come from natural sciences.
+Some, fewer still, have come from business.
+There's my boss.
+And one has come from music.
+And interestingly enough, Bono is also a TED Prize winner.
+So we can go, jump, and take a look at all the TED Prize winners.
+So you see, we're navigating the web for the first time as if it's actually a web, not page to page, but at a higher level of abstraction.
+And so I want to show you one other thing that may catch you a little bit by surprise.
+I'm just showing the New York Times website here.
+So Pivot, this application -- I don't want to call it a browser; it's really not a browser, but you can view web pages with it -- and we bring that zoomable technology to every single web page like this.
+So I can step back, pop right back in to a specific section.
+Now the reason why this is important is because, by virtue of just viewing web pages in this way, I can look at my entire browsing history in the exact same way.
+So I can drill in to what I've done over specific time frames.
+Here, in fact, is the state of all the demo that I just gave.
+And I can sort of replay some stuff that I was looking at earlier today.
+And, if I want to step back and look at everything, I can slice and dice my history perhaps by my search history.
+Here, I was doing some nepotistic searching, looking for Bing, over here for Live Labs Pivot.
+And from these, I can drill into the web page and just launch them again.
+It's one metaphor repurposed multiple times, and in each case it makes the whole greater than the sum of the parts with the data.
+So right now, in this world, we think about data as being this curse.
+We talk about the curse of information overload.
+We talk about drowning in data.
+What if we can actually turn that upside down and turn the web upside down, so that instead of one thing to the next, we get used to the habit of being able to go from many things to many things, and then being able to see the patterns that were otherwise hidden?
+If we can do that, then, instead of being trapped in data, we might actually extract information.
+And, instead of dealing just with information, we can tease out knowledge.
+And if we get the knowledge, then maybe even there's wisdom to be found.
+So with that, I thank you.
