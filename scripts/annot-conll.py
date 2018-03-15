@@ -23,6 +23,14 @@ def append(boundaries, idx, tag):
 
 
 def get_coref_chain_boundaries(mmax_dir, mmax_id):
+    with open(mmax.sentences_file(mmax_dir, mmax_id), 'r') as f:
+        s_soup = bs4.BeautifulSoup(f, 'xml')
+
+    sentence_id = {}
+    for mrk in s_soup.find_all('markable'):
+        for i in range(*mmax.parse_span(mrk['span'])):
+            sentence_id[i] = mrk['orderid']
+
     with open(mmax.coref_file(mmax_dir, mmax_id), 'r') as f:
         soup = bs4.BeautifulSoup(f, 'xml')
 
@@ -43,8 +51,12 @@ def get_coref_chain_boundaries(mmax_dir, mmax_id):
             if start == end - 1:
                 append(boundaries, start, ('(%d)', chain_idx))
             else:
-                append(boundaries, start, ('(%d', chain_idx))
-                append(boundaries, end - 1, ('%d)', chain_idx))
+                if sentence_id[start] != sentence_id[end - 1]:
+                    print('%s: Skipped cross-sentence mention (%d): %s' % (mmax_id, end - start, str(mrk)),
+                            file=sys.stderr)
+                else:
+                    append(boundaries, start, ('(%d', chain_idx))
+                    append(boundaries, end - 1, ('%d)', chain_idx))
 
     str_boundaries = {}
     for pos, chains in boundaries.items():
