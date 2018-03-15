@@ -71,7 +71,7 @@ def annotate_conll(in_conll, boundaries):
                 if widx in boundaries:
                     fields.append('|'.join(boundaries[widx]))
                 else:
-                    fields.append('_')
+                    fields.append('-')
 
                 print('\t'.join(fields))
                 widx += 1
