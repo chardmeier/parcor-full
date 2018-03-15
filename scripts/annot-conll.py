@@ -5,12 +5,12 @@ import re
 import sys
 
 
-def lookup_chain(directory, coref_set):
-    if coref_set in directory:
-        return directory[coref_set]
+def lookup_chain(directory, coref_class):
+    if coref_class in directory:
+        return directory[coref_class]
     else:
         chain_id = directory['__next__']
-        directory[coref_set] = chain_id
+        directory[coref_class] = chain_id
         directory['__next__'] += 1
         return chain_id
 
@@ -29,10 +29,10 @@ def get_coref_chain_boundaries(mmax_dir, mmax_id):
     directory = {'__next__': 1}
     boundaries = {}
     for mrk in soup.find_all('markable'):
-        if 'coref_set' not in mrk or not mrk['coref_set'] or mrk['coref_set'] == 'empty':
+        if 'coref_class' not in mrk or not mrk['coref_class'] or mrk['coref_class'] == 'empty':
             continue
 
-        chain_idx = lookup_chain(directory, mrk['coref_set'])
+        chain_idx = lookup_chain(directory, mrk['coref_class'])
         for s in mrk['span'].split(','):
             start, end = mmax.parse_span(s)
             if start == end - 1:
