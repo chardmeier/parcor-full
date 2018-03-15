@@ -48,7 +48,7 @@ def get_coref_chain_boundaries(mmax_dir, mmax_id):
 
     str_boundaries = {}
     for pos, chains in boundaries.items():
-        str_chains = [fmt % idx for fmt, idx in chains if idx not in chain_idx]
+        str_chains = [fmt % idx for fmt, idx in chains if idx not in clause_or_vp]
         if len(str_chains):
             str_boundaries[pos] = '|'.join(str_chains)
         else:
