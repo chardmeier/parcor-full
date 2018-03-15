@@ -34,7 +34,7 @@ def get_sentences_from_mmax(top_dir, docid):
         s_soup = bs4.BeautifulSoup(f, 'xml')
 
     words = [(w['id'], w.string) for w in w_soup.find_all('word')]
-    spans = [parse_span(m['span']) for m in s_soup.find_all({'markable'})]
+    spans = [parse_span(m['span']) for m in sorted(s_soup.find_all({'markable'}), key=lambda m: int(m['orderid']))]
 
     sentences = [words[slice(*sl)] for sl in spans]
 
