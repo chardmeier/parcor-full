@@ -48,8 +48,11 @@ def get_coref_chain_boundaries(mmax_dir, mmax_id):
 
     str_boundaries = {}
     for pos, chains in boundaries.items():
-        if idx not in clause_or_vp:
-            str_boundaries[pos] = [fmt % idx for fmt, idx in chains]
+        str_chains = [fmt % idx for fmt, idx in chains if idx not in chain_idx]
+        if len(str_chains):
+            str_boundaries[pos] = '|'.join(str_chains)
+        else:
+            str_boundaries[pos] = '-'
 
     return str_boundaries
 
@@ -68,10 +71,7 @@ def annotate_conll(in_conll, boundaries):
                     print(in_conll + ': Line too short: ' + line, file=sys.stderr)
                     sys.exit(1)
 
-                if widx in boundaries:
-                    fields.append('|'.join(boundaries[widx]))
-                else:
-                    fields.append('-')
+                fields.append(boundaries.get(widx, '-'))
 
                 print('\t'.join(fields))
                 widx += 1
