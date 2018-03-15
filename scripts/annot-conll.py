@@ -29,7 +29,7 @@ def get_coref_chain_boundaries(mmax_dir, mmax_id):
     directory = {'__next__': 1}
     boundaries = {}
     for mrk in soup.find_all('markable'):
-        if 'coref_class' not in mrk or not mrk['coref_class'] or mrk['coref_class'] == 'empty':
+        if not mrk.has_attr('coref_class') or not mrk['coref_class'] or mrk['coref_class'] == 'empty':
             continue
 
         chain_idx = lookup_chain(directory, mrk['coref_class'])
