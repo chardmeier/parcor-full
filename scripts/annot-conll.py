@@ -28,20 +28,30 @@ def get_coref_chain_boundaries(mmax_dir, mmax_id):
 
     directory = {'__next__': 1}
     boundaries = {}
+    clause_or_vp = set()
     for mrk in soup.find_all('markable'):
         if not mrk.has_attr('coref_class') or not mrk['coref_class'] or mrk['coref_class'] == 'empty':
             continue
 
         chain_idx = lookup_chain(directory, mrk['coref_class'])
+
+        if mrk['mention'] in ('clause', 'vp'):
+            clause_or_vp.add(chain_idx)
+
         for s in mrk['span'].split(','):
             start, end = mmax.parse_span(s)
             if start == end - 1:
-                append(boundaries, start, '(%d)' % chain_idx)
+                append(boundaries, start, ('(%d)', chain_idx))
             else:
-                append(boundaries, start, '(%d' % chain_idx)
-                append(boundaries, end - 1, '%d)' % chain_idx)
+                append(boundaries, start, ('(%d', chain_idx))
+                append(boundaries, end - 1, ('%d)', chain_idx))
 
-    return boundaries
+    str_boundaries = {}
+    for pos, chains in boundaries.items():
+        if idx not in clause_or_vp:
+            str_boundaries[pos] = [fmt % idx for fmt, idx in chains]
+
+    return str_boundaries
 
 
 def annotate_conll(in_conll, boundaries):
