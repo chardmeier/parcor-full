@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/checks">
-<markable id="markable_113" span="word_11" mmax_level="checks"  check="markable-without-chain" />
-</markables>
