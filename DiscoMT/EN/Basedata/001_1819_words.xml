@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE words SYSTEM "words.dtd">
 <words>
 <word id="word_1">So</word>
@@ -768,8 +768,8 @@
 <word id="word_765">well</word>
 <word id="word_766">,</word>
 <word id="word_767">why</word>
-<word id="word_768">don</word>
-<word id="word_769">'t</word>
+<word id="word_768">do</word>
+<word id="word_769">n't</word>
 <word id="word_770">we</word>
 <word id="word_771">just</word>
 <word id="word_772">avoid</word>
@@ -1324,8 +1324,8 @@
 <word id="word_1321">malaria</word>
 <word id="word_1322">that</word>
 <word id="word_1323">people</word>
-<word id="word_1324">don</word>
-<word id="word_1325">'t</word>
+<word id="word_1324">do</word>
+<word id="word_1325">n't</word>
 <word id="word_1326">like</word>
 <word id="word_1327">to</word>
 <word id="word_1328">talk</word>
@@ -1377,7 +1377,7 @@
 <word id="word_1374">the</word>
 <word id="word_1375">world</word>
 <word id="word_1376">,</word>
-<word id="word_1377">"</word>
+<word id="word_1377">``</word>
 <word id="word_1378">What</word>
 <word id="word_1379">do</word>
 <word id="word_1380">you</word>
@@ -1385,14 +1385,14 @@
 <word id="word_1382">about</word>
 <word id="word_1383">malaria</word>
 <word id="word_1384">?</word>
-<word id="word_1385">"</word>
+<word id="word_1385">''</word>
 <word id="word_1386">And</word>
 <word id="word_1387">they</word>
-<word id="word_1388">don</word>
-<word id="word_1389">'t</word>
+<word id="word_1388">do</word>
+<word id="word_1389">n't</word>
 <word id="word_1390">say</word>
 <word id="word_1391">,</word>
-<word id="word_1392">"</word>
+<word id="word_1392">``</word>
 <word id="word_1393">It</word>
 <word id="word_1394">'s</word>
 <word id="word_1395">a</word>
@@ -1405,11 +1405,11 @@
 <word id="word_1402">of</word>
 <word id="word_1403">it</word>
 <word id="word_1404">.</word>
-<word id="word_1405">"</word>
+<word id="word_1405">''</word>
 <word id="word_1406">They</word>
 <word id="word_1407">say</word>
 <word id="word_1408">,</word>
-<word id="word_1409">"</word>
+<word id="word_1409">``</word>
 <word id="word_1410">Malaria</word>
 <word id="word_1411">is</word>
 <word id="word_1412">a</word>
@@ -1418,7 +1418,7 @@
 <word id="word_1415">of</word>
 <word id="word_1416">life</word>
 <word id="word_1417">.</word>
-<word id="word_1418">"</word>
+<word id="word_1418">''</word>
 <word id="word_1419">And</word>
 <word id="word_1420">that</word>
 <word id="word_1421">was</word>
@@ -1656,8 +1656,8 @@
 <word id="word_1653">,</word>
 <word id="word_1654">but</word>
 <word id="word_1655">we</word>
-<word id="word_1656">don</word>
-<word id="word_1657">'t</word>
+<word id="word_1656">do</word>
+<word id="word_1657">n't</word>
 <word id="word_1658">really</word>
 <word id="word_1659">even</word>
 <word id="word_1660">take</word>
@@ -1851,8 +1851,8 @@
 <word id="word_1848">historically</word>
 <word id="word_1849">,</word>
 <word id="word_1850">you</word>
-<word id="word_1851">don</word>
-<word id="word_1852">'t</word>
+<word id="word_1851">do</word>
+<word id="word_1852">n't</word>
 <word id="word_1853">.</word>
 <word id="word_1854">Most</word>
 <word id="word_1855">malarious</word>
@@ -1883,8 +1883,8 @@
 <word id="word_1880">from</word>
 <word id="word_1881">people</word>
 <word id="word_1882">who</word>
-<word id="word_1883">aren</word>
-<word id="word_1884">'t</word>
+<word id="word_1883">are</word>
+<word id="word_1884">n't</word>
 <word id="word_1885">constrained</word>
 <word id="word_1886">by</word>
 <word id="word_1887">these</word>
@@ -1976,8 +1976,8 @@
 <word id="word_1973">risk</word>
 <word id="word_1974">of</word>
 <word id="word_1975">malaria</word>
-<word id="word_1976">shouldn</word>
-<word id="word_1977">'t</word>
+<word id="word_1976">should</word>
+<word id="word_1977">n't</word>
 <word id="word_1978">be</word>
 <word id="word_1979">asked</word>
 <word id="word_1980">to</word>
@@ -2092,7 +2092,7 @@
 <word id="word_2089">that</word>
 <word id="word_2090">whole</word>
 <word id="word_2091">campaign</word>
-<word id="word_2092">"</word>
+<word id="word_2092">``</word>
 <word id="word_2093">one</word>
 <word id="word_2094">of</word>
 <word id="word_2095">the</word>
@@ -2104,7 +2104,7 @@
 <word id="word_2101">public</word>
 <word id="word_2102">health</word>
 <word id="word_2103">.</word>
-<word id="word_2104">"</word>
+<word id="word_2104">''</word>
 <word id="word_2105">The</word>
 <word id="word_2106">latest</word>
 <word id="word_2107">effort</word>
@@ -2230,8 +2230,8 @@
 <word id="word_2227">know</word>
 <word id="word_2228">,</word>
 <word id="word_2229">it</word>
-<word id="word_2230">doesn</word>
-<word id="word_2231">'t</word>
+<word id="word_2230">does</word>
+<word id="word_2231">n't</word>
 <word id="word_2232">really</word>
 <word id="word_2233">have</word>
 <word id="word_2234">any</word>
@@ -2421,7 +2421,7 @@
 <word id="word_2418">and</word>
 <word id="word_2419">said</word>
 <word id="word_2420">,</word>
-<word id="word_2421">"</word>
+<word id="word_2421">``</word>
 <word id="word_2422">You</word>
 <word id="word_2423">know</word>
 <word id="word_2424">,</word>
@@ -2492,7 +2492,7 @@
 <word id="word_2489">to</word>
 <word id="word_2490">work</word>
 <word id="word_2491">.</word>
-<word id="word_2492">"</word>
+<word id="word_2492">''</word>
 <word id="word_2493">Would</word>
 <word id="word_2494">we</word>
 <word id="word_2495">do</word>
@@ -2565,7 +2565,7 @@
 <word id="word_2562">the</word>
 <word id="word_2563">recipients</word>
 <word id="word_2564">,</word>
-<word id="word_2565">"</word>
+<word id="word_2565">``</word>
 <word id="word_2566">Oh</word>
 <word id="word_2567">,</word>
 <word id="word_2568">did</word>
@@ -2577,7 +2577,7 @@
 <word id="word_2574">gave</word>
 <word id="word_2575">you</word>
 <word id="word_2576">?</word>
-<word id="word_2577">"</word>
+<word id="word_2577">''</word>
 <word id="word_2578">Which</word>
 <word id="word_2579">is</word>
 <word id="word_2580">like</word>
@@ -2587,7 +2587,7 @@
 <word id="word_2584">asking</word>
 <word id="word_2585">you</word>
 <word id="word_2586">,</word>
-<word id="word_2587">"</word>
+<word id="word_2587">``</word>
 <word id="word_2588">Oh</word>
 <word id="word_2589">,</word>
 <word id="word_2590">did</word>
@@ -2601,7 +2601,7 @@
 <word id="word_2598">for</word>
 <word id="word_2599">Christmas</word>
 <word id="word_2600">?</word>
-<word id="word_2601">"</word>
+<word id="word_2601">''</word>
 <word id="word_2602">So</word>
 <word id="word_2603">it</word>
 <word id="word_2604">'s</word>
@@ -2792,8 +2792,8 @@
 <word id="word_2789">designed</word>
 <word id="word_2790">and</word>
 <word id="word_2791">that</word>
-<word id="word_2792">don</word>
-<word id="word_2793">'t</word>
+<word id="word_2792">do</word>
+<word id="word_2793">n't</word>
 <word id="word_2794">necessarily</word>
 <word id="word_2795">make</word>
 <word id="word_2796">sense</word>
@@ -2884,8 +2884,8 @@
 <word id="word_2881">malaria</word>
 <word id="word_2882">.</word>
 <word id="word_2883">We</word>
-<word id="word_2884">didn</word>
-<word id="word_2885">'t</word>
+<word id="word_2884">did</word>
+<word id="word_2885">n't</word>
 <word id="word_2886">.</word>
 <word id="word_2887">We</word>
 <word id="word_2888">attacked</word>

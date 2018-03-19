@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE words SYSTEM "words.dtd">
 <words>
 <word id="word_1">This</word>
@@ -130,13 +130,13 @@
 <word id="word_127">watched</word>
 <word id="word_128">the</word>
 <word id="word_129">movie</word>
-<word id="word_130">"</word>
+<word id="word_130">``</word>
 <word id="word_131">The</word>
 <word id="word_132">Lives</word>
 <word id="word_133">of</word>
 <word id="word_134">Others</word>
 <word id="word_135">.</word>
-<word id="word_136">"</word>
+<word id="word_136">''</word>
 <word id="word_137">This</word>
 <word id="word_138">movie</word>
 <word id="word_139">made</word>
@@ -156,13 +156,13 @@
 <word id="word_153">words</word>
 <word id="word_154">such</word>
 <word id="word_155">as</word>
-<word id="word_156">"</word>
+<word id="word_156">``</word>
 <word id="word_157">surveillance</word>
-<word id="word_158">"</word>
+<word id="word_158">''</word>
 <word id="word_159">or</word>
-<word id="word_160">"</word>
+<word id="word_160">``</word>
 <word id="word_161">wiretapping</word>
-<word id="word_162">"</word>
+<word id="word_162">''</word>
 <word id="word_163">are</word>
 <word id="word_164">on</word>
 <word id="word_165">the</word>
@@ -1003,8 +1003,8 @@
 <word id="word_1000">who</word>
 <word id="word_1001">shadowed</word>
 <word id="word_1002">me</word>
-<word id="word_1003">didn</word>
-<word id="word_1004">'t</word>
+<word id="word_1003">did</word>
+<word id="word_1004">n't</word>
 <word id="word_1005">know</word>
 <word id="word_1006">who</word>
 <word id="word_1007">I</word>
@@ -1402,7 +1402,7 @@
 <word id="word_1399">Stasi</word>
 <word id="word_1400">officer</word>
 <word id="word_1401">,</word>
-<word id="word_1402">"</word>
+<word id="word_1402">``</word>
 <word id="word_1403">If</word>
 <word id="word_1404">you</word>
 <word id="word_1405">had</word>
@@ -1419,15 +1419,15 @@
 <word id="word_1416">recognized</word>
 <word id="word_1417">him</word>
 <word id="word_1418">.</word>
-<word id="word_1419">"</word>
+<word id="word_1419">''</word>
 <word id="word_1420">His</word>
 <word id="word_1421">answer</word>
 <word id="word_1422">was</word>
 <word id="word_1423">,</word>
-<word id="word_1424">"</word>
+<word id="word_1424">``</word>
 <word id="word_1425">We</word>
-<word id="word_1426">didn</word>
-<word id="word_1427">'t</word>
+<word id="word_1426">did</word>
+<word id="word_1427">n't</word>
 <word id="word_1428">send</word>
 <word id="word_1429">anyone</word>
 <word id="word_1430">.</word>
@@ -1439,7 +1439,7 @@
 <word id="word_1436">around</word>
 <word id="word_1437">you</word>
 <word id="word_1438">.</word>
-<word id="word_1439">"</word>
+<word id="word_1439">''</word>
 <word id="word_1440">And</word>
 <word id="word_1441">in</word>
 <word id="word_1442">fact</word>
@@ -1504,9 +1504,9 @@
 <word id="word_1501">of</word>
 <word id="word_1502">the</word>
 <word id="word_1503">novel</word>
-<word id="word_1504">"</word>
+<word id="word_1504">``</word>
 <word id="word_1505">1984</word>
-<word id="word_1506">"</word>
+<word id="word_1506">''</word>
 <word id="word_1507">by</word>
 <word id="word_1508">George</word>
 <word id="word_1509">Orwell</word>
@@ -1568,8 +1568,8 @@
 <word id="word_1565">what</word>
 <word id="word_1566">.</word>
 <word id="word_1567">He</word>
-<word id="word_1568">didn</word>
-<word id="word_1569">'t</word>
+<word id="word_1568">did</word>
+<word id="word_1569">n't</word>
 <word id="word_1570">want</word>
 <word id="word_1571">to</word>
 <word id="word_1572">wait</word>
@@ -1687,10 +1687,10 @@
 <word id="word_1684">it</word>
 <word id="word_1685">means</word>
 <word id="word_1686">originally</word>
-<word id="word_1687">"</word>
+<word id="word_1687">``</word>
 <word id="word_1688">biodegradation</word>
 <word id="word_1689">.</word>
-<word id="word_1690">"</word>
+<word id="word_1690">''</word>
 <word id="word_1691">But</word>
 <word id="word_1692">actually</word>
 <word id="word_1693">,</word>
@@ -1746,8 +1746,8 @@
 <word id="word_1743">.</word>
 <word id="word_1744">The</word>
 <word id="word_1745">Stasi</word>
-<word id="word_1746">didn</word>
-<word id="word_1747">'t</word>
+<word id="word_1746">did</word>
+<word id="word_1747">n't</word>
 <word id="word_1748">try</word>
 <word id="word_1749">to</word>
 <word id="word_1750">arrest</word>
@@ -1822,8 +1822,8 @@
 <word id="word_1819">the</word>
 <word id="word_1820">interrogation</word>
 <word id="word_1821">officer</word>
-<word id="word_1822">didn</word>
-<word id="word_1823">'t</word>
+<word id="word_1822">did</word>
+<word id="word_1823">n't</word>
 <word id="word_1824">torture</word>
 <word id="word_1825">the</word>
 <word id="word_1826">prisoner</word>
@@ -2035,8 +2035,8 @@
 <word id="word_2032">,</word>
 <word id="word_2033">the</word>
 <word id="word_2034">regime</word>
-<word id="word_2035">couldn</word>
-<word id="word_2036">'t</word>
+<word id="word_2035">could</word>
+<word id="word_2036">n't</word>
 <word id="word_2037">analyze</word>
 <word id="word_2038">its</word>
 <word id="word_2039">real</word>
@@ -2045,8 +2045,8 @@
 <word id="word_2042">and</word>
 <word id="word_2043">therefore</word>
 <word id="word_2044">it</word>
-<word id="word_2045">couldn</word>
-<word id="word_2046">'t</word>
+<word id="word_2045">could</word>
+<word id="word_2046">n't</word>
 <word id="word_2047">solve</word>
 <word id="word_2048">them</word>
 <word id="word_2049">.</word>
@@ -2170,12 +2170,12 @@
 <word id="word_2167">last</word>
 <word id="word_2168">week</word>
 <word id="word_2169">.</word>
-<word id="word_2170">"</word>
+<word id="word_2170">``</word>
 <word id="word_2171">Mein</word>
 <word id="word_2172">Nachbar</word>
 <word id="word_2173">NSA</word>
 <word id="word_2174">.</word>
-<word id="word_2175">"</word>
+<word id="word_2175">''</word>
 <word id="word_2176">My</word>
 <word id="word_2177">neighbor</word>
 <word id="word_2178">,</word>
@@ -2212,8 +2212,8 @@
 <word id="word_2209">stories</word>
 <word id="word_2210">or</word>
 <word id="word_2211">there</word>
-<word id="word_2212">isn</word>
-<word id="word_2213">'t</word>
+<word id="word_2212">is</word>
+<word id="word_2213">n't</word>
 <word id="word_2214">?</word>
 <word id="word_2215">What</word>
 <word id="word_2216">'s</word>
@@ -2443,8 +2443,8 @@
 <word id="word_2440">that</word>
 <word id="word_2441">any</word>
 <word id="word_2442">institution</word>
-<word id="word_2443">doesn</word>
-<word id="word_2444">'t</word>
+<word id="word_2443">does</word>
+<word id="word_2444">n't</word>
 <word id="word_2445">respect</word>
 <word id="word_2446">the</word>
 <word id="word_2447">rules</word>
@@ -2546,8 +2546,8 @@
 <word id="word_2543">BG</word>
 <word id="word_2544">:</word>
 <word id="word_2545">That</word>
-<word id="word_2546">doesn</word>
-<word id="word_2547">'t</word>
+<word id="word_2546">does</word>
+<word id="word_2547">n't</word>
 <word id="word_2548">surprise</word>
 <word id="word_2549">me</word>
 <word id="word_2550">because</word>
@@ -2623,8 +2623,8 @@
 <word id="word_2620">democracy</word>
 <word id="word_2621">.</word>
 <word id="word_2622">They</word>
-<word id="word_2623">aren</word>
-<word id="word_2624">'t</word>
+<word id="word_2623">are</word>
+<word id="word_2624">n't</word>
 <word id="word_2625">afraid</word>
 <word id="word_2626">that</word>
 <word id="word_2627">they</word>
@@ -2828,8 +2828,8 @@
 <word id="word_2825">countries</word>
 <word id="word_2826">and</word>
 <word id="word_2827">they</word>
-<word id="word_2828">didn</word>
-<word id="word_2829">'t</word>
+<word id="word_2828">did</word>
+<word id="word_2829">n't</word>
 <word id="word_2830">get</word>
 <word id="word_2831">it</word>
 <word id="word_2832">,</word>

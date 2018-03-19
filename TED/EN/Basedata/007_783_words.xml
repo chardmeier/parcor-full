@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE words SYSTEM "words.dtd">
 <words>
 <word id="word_1">If</word>
@@ -443,7 +443,7 @@
 <word id="word_440">might</word>
 <word id="word_441">think</word>
 <word id="word_442">,</word>
-<word id="word_443">"</word>
+<word id="word_443">``</word>
 <word id="word_444">Well</word>
 <word id="word_445">,</word>
 <word id="word_446">what</word>
@@ -456,7 +456,7 @@
 <word id="word_453">of</word>
 <word id="word_454">cycling</word>
 <word id="word_455">?</word>
-<word id="word_456">"</word>
+<word id="word_456">''</word>
 <word id="word_457">So</word>
 <word id="word_458">I</word>
 <word id="word_459">can</word>
@@ -903,8 +903,8 @@
 <word id="word_900">application</word>
 <word id="word_901">--</word>
 <word id="word_902">I</word>
-<word id="word_903">don</word>
-<word id="word_904">'t</word>
+<word id="word_903">do</word>
+<word id="word_904">n't</word>
 <word id="word_905">want</word>
 <word id="word_906">to</word>
 <word id="word_907">call</word>
