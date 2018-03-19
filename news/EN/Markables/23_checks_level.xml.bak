@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/checks">
- <markable check="split-discontinuous" id="markable_14" mmax_level="checks" span="word_258..word_262"/>
-</markables>
