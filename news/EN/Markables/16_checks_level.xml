@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE markables SYSTEM "markables.dtd">
 <markables xmlns="www.eml.org/NameSpaces/checks">
-<markable mmax_level="checks" id="markable_0" span="word_6" check="NE:PERSON" />
-<markable mmax_level="checks" id="markable_1" span="word_12" check="NE:ORGANIZATION" />
-<markable mmax_level="checks" id="markable_2" span="word_15" check="NE:GPE" />
+<markable mmax_level="checks" id="markable_0" span="word_6" check="NE:ORG" />
+<markable mmax_level="checks" id="markable_1" span="word_12" check="NE:ORG" />
+<markable mmax_level="checks" id="markable_2" span="word_15" check="NE:NORP" />
 <markable mmax_level="checks" id="markable_3" span="word_39" check="NE:PERSON" />
-<markable mmax_level="checks" id="markable_4" span="word_59" check="NE:ORGANIZATION" />
-<markable mmax_level="checks" id="markable_5" span="word_110" check="NE:ORGANIZATION" />
+<markable mmax_level="checks" id="markable_4" span="word_59" check="NE:ORG" />
+<markable mmax_level="checks" id="markable_5" span="word_110" check="NE:ORG" />
 <markable mmax_level="checks" id="markable_6" span="word_114..word_115" check="NE:PERSON" />
-<markable mmax_level="checks" id="markable_7" span="word_124" check="NE:GPE" />
+<markable mmax_level="checks" id="markable_7" span="word_124" check="NE:NORP" />
 <markable mmax_level="checks" id="markable_8" span="word_176" check="NE:PERSON" />
 <markable mmax_level="checks" id="markable_9" span="word_254" check="NE:PERSON" />
-<markable mmax_level="checks" id="markable_10" span="word_283" check="NE:ORGANIZATION" />
+<markable mmax_level="checks" id="markable_10" span="word_283" check="NE:ORG" />
 <markable mmax_level="checks" id="markable_11" span="word_299" check="NE:PERSON" />
 <markable mmax_level="checks" id="markable_12" span="word_416..word_417" check="NE:PERSON" />
-<markable mmax_level="checks" id="markable_13" span="word_568" check="NE:GPE" />
+<markable mmax_level="checks" id="markable_13" span="word_568" check="NE:NORP" />
 <markable mmax_level="checks" id="markable_14" span="word_582..word_583" check="NE:PERSON" />
 </markables>
