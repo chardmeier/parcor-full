@@ -3,6 +3,7 @@
 import bs4
 import os
 import xml
+import re
 import spacy
 import sys
 
@@ -13,7 +14,8 @@ import tokalign
 def get_penntok_from_txt(infile):
     nlp = spacy.load('de')
     with open(infile, 'r') as f:
-        sentences = [[t.text for t in nlp(line.rstrip('\n'))] for line in f]
+        # The regex substitution is because some files have double spaces.
+        sentences = [[t.text for t in nlp(re.sub(r'\s+', ' ', line.rstrip('\n')))] for line in f]
 
     return sentences
 
