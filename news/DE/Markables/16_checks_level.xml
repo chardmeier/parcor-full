@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/checks">
+<markable mmax_level="checks" id="markable_0" span="word_3" check="NE:PER" />
+<markable mmax_level="checks" id="markable_1" span="word_8" check="NE:ORG" />
+<markable mmax_level="checks" id="markable_2" span="word_10" check="NE:ORG" />
+<markable mmax_level="checks" id="markable_3" span="word_33" check="NE:ORG" />
+<markable mmax_level="checks" id="markable_4" span="word_46" check="NE:ORG" />
+<markable mmax_level="checks" id="markable_5" span="word_85" check="NE:ORG" />
+<markable mmax_level="checks" id="markable_6" span="word_86..word_87" check="NE:PER" />
+<markable mmax_level="checks" id="markable_7" span="word_95..word_96" check="NE:ORG" />
+<markable mmax_level="checks" id="markable_8" span="word_136" check="NE:PER" />
+<markable mmax_level="checks" id="markable_9" span="word_159" check="NE:PER" />
+<markable mmax_level="checks" id="markable_10" span="word_199" check="NE:LOC" />
+<markable mmax_level="checks" id="markable_11" span="word_202" check="NE:PER" />
+<markable mmax_level="checks" id="markable_12" span="word_217" check="NE:ORG" />
+<markable mmax_level="checks" id="markable_13" span="word_238" check="NE:PER" />
+<markable mmax_level="checks" id="markable_14" span="word_344" check="NE:MISC" />
+<markable mmax_level="checks" id="markable_15" span="word_346..word_347" check="NE:PER" />
+<markable mmax_level="checks" id="markable_16" span="word_355" check="NE:LOC" />
+<markable mmax_level="checks" id="markable_17" span="word_378" check="NE:LOC" />
+<markable mmax_level="checks" id="markable_18" span="word_387" check="NE:LOC" />
+<markable mmax_level="checks" id="markable_19" span="word_393" check="NE:LOC" />
+<markable mmax_level="checks" id="markable_20" span="word_434" check="NE:LOC" />
+<markable mmax_level="checks" id="markable_21" span="word_462..word_463" check="NE:ORG" />
+<markable mmax_level="checks" id="markable_22" span="word_478..word_479" check="NE:PER" />
+</markables>

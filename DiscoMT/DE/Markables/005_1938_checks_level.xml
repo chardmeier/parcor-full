@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/checks">
+<markable mmax_level="checks" id="markable_0" span="word_122" check="NE:PER" />
+<markable mmax_level="checks" id="markable_1" span="word_140" check="NE:MISC" />
+<markable mmax_level="checks" id="markable_2" span="word_142" check="NE:PER" />
+<markable mmax_level="checks" id="markable_3" span="word_149" check="NE:LOC" />
+<markable mmax_level="checks" id="markable_4" span="word_387" check="NE:MISC" />
+<markable mmax_level="checks" id="markable_5" span="word_400" check="NE:LOC" />
+<markable mmax_level="checks" id="markable_6" span="word_467" check="NE:PER" />
+<markable mmax_level="checks" id="markable_7" span="word_526" check="NE:MISC" />
+<markable mmax_level="checks" id="markable_8" span="word_554" check="NE:MISC" />
+<markable mmax_level="checks" id="markable_9" span="word_608" check="NE:MISC" />
+<markable mmax_level="checks" id="markable_10" span="word_748" check="NE:MISC" />
+<markable mmax_level="checks" id="markable_11" span="word_786" check="NE:ORG" />
+<markable mmax_level="checks" id="markable_12" span="word_810" check="NE:MISC" />
+<markable mmax_level="checks" id="markable_13" span="word_855" check="NE:MISC" />
+<markable mmax_level="checks" id="markable_14" span="word_869" check="NE:MISC" />
+<markable mmax_level="checks" id="markable_15" span="word_883" check="NE:MISC" />
+<markable mmax_level="checks" id="markable_16" span="word_890" check="NE:MISC" />
+<markable mmax_level="checks" id="markable_17" span="word_906" check="NE:LOC" />
+<markable mmax_level="checks" id="markable_18" span="word_1048" check="NE:MISC" />
+<markable mmax_level="checks" id="markable_19" span="word_1110" check="NE:MISC" />
+<markable mmax_level="checks" id="markable_20" span="word_1143" check="NE:MISC" />
+<markable mmax_level="checks" id="markable_21" span="word_1234" check="NE:ORG" />
+<markable mmax_level="checks" id="markable_22" span="word_1341..word_1342" check="NE:PER" />
+<markable mmax_level="checks" id="markable_23" span="word_1414..word_1415" check="NE:MISC" />
+<markable mmax_level="checks" id="markable_24" span="word_1449" check="NE:MISC" />
+<markable mmax_level="checks" id="markable_25" span="word_1455..word_1456" check="NE:LOC" />
+<markable mmax_level="checks" id="markable_26" span="word_1583" check="NE:PER" />
+<markable mmax_level="checks" id="markable_27" span="word_1672" check="NE:MISC" />
+<markable mmax_level="checks" id="markable_28" span="word_1775" check="NE:MISC" />
+<markable mmax_level="checks" id="markable_29" span="word_1780" check="NE:PER" />
+<markable mmax_level="checks" id="markable_30" span="word_1914..word_1915" check="NE:MISC" />
+<markable mmax_level="checks" id="markable_31" span="word_1955..word_1956" check="NE:MISC" />
+<markable mmax_level="checks" id="markable_32" span="word_1958..word_1959" check="NE:PER" />
+<markable mmax_level="checks" id="markable_33" span="word_1972" check="NE:PER" />
+<markable mmax_level="checks" id="markable_34" span="word_2177" check="NE:PER" />
+<markable mmax_level="checks" id="markable_35" span="word_2185" check="NE:MISC" />
+</markables>

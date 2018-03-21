@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/checks">
+<markable mmax_level="checks" id="markable_0" span="word_1" check="NE:PER" />
+<markable mmax_level="checks" id="markable_1" span="word_3" check="NE:PER" />
+<markable mmax_level="checks" id="markable_2" span="word_29" check="NE:LOC" />
+<markable mmax_level="checks" id="markable_3" span="word_40" check="NE:LOC" />
+<markable mmax_level="checks" id="markable_4" span="word_88" check="NE:MISC" />
+<markable mmax_level="checks" id="markable_5" span="word_95" check="NE:PER" />
+<markable mmax_level="checks" id="markable_6" span="word_109" check="NE:LOC" />
+<markable mmax_level="checks" id="markable_7" span="word_141" check="NE:MISC" />
+<markable mmax_level="checks" id="markable_8" span="word_162..word_163" check="NE:MISC" />
+<markable mmax_level="checks" id="markable_9" span="word_165..word_166" check="NE:PER" />
+<markable mmax_level="checks" id="markable_10" span="word_171" check="NE:LOC" />
+<markable mmax_level="checks" id="markable_11" span="word_205" check="NE:PER" />
+<markable mmax_level="checks" id="markable_12" span="word_228..word_230" check="NE:PER" />
+<markable mmax_level="checks" id="markable_13" span="word_262" check="NE:PER" />
+<markable mmax_level="checks" id="markable_14" span="word_264" check="NE:PER" />
+<markable mmax_level="checks" id="markable_15" span="word_303..word_304" check="NE:PER" />
+<markable mmax_level="checks" id="markable_16" span="word_482" check="NE:LOC" />
+<markable mmax_level="checks" id="markable_17" span="word_508" check="NE:LOC" />
+<markable mmax_level="checks" id="markable_18" span="word_620" check="NE:MISC" />
+<markable mmax_level="checks" id="markable_19" span="word_622..word_623" check="NE:PER" />
+<markable mmax_level="checks" id="markable_20" span="word_625" check="NE:PER" />
+<markable mmax_level="checks" id="markable_21" span="word_627" check="NE:LOC" />
+<markable mmax_level="checks" id="markable_22" span="word_629" check="NE:MISC" />
+<markable mmax_level="checks" id="markable_23" span="word_631" check="NE:PER" />
+<markable mmax_level="checks" id="markable_24" span="word_645..word_646" check="NE:MISC" />
+</markables>
