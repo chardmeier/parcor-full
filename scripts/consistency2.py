@@ -1,8 +1,8 @@
 import bs4
 import collections
 import glob
-import nltk
 import os
+import spacy
 
 
 def words_file(top_dir, docid):
@@ -43,28 +43,25 @@ def report(checks, span, problem):
         checks[span] = problem
 
 
-def named_entities_without_markable(checks, levels):
+def named_entities_without_markable(nlp, checks, levels):
     markable_positions = set()
     for mrk in levels['coref'].find_all('markable'):
         for subspan in mrk['span'].split(','):
             markable_positions.update(pos for pos in range(*parse_span(subspan)))
 
-    words = [w.string for w in levels['basedata'].find_all('word')]
-    tagged = nltk.tag.pos_tag(words)
-    pos = 0
-    for ch in nltk.chunk.ne_chunk(tagged):
-        if type(ch) == nltk.Tree:
-            end = pos + len(list(ch))
-            found = False
-            for i in range(pos, end):
-                if i in markable_positions:
-                    found = True
-                    break
-            if not found:
-                report(checks, make_span(pos, end), 'NE:' + ch.label())
-            pos = end
-        else:
-            pos += 1
+    words = [str(w.string) for w in levels['basedata'].find_all('word')]
+    doc = nlp.get_pipe('ner')(spacy.tokens.Doc(nlp.vocab, words=words))
+    for ent in doc.ents:
+        if ent.label_ in ['DATE', 'TIME', 'PERCENT', 'MONEY', 'QUANTITY', 'ORDINAL', 'CARDINAL']:
+            continue
+
+        found = False
+        for i in range(ent.start, ent.end):
+            if i in markable_positions:
+                found = True
+                break
+        if not found:
+            report(checks, make_span(ent.start, ent.end), 'NE:' + ent.label_)
 
 
 def markables_across_sentence_boundaries(checks, levels):
@@ -157,7 +154,8 @@ def create_checks_layer(mmax_dir, mmax_id, checks):
 def main():
     data_root = '/Users/christianhardmeier/Documents/project/2017-parcor-full/parcor-full'
 
-    tests = [named_entities_without_markable,
+    nlp = spacy.load('en_core_web_sm')
+    tests = [lambda c, l: named_entities_without_markable(nlp, c, l),
              markables_across_sentence_boundaries,
              markables_with_identical_spans,
              overlapping_markables_in_chain,
