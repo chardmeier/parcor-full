@@ -1,0 +1,3 @@
+Original texts were only available in tokenised form, so these files were
+detokenised with the Moses detokeniser followed by
+	sed 's/\. "$/."/'
