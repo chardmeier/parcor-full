@@ -15,7 +15,7 @@ def get_penntok_from_txt(infile):
     nlp = spacy.load('de')
     with open(infile, 'r') as f:
         # The regex substitution is because some files have double spaces.
-        sentences = [[t.text for t in nlp(re.sub(r'\s+', ' ', line.rstrip('\n')))] for line in f]
+        sentences = [[t.text for t in nlp(re.sub(r'\s+', ' ', line.strip()))] for line in f]
 
     return sentences
 
