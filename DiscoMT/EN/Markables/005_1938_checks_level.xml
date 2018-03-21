@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/checks">
+<markable mmax_level="checks" id="markable_0" span="word_125..word_126" check="NE:PERSON" />
+<markable mmax_level="checks" id="markable_1" span="word_131" check="NE:ORGANIZATION" />
+<markable mmax_level="checks" id="markable_2" span="word_134..word_135" check="NE:PERSON" />
+<markable mmax_level="checks" id="markable_3" span="word_140..word_142" check="NE:ORGANIZATION" />
+<markable mmax_level="checks" id="markable_4" span="word_144" check="NE:PERSON" />
+<markable mmax_level="checks" id="markable_5" span="word_154" check="NE:ORGANIZATION" />
+<markable mmax_level="checks" id="markable_6" span="word_917" check="NE:GPE" />
+<markable mmax_level="checks" id="markable_7" span="word_1387" check="NE:ORGANIZATION" />
+<markable mmax_level="checks" id="markable_8" span="word_1515..word_1516" check="NE:PERSON" />
+<markable mmax_level="checks" id="markable_9" span="word_1892" check="NE:PERSON" />
+<markable mmax_level="checks" id="markable_10" span="word_1967" check="NE:GPE" />
+<markable mmax_level="checks" id="markable_11" span="word_758..word_811" check="cross-sentence" />
+</markables>

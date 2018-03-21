@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/checks">
+<markable mmax_level="checks" id="markable_0" span="word_3..word_4" check="NE:PERSON" />
+<markable mmax_level="checks" id="markable_1" span="word_148..word_149" check="NE:FACILITY" />
+<markable mmax_level="checks" id="markable_2" span="word_152" check="NE:GPE" />
+<markable mmax_level="checks" id="markable_3" span="word_487" check="NE:PERSON" />
+<markable mmax_level="checks" id="markable_4" span="word_489" check="NE:PERSON" />
+<markable mmax_level="checks" id="markable_5" span="word_683" check="NE:ORGANIZATION" />
+<markable mmax_level="checks" id="markable_6" span="word_698" check="NE:GPE" />
+<markable mmax_level="checks" id="markable_7" span="word_700" check="NE:GPE" />
+<markable mmax_level="checks" id="markable_8" span="word_1020" check="NE:GPE" />
+<markable mmax_level="checks" id="markable_9" span="word_1066" check="NE:PERSON" />
+<markable mmax_level="checks" id="markable_10" span="word_1116" check="NE:GPE" />
+<markable mmax_level="checks" id="markable_11" span="word_1407" check="NE:PERSON" />
+<markable mmax_level="checks" id="markable_12" span="word_1523..word_1525" check="NE:ORGANIZATION" />
+<markable mmax_level="checks" id="markable_13" span="word_1575..word_1576" check="NE:GPE" />
+<markable mmax_level="checks" id="markable_14" span="word_1953" check="NE:PERSON" />
+<markable mmax_level="checks" id="markable_15" span="word_2351" check="NE:GPE" />
+<markable mmax_level="checks" id="markable_16" span="word_2353" check="NE:PERSON" />
+<markable mmax_level="checks" id="markable_17" span="word_2656" check="NE:PERSON" />
+<markable mmax_level="checks" id="markable_18" span="word_2693" check="NE:GPE" />
+<markable mmax_level="checks" id="markable_19" span="word_2696" check="NE:PERSON" />
+<markable mmax_level="checks" id="markable_20" span="word_2715" check="NE:PERSON" />
+<markable mmax_level="checks" id="markable_21" span="word_2729" check="NE:GPE" />
+<markable mmax_level="checks" id="markable_22" span="word_2749" check="NE:GPE" />
+<markable mmax_level="checks" id="markable_23" span="word_2783" check="NE:PERSON" />
+<markable mmax_level="checks" id="markable_24" span="word_2879" check="NE:PERSON" />
+<markable mmax_level="checks" id="markable_25" span="word_3093" check="NE:ORGANIZATION" />
+<markable mmax_level="checks" id="markable_26" span="word_3105" check="NE:GPE" />
+<markable mmax_level="checks" id="markable_27" span="word_3127" check="NE:PERSON" />
+<markable mmax_level="checks" id="markable_28" span="word_3211" check="NE:PERSON" />
+<markable mmax_level="checks" id="markable_29" span="word_3237" check="NE:GPE" />
+<markable mmax_level="checks" id="markable_30" span="word_3258" check="NE:PERSON" />
+<markable mmax_level="checks" id="markable_31" span="word_3370..word_3371" check="NE:FACILITY" />
+<markable mmax_level="checks" id="markable_32" span="word_3374" check="NE:ORGANIZATION" />
+<markable mmax_level="checks" id="markable_33" span="word_3384..word_3385" check="NE:GPE" />
+<markable mmax_level="checks" id="markable_34" span="word_3814..word_3815" check="NE:FACILITY" />
+<markable mmax_level="checks" id="markable_35" span="word_3818" check="NE:ORGANIZATION" />
+<markable mmax_level="checks" id="markable_36" span="word_3845..word_3848" check="NE:ORGANIZATION" />
+<markable mmax_level="checks" id="markable_37" span="word_3862..word_3863" check="NE:PERSON" />
+<markable mmax_level="checks" id="markable_38" span="word_3868..word_3869" check="NE:PERSON" />
+<markable mmax_level="checks" id="markable_39" span="word_4019..word_4021" check="NE:ORGANIZATION" />
+<markable mmax_level="checks" id="markable_40" span="word_4034..word_4036" check="NE:ORGANIZATION" />
+<markable mmax_level="checks" id="markable_41" span="word_4040..word_4041" check="NE:ORGANIZATION" />
+<markable mmax_level="checks" id="markable_42" span="word_2137..word_2138" check="duplicate-markable" />
+<markable mmax_level="checks" id="markable_43" span="word_1950..word_1951" check="duplicate-markable" />
+</markables>

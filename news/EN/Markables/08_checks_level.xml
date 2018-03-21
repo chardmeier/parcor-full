@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/checks">
+<markable mmax_level="checks" id="markable_0" span="word_1" check="NE:PERSON" />
+<markable mmax_level="checks" id="markable_1" span="word_2" check="NE:ORGANIZATION" />
+<markable mmax_level="checks" id="markable_2" span="word_4" check="NE:GPE" />
+<markable mmax_level="checks" id="markable_3" span="word_13" check="NE:ORGANIZATION" />
+<markable mmax_level="checks" id="markable_4" span="word_32..word_33" check="NE:PERSON" />
+<markable mmax_level="checks" id="markable_5" span="word_35" check="NE:GPE" />
+<markable mmax_level="checks" id="markable_6" span="word_41" check="NE:GPE" />
+<markable mmax_level="checks" id="markable_7" span="word_43..word_44" check="NE:PERSON" />
+<markable mmax_level="checks" id="markable_8" span="word_46..word_47" check="NE:ORGANIZATION" />
+<markable mmax_level="checks" id="markable_9" span="word_111..word_112" check="NE:ORGANIZATION" />
+<markable mmax_level="checks" id="markable_10" span="word_115" check="NE:GPE" />
+<markable mmax_level="checks" id="markable_11" span="word_117..word_118" check="NE:PERSON" />
+<markable mmax_level="checks" id="markable_12" span="word_138..word_139" check="NE:PERSON" />
+<markable mmax_level="checks" id="markable_13" span="word_141" check="NE:GPE" />
+<markable mmax_level="checks" id="markable_14" span="word_146" check="NE:GPE" />
+<markable mmax_level="checks" id="markable_15" span="word_156" check="NE:GPE" />
+<markable mmax_level="checks" id="markable_16" span="word_158" check="NE:PERSON" />
+<markable mmax_level="checks" id="markable_17" span="word_177" check="NE:ORGANIZATION" />
+<markable mmax_level="checks" id="markable_18" span="word_180..word_181" check="NE:ORGANIZATION" />
+<markable mmax_level="checks" id="markable_19" span="word_190..word_192" check="NE:ORGANIZATION" />
+<markable mmax_level="checks" id="markable_20" span="word_194..word_195" check="NE:GPE" />
+<markable mmax_level="checks" id="markable_21" span="word_213" check="NE:GPE" />
+<markable mmax_level="checks" id="markable_22" span="word_215" check="NE:PERSON" />
+<markable mmax_level="checks" id="markable_23" span="word_219" check="NE:GPE" />
+<markable mmax_level="checks" id="markable_24" span="word_222" check="NE:PERSON" />
+<markable mmax_level="checks" id="markable_25" span="word_224..word_225" check="NE:PERSON" />
+<markable mmax_level="checks" id="markable_26" span="word_243..word_244" check="NE:ORGANIZATION" />
+<markable mmax_level="checks" id="markable_27" span="word_248" check="NE:ORGANIZATION" />
+<markable mmax_level="checks" id="markable_28" span="word_289" check="NE:ORGANIZATION" />
+<markable mmax_level="checks" id="markable_29" span="word_349..word_350" check="NE:ORGANIZATION" />
+</markables>
