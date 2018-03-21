@@ -27,6 +27,11 @@ def parse_span(span):
         return idx[0], idx[1] + 1
 
 
+def sentence_sort_key(markable):
+    start, end = parse_span(markable['span'])
+    return start
+
+
 def get_sentences_from_mmax(top_dir, docid):
     with open(words_file(top_dir, docid), 'r') as f:
         w_soup = bs4.BeautifulSoup(f, 'xml')
@@ -34,7 +39,7 @@ def get_sentences_from_mmax(top_dir, docid):
         s_soup = bs4.BeautifulSoup(f, 'xml')
 
     words = [(w['id'], w.string) for w in w_soup.find_all('word')]
-    spans = [parse_span(m['span']) for m in sorted(s_soup.find_all({'markable'}), key=lambda m: int(m['orderid']))]
+    spans = [parse_span(m['span']) for m in sorted(s_soup.find_all({'markable'}), key=sentence_sort_key)]
 
     sentences = [words[slice(*sl)] for sl in spans]
 
