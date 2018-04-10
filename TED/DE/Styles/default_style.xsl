@@ -1,8 +1,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
 xmlns:mmax="org.eml.MMAX2.discourse.MMAX2DiscourseLoader"
-xmlns:coref="www.eml.org/NameSpaces/coref"
 xmlns:sentence="www.eml.org/NameSpaces/sentence"
-xmlns:paragraph="www.eml.org/NameSpaces/paragraph">
+xmlns:section="www.eml.org/NameSpaces/section">
 <xsl:output method="text" indent="no" omit-xml-declaration="yes"/>
 <xsl:strip-space elements="*"/>
 
@@ -25,6 +24,14 @@ xmlns:paragraph="www.eml.org/NameSpaces/paragraph">
 </xsl:template>
 
 <xsl:template match="sentence:markable" mode="closing">
+<xsl:text>
+</xsl:text>
+</xsl:template>
+
+<xsl:template match="section:markable" mode="opening">
+</xsl:template>
+
+<xsl:template match="section:markable" mode="closing">
 <xsl:text>
 </xsl:text>
 </xsl:template>
