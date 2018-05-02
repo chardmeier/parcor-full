@@ -15,6 +15,8 @@ def compare_mmax(dir1, dir2, mmax_dir, mmax_id):
     with open(mmax.words_file(mmax_dir2, mmax_id), 'r') as f:
         words2 = [w.string for w in bs4.BeautifulSoup(f, 'xml').find_all('word')]
 
+    to_check = []
+
     for level in ['sentence', 'coref']:
         fname1 = '%s/Markables/%s_%s_level.xml' % (mmax_dir1, mmax_id, level)
         fname2 = '%s/Markables/%s_%s_level.xml' % (mmax_dir2, mmax_id, level)
@@ -36,8 +38,6 @@ def compare_mmax(dir1, dir2, mmax_dir, mmax_id):
             continue
 
         for mrk1, mrk2 in zip(markables1, markables2):
-            txt1 = ''
-            txt2 = ''
             spans1 = mrk1['span'].split(',')
             spans2 = mrk2['span'].split(',')
             if len(spans1) != len(spans2):
@@ -48,15 +48,30 @@ def compare_mmax(dir1, dir2, mmax_dir, mmax_id):
             for sp1, sp2 in zip(spans1, spans2):
                 s1, e1 = mmax.parse_span(sp1)
                 s2, e2 = mmax.parse_span(sp2)
-                txt1 += ''.join(words1[s1:e1])
-                txt2 += ''.join(words2[s2:e2])
+                txt1 = ''.join(words1[s1:e1])
+                txt2 = ''.join(words2[s2:e2])
 
-            # Quotes are changed by the tokeniser
-            txt1 = txt1.replace("``", '"').replace("''", '"')
-            txt2 = txt2.replace("``", '"').replace("''", '"')
+                # Quotes are changed by the tokeniser
+                txt1 = txt1.replace("``", '"').replace("''", '"')
+                txt2 = txt2.replace("``", '"').replace("''", '"')
 
-            if txt1 != txt2:
-                print(mmax_dir, mmax_id, txt1, txt2, file=sys.stderr)
+                if txt1 != txt2:
+                    to_check.append((level, sp2))
+
+    if to_check:
+        print(mmax_dir, mmax_id, file=sys.stderr)
+        create_checks_level(mmax_dir2, mmax_id, to_check)
+
+
+def create_checks_level(mmax_dir, mmax_id, to_check):
+    fname = os.path.join(mmax_dir, 'Markables/%s_checks_level.xml' % mmax_id)
+    with open(fname, 'w') as f:
+        print('<?xml version="1.0" encoding="utf-8"?>', file=f)
+        print('<!DOCTYPE markables SYSTEM "markables.dtd">', file=f)
+        print('<markables xmlns="www.eml.org/NameSpaces/checks">', file=f)
+        for i, (level, span) in enumerate(to_check):
+            print('<markable mmax_level="checks" id="markable_%d" span="%s" check="%s" />' % (i, span, level), file=f)
+        print('</markables>', file=f)
 
 
 def main():
@@ -73,7 +88,6 @@ def main():
     os.fchdir(startdir)
 
     for fname in sorted(mmax_files):
-        print(fname, file=sys.stderr)
         mmax_dir, mmax_file = os.path.split(fname)
         mmax_id = os.path.splitext(mmax_file)[0]
         compare_mmax(dir1, dir2, mmax_dir, mmax_id)
