@@ -22,7 +22,7 @@
   <markable id="markable_1986" span="word_824" type_of_pronoun="personal" agreement="they (sg.)" split="simple antecedent" coref_class="set_51" mmax_level="coref" position="it (subject)" type="anaphoric" antetype="entity" mention="pronoun"/>
   <markable id="markable_1503" span="word_634" type_of_pronoun="relative" agreement="they (sg.)" split="simple antecedent" coref_class="set_16" mmax_level="coref" position="it (subject)" type="anaphoric" antetype="entity" mention="pronoun"/>
   <markable id="markable_1873" span="word_793..word_795" coref_class="set_41" mmax_level="coref" nptype="antecedent" mention="np"/>
-  <markable id="markable_1901" span="word_801" audience="deictic (sie, ihnen, ihr/e/er/es/em/en, du, dich, dir, dein/e/er/es/em/en)" coref_class="empty" mmax_level="coref" type="addressee reference" mention="pronoun"/>
+  <markable id="markable_1901" span="word_801" audience="deictic you" coref_class="empty" mmax_level="coref" type="addressee reference" mention="pronoun"/>
   <markable id="markable_1903" span="word_805..word_809" coref_class="set_38" mmax_level="coref" nptype="antecedent" mention="np"/>
   <markable id="markable_350" span="word_144" type_of_pronoun="personal" agreement="they (pl.)" split="simple antecedent" coref_class="set_4" mmax_level="coref" position="it (subject)" type="anaphoric" antetype="entity" mention="pronoun"/>
   <markable id="markable_1362" span="word_572..word_573" coref_class="set_14" mmax_level="coref" nptype="antecedent" mention="np"/>
