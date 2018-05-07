@@ -5,7 +5,7 @@
   <markable id="markable_1177" span="word_489..word_490" npmod="demonstrative" split="simple antecedent" coref_class="set_31" mmax_level="coref" anacata="anaphoric" nptype="np" antetype="entity" mention="np"/>
   <markable id="markable_1455" span="word_597" coref_class="set_33" mmax_level="coref" nptype="antecedent" mention="np"/>
   <markable id="markable_2389" span="word_1002" type_of_pronoun="relative" agreement="they (sg.)" split="simple antecedent" coref_class="set_20" mmax_level="coref" position="it (subject)" type="anaphoric" antetype="entity" mention="pronoun"/>
-  <markable id="markable_2667" span="word_1127" audience="all-inclusive wir/uns/unser" coref_class="empty" mmax_level="coref" personal_or_reflexive="reflexive" type="speaker reference" mention="pronoun"/>
+  <markable id="markable_2667" span="word_1127" audience="all-inclusive wir/uns/unser" coref_class="empty" mmax_level="coref" type="speaker reference" mention="pronoun"/>
   <markable id="markable_1458" span="word_608" type_of_pronoun="relative" agreement="they (pl.)" split="simple antecedent" coref_class="set_15" mmax_level="coref" position="it (subject)" type="anaphoric" antetype="entity" mention="pronoun"/>
   <markable id="markable_684" span="word_289" type_of_pronoun="personal" agreement="none" split="simple antecedent" coref_class="set_7" mmax_level="coref" position="it (subject)" type="anaphoric" antetype="entity" mention="pronoun"/>
   <markable id="markable_712" span="word_296" type_of_pronoun="personal" agreement="none" split="simple antecedent" coref_class="set_7" mmax_level="coref" position="it (non-subject)" type="anaphoric" antetype="entity" mention="pronoun"/>
@@ -22,7 +22,7 @@
   <markable id="markable_1986" span="word_824" type_of_pronoun="personal" agreement="they (sg.)" split="simple antecedent" coref_class="set_51" mmax_level="coref" position="it (subject)" type="anaphoric" antetype="entity" mention="pronoun"/>
   <markable id="markable_1503" span="word_634" type_of_pronoun="relative" agreement="they (sg.)" split="simple antecedent" coref_class="set_16" mmax_level="coref" position="it (subject)" type="anaphoric" antetype="entity" mention="pronoun"/>
   <markable id="markable_1873" span="word_793..word_795" coref_class="set_41" mmax_level="coref" nptype="antecedent" mention="np"/>
-  <markable id="markable_1901" span="word_801" audience="deictic (sie, ihnen, ihr/e/er/es/em/en, du, dich, dir, dein/e/er/es/em/en)" coref_class="empty" mmax_level="coref" personal_or_reflexive="none" type="addressee reference" mention="pronoun"/>
+  <markable id="markable_1901" span="word_801" audience="deictic (sie, ihnen, ihr/e/er/es/em/en, du, dich, dir, dein/e/er/es/em/en)" coref_class="empty" mmax_level="coref" type="addressee reference" mention="pronoun"/>
   <markable id="markable_1903" span="word_805..word_809" coref_class="set_38" mmax_level="coref" nptype="antecedent" mention="np"/>
   <markable id="markable_350" span="word_144" type_of_pronoun="personal" agreement="they (pl.)" split="simple antecedent" coref_class="set_4" mmax_level="coref" position="it (subject)" type="anaphoric" antetype="entity" mention="pronoun"/>
   <markable id="markable_1362" span="word_572..word_573" coref_class="set_14" mmax_level="coref" nptype="antecedent" mention="np"/>

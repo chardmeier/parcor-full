@@ -160,7 +160,7 @@
   <markable id="markable_3570" span="word_1512" coref_class="empty" mmax_level="coref" type="extratextual reference" mention="pronoun"/>
   <markable id="markable_4261" span="word_1108..word_1109" coref_class="set_78" mmax_level="coref" nptype="antecedent" mention="np"/>
   <markable id="markable_3693" span="word_1558" coref_class="empty" mmax_level="coref" type="extratextual reference" mention="pronoun"/>
-  <markable id="markable_3692" span="word_1557" audience="deictic you" type_of_pronoun="personal" agreement="you (pl.)" coref_class="empty" mmax_level="coref" position="you (subject)" personal_or_reflexive="none" type="addressee reference" mention="pronoun"/>
+  <markable id="markable_3692" span="word_1557" audience="deictic you" type_of_pronoun="personal" agreement="you (pl.)" coref_class="empty" mmax_level="coref" position="you (subject)" type="addressee reference" mention="pronoun"/>
   <markable id="markable_4264" span="word_1377..word_1383" coref_class="set_84" mmax_level="coref" clausetype="antecedent" mention="clause"/>
   <markable id="markable_380" span="word_163" type_of_pronoun="personal" agreement="they (sg.)" split="simple antecedent" coref_class="set_109" mmax_level="coref" position="it (subject)" type="anaphoric" antetype="entity" mention="pronoun"/>
   <markable id="markable_4265" span="word_1541" coref_class="empty" mmax_level="coref" type="extratextual reference" mention="pronoun"/>
