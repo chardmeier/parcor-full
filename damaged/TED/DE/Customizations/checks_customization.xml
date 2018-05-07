@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customization>
+<rule pattern="{all}" style="foreground=blue background=magenta"/>
+<rule pattern="check={cross-sentence}" style="bold=true background=red"/>
+<rule pattern="check={duplicate-markable}" style="bold=true background=red"/>
+<rule pattern="check={overlapping-in-chain}" style="bold=true background=red"/>
+<!--
+<rule pattern="check={pronoun-tag}" style="bold=true background=magenta"/>
+<rule pattern="check={no-antecedent}" style="bold=true background=cyan"/>
+<rule pattern="check={linked-nonanaphoric}" style="bold=true background=cyan"/>
+<rule pattern="check={missing-position}" style="bold=true background=red"/>
+<rule pattern="check={missing-agreement}" style="bold=true background=red"/>
+<rule pattern="check={missing-split}" style="bold=true background=red"/>
+<rule pattern="check={audience-level}" style="bold=true background=red"/>
+<rule pattern="check={missing-span}" style="bold=true background=green"/>
+<rule pattern="check={not-sure}" style="bold=true background=green"/>
+-->
+</customization>

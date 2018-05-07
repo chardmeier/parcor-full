@@ -1,0 +1,3 @@
+Original texts weren't available, so this is extracted from the MMAX and
+detokenised with the Moses detokeniser followed by
+	sed 's/\. "$/."/'
