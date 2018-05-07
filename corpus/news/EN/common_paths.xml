@@ -12,7 +12,6 @@
 </views>
 <annotations>
 <level name="coref" schemefile="coref_scheme.xml" customization_file="coref_customization.xml">$_coref_level.xml</level>
-<level name="checks" schemefile="checks_scheme.xml" customization_file="checks_customization.xml">$_checks_level.xml</level>
 <level name="sentence" schemefile="sentence_scheme.xml" customization_file="sentence_customization.xml">$_sentence_level.xml</level>
 </annotations>
 <user_switches>
