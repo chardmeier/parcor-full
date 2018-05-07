@@ -1,0 +1,94 @@
+Nur die Attribute="VALUE" Strukturen löschen, Markables nicht!
+
+(1)
+nicht da:
+type="event"
+ (wir haben jetzt event auf dem 'antetype="event"')
+
+(2)
+nicht da (sollte aber schon überschrieben sein):
+
+ <attribute id="level_pers_refl" name="Personal_or_Reflexive" type="nominal_button" text="Personal or Reflexive?">
+  <value id="value_pers_refl_none" name="none"/>
+  <value id="value_pers_refl_personal" name="personal"/>
+  <value id="value_pers_refl_reflexive" name="reflexive"/>
+ </attribute>
+
+(3)
+jetzt ist es gleich in deutschen und englischen Texten:
+ <attribute id="level_agreement_they" name="agreement" type="nominal_list" text="">
+  <value id="value_agreement_none" name="none"/>
+  <value id="value_agreement_theySg" name="they (sg.)"/>
+  <value id="value_agreement_theyPl" name="they (pl.)"/>
+ </attribute>
+
+ <attribute id="level_agreement_you" name="agreement" type="nominal_list" text="">
+  <value id="value_agreement_none" name="none"/>
+  <value id="value_agreement_youSg" name="you (sg.)"/>
+  <value id="value_agreement_youPl" name="you (pl.)"/>
+ </attribute>
+
+in den deutschen war es früher so:
+<attribute id="level_agreement" name="Agreement" type="nominal_list" text="Select agreement for ambiguous pronouns">
+  <value id="value_agreement_none" name="none"/>
+  <value id="value_agreement_dieSg" name="die (sg.)"/>
+  <value id="value_agreement_diePl" name="die (pl.)"/>  
+  <value id="value_agreement_sieSg" name="sie (sg.)"/>
+  <value id="value_agreement_siePl" name="sie (pl.)"/>
+  <value id="value_agreement_SiePlFormal" name="Sie (3rd pers. pl.formal)"/>
+  <value id="value_agreement_ihnenPl" name="ihnen (pl.)"/>
+  <value id="value_agreement_IhnenPlFormal" name="Ihnen (3rd pers.pl.formal, dative)"/>
+  <value id="value_agreement_ihr2ndPl" name="ihr (2nd pers.pl.personal)"/>
+  <value id="value_agreement_ihr3rdSg" name="ihr (3rd pers.sg.personal dative)"/>
+  <value id="value_agreement_ihr3rdSgPoss" name="ihr(e/m/r/n/s) (3rd pers.sg.possessive)"/>
+  <value id="value_agreement_ihr3rdPlPoss" name="ihr(e/m/r/n/s) (3rd pers.pl.possessive)"/>
+  <value id="value_agreement_Ihr3rdPlPossFormal" name="Ihr(e/m/r/n/s) (3rd pers.pl. formal possessive)"/>
+ </attribute>
+
+(4) haben gar nicht mehr:
+
+ <attribute id="level_case" name="Case" type="nominal_list" text="Select case">
+  <value id="value_case_none" name="none"/>
+  <value id="value_case_acc" name="Accusative"/>
+  <value id="value_case_dat" name="Dative"/>  
+  <value id="value_case_nom" name="Nominative"/>
+  <value id="value_case_gen" name="Possessive"/>
+ </attribute>
+
+--> case="VALUE" kann weg
+
+
+Ich denke, in den Fällen von speaker und addressee kann man doch alles löschen oder?
+
+Das wären die: type="speaker reference", type="addressee reference"
+
+Ansonsten die Unterschiede, die es gibt (betrifft aber nur Adressee/Speaker-Typen):
+
+jetzt ist es gleich in deutschen und englischen Texten (diese wollten wir aber komlett weg haben) im aktuellen Schema:
+ <attribute id="level_audience_we" name="audience" type="nominal_list" text="">
+  <value id="value_audience_none" name="none"/>
+  <value id="value_audience_we_exclusive" name="exclusive we"/>
+  <value id="value_audience_we_copresent" name="co-present we"/>
+  <value id="value_audience_we_allinclusive" name="all-inclusive we"/>
+ </attribute>
+
+ <attribute id="level_audience_you" name="audience" type="nominal_list" text="">
+  <value id="value_audience_none" name="none"/>
+  <value id="value_audience_you_deictic" name="deictic you"/>
+  <value id="value_audience_you_generic" name="generic you"/>
+ </attribute>
+
+in ParCor war es so:
+
+ <attribute id="level_audience_we" name="Audience" type="nominal_list" text="Select audience level">
+  <value id="value_audience_none" name="none"/>
+  <value id="value_audience_we_exclusive" name="exclusive wir/uns/unser"/>
+  <value id="value_audience_we_copresent" name="co-present wir/uns/unser"/>
+  <value id="value_audience_we_allinclusive" name="all-inclusive wir/uns/unser"/>
+ </attribute>
+
+ <attribute id="level_audience_you" name="Audience" type="nominal_list" text="Select audience level">
+  <value id="value_audience_none" name="none"/>
+  <value id="value_audience_you_deictic" name="deictic (Sie, Ihnen, Ihr/e/er/es/em/en, du, dich, dir, dein/e/er/es/em/en)"/>
+  <value id="value_audience_you_generic" name="generic (man)"/>
+ </attribute>
