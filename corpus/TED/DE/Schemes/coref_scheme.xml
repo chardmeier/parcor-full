@@ -67,8 +67,8 @@
 
  <attribute id="level_agreement_they" name="agreement" type="nominal_list" text="">
   <value id="value_agreement_none" name="none"/>
-  <value id="value_agreement_theySg" name="they (sg.)"/>
-  <value id="value_agreement_theyPl" name="they (pl.)"/>
+  <value id="value_agreement_theySg" name="singular"/>
+  <value id="value_agreement_theyPl" name="plural"/>
  </attribute>
 
  <attribute id="level_agreement_you" name="agreement" type="nominal_list" text="">
