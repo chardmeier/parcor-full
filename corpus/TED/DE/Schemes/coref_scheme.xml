@@ -79,8 +79,8 @@
 
  <attribute id="level_position_it" name="position" type="nominal_list" text="">
   <value id="value_position_none" name="none"/>
-  <value id="value_position_itSubj" name="it (subject)"/>
-  <value id="value_position_itNonSubj" name="it (non-subject)"/>
+  <value id="value_position_itSubj" name="subject"/>
+  <value id="value_position_itNonSubj" name="non-subject"/>
  </attribute>
  
  <attribute id="level_position_you" name="position" type="nominal_list" text="">
