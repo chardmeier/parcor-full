@@ -56,7 +56,10 @@ add this document in a later release.
 
 The English texts in ParCorFull were tokenised with the Penn Treebank-style
 tokeniser of NLTK 3.2.4 (http://www.nltk.org/). The German texts were tokenised
-with the standard German model of Spacy 2.0.9 (https://spacy.io/).
+with the standard German model of Spacy 2.0.9 (https://spacy.io/). In a handful
+of cases, the tokenisation was amended manually. This mostly concerned places
+where a single apostrophe was used as a quotation mark and the automatic
+tokeniser failed to separate it from the following word.
 
 References:
 
