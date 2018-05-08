@@ -45,7 +45,7 @@ The corpus consists of three parts:
 
 TED     - TED talks, corresponding to the test set of the IWSLT 2013 shared task
 DiscoMT - TED talks, corresponding to the test set of the DiscoMT 2015 shared task
-news    - Newswire, 
+news    - News texts, taken from the test set of the WMT 2017 news shared task
 
 The annotations in the corpus are partly based on those of the ParCor corpus
 (Guillou et al., 2016).
