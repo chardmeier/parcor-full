@@ -18,7 +18,7 @@ def write_basedata(mmax_dir, mmax_id, sentences):
         widx = 1
         for snt in sentences:
             for w in snt:
-                print('<word id="word_%d">%s</word>' % (widx + 1, xml.sax.saxutils.escape(w)), file=f)
+                print('<word id="word_%d">%s</word>' % (widx, xml.sax.saxutils.escape(w)), file=f)
                 widx += 1
         print('</words>', file=f)
 
@@ -41,13 +41,13 @@ def write_sentence_level(mmax_dir, mmax_id, sentences):
 
 
 def main():
-    talks = [779, 769, 792, 799, 767, 790, 785, 783, 824, 805, 837]
-    infile = 'corpus/TED/FR/Source/IWSLT13.TED.tst2010.en-fr.fr.xml'
-    mmax_dir = 'corpus/TED/FR'
+    # talks = [779, 769, 792, 799, 767, 790, 785, 783, 824, 805, 837]
+    # infile = 'corpus/TED/FR/Source/IWSLT13.TED.tst2010.en-fr.fr.xml'
+    # mmax_dir = 'corpus/TED/FR'
 
-    # talks = [1756, 1819, 1825, 1894, None, 1938, 1950, 1953, 2043, None, 205, 2053]
-    # infile = 'corpus/DiscoMT/FR/Source/DiscoMT2015.test.raw.fr.xml'
-    # mmax_dir = 'corpus/DiscoMT/FR'
+    talks = [1756, 1819, 1825, 1894, None, 1938, 1950, 1953, 2043, None, 205, 2053]
+    infile = 'corpus/DiscoMT/FR/Source/DiscoMT2015.test.raw.fr.xml'
+    mmax_dir = 'corpus/DiscoMT/FR'
 
     with open(infile, 'r') as f:
         inxml = lxml.etree.parse(f)
