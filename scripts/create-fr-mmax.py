@@ -15,9 +15,11 @@ def write_basedata(mmax_dir, mmax_id, sentences):
         print('<?xml version="1.0" encoding="UTF-8"?>', file=f)
         print('<!DOCTYPE words SYSTEM "words.dtd">', file=f)
         print('<words>', file=f)
+        widx = 1
         for snt in sentences:
             for w in snt:
-                print('<word>%s</word>' % xml.sax.saxutils.escape(w), file=f)
+                print('<word id="word_%d">%s</word>' % (widx + 1, xml.sax.saxutils.escape(w)), file=f)
+                widx += 1
         print('</words>', file=f)
 
 
