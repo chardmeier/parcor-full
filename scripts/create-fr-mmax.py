@@ -43,7 +43,7 @@ def main():
     # infile = 'corpus/TED/FR/Source/IWSLT13.TED.tst2010.en-fr.fr.xml'
     # mmax_dir = 'corpus/TED/FR'
 
-    talks = [1756, 1819, 1825, 1894, 1938, 1950, 1953, 2043, None, 205, 2053]
+    talks = [1756, 1819, 1825, 1894, None, 1938, 1950, 1953, 2043, None, 205, 2053]
     infile = 'corpus/DiscoMT/FR/Source/DiscoMT2015.test.raw.fr.xml'
     mmax_dir = 'corpus/DiscoMT/FR'
 
