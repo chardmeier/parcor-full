@@ -39,9 +39,13 @@ def write_sentence_level(mmax_dir, mmax_id, sentences):
 
 
 def main():
-    talks = [779, 769, 792, 799, 767, 790, 785, 783, 824, 837]
-    infile = 'corpus/TED/FR/Source/IWSLT13.TED.tst2010.en-fr.fr.xml'
-    mmax_dir = 'corpus/TED/FR'
+    # talks = [779, 769, 792, 799, 767, 790, 785, 783, 824, 805, 837]
+    # infile = 'corpus/TED/FR/Source/IWSLT13.TED.tst2010.en-fr.fr.xml'
+    # mmax_dir = 'corpus/TED/FR'
+
+    talks = [1756, 1819, 1825, 1894, 1938, 1950, 1953, None, 2043, 205, 2053]
+    infile = 'corpus/DiscoMT/FR/Source/DiscoMT2015.test.raw.fr.xml'
+    mmax_dir = 'corpus/DiscoMT/FR'
 
     with open(infile, 'r') as f:
         inxml = lxml.etree.parse(f)
@@ -50,6 +54,9 @@ def main():
     spaces = re.compile(r'\s+')
 
     for i, talkid in enumerate(talks):
+        if talkid is None:
+            continue
+
         sentences = []
         for seg in inxml.xpath('//doc[@docid="%s"]/seg' % talkid):
             ntext = re.sub(spaces, ' ', seg.text.strip())
