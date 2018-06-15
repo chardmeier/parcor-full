@@ -26,18 +26,13 @@ def main():
     mapping = {s: t for s, t in alig if s is not None and t is not None}
     out_boundaries = [0]
     for b in boundaries:
-        if b in mapping:
-            out_boundaries.append(mapping[b])
-        else:
-            for i in range(1, 20):
-                if b - i in mapping:
-                    print('Offset mapping: %d' % (-i), file=sys.stderr)
-                    out_boundaries.append(mapping[b - i] + 1)
-                    break
-                elif b + i in mapping:
+        for i in [-1, 0, -2, 1, -3, 2, -4, 3]:
+            if b + i in mapping:
+                if i not in [-1, 0]:
                     print('Offset mapping: %d' % i, file=sys.stderr)
-                    out_boundaries.append(mapping[b + i])
-                    break
+                adjust = 1 if i < 0 else 0
+                out_boundaries.append(mapping[b + i] + adjust)
+                break
 
     if len(out_boundaries) != len(boundaries) + 1:
         print('Could not map all boundaries!', file=sys.stderr)
