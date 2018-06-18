@@ -96,6 +96,7 @@ def main():
         mrk.set('mention', 'none')
         mrk.set('span', outspan)
 
+    print('<?xml version="1.0" encoding="utf-8"?>')
     sys.stdout.write(etree.tostring(coref_xml, pretty_print=True).decode('utf8'))
 
 
