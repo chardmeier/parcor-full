@@ -16,9 +16,9 @@
 <!-- If the mention is pronominal then-->
 
  <attribute id="level_type" name="Type" type="nominal_list" text="Choose type of pronoun"> <!-- You need to chose the type of the pronoun-->
-  <value id="value_type_antecedent" name="antecedent" next = "level_agreement_they,level_position_it,level_pers_refl"/>  
-  <value id="value_type_anaphora" name="anaphoric" next = "level_split,level_agreement_they,level_position_it,level_pers_refl"/>  
-  <value id="value_type_cataphora" name="cataphoric" next = "level_split,level_agreement_they,level_position_it"/>  
+  <value id="value_type_antecedent" name="antecedent" next = "level_pers_refl"/>  
+  <value id="value_type_anaphora" name="anaphoric" next = "level_split,level_pers_refl"/>  
+  <value id="value_type_cataphora" name="cataphoric" next = "level_split"/>  
   <value id="value_type_comp" name="comparative" next = "level_split,level_comp"/>
   <value id="value_type_subst" name="nom substitution" next = "level_split"/>
   <value id="value_type_extratextual" name="extratextual reference"/>
