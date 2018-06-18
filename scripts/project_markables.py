@@ -65,7 +65,15 @@ def main():
         coref_xml = etree.parse(f)
 
     with open(in_sentence_file, 'r') as f:
-        in_sentence_xml = etree.parse(f)
+        if in_sentence_file.endswith('.xml'):
+            in_sentence_xml = etree.parse(f)
+            in_sentence_start = [get_start_idx(insnt.get('span')) for insnt in in_sentence_xml.iter(sentence_markable)]
+        else:
+            in_sentence_start = []
+            i = 0
+            for line in f:
+                in_sentence_start.append(i)
+                i += len(line.split(' '))
 
     with open(out_sentence_file, 'r') as f:
         out_sentence_xml = etree.parse(f)
@@ -73,9 +81,7 @@ def main():
     alignment = collections.defaultdict(MinMax)
     with open(aligfile, 'r') as f:
         ap_pattern = re.compile(r'([0-9]+)-([0-9]+)')
-        for aligline, insnt, outsnt in zip(f, in_sentence_xml.iter(sentence_markable),
-                                           out_sentence_xml.iter(sentence_markable)):
-            instart = get_start_idx(insnt.get('span'))
+        for aligline, instart, outsnt in zip(f, in_sentence_start, out_sentence_xml.iter(sentence_markable)):
             outstart = get_start_idx(outsnt.get('span'))
 
             for ap in re.finditer(ap_pattern, aligline):
