@@ -16,8 +16,8 @@
 \usepackage[disable,colorinlistoftodos]{todonotes}
 \usepackage[colorlinks=true, allcolors=blue]{hyperref}
 
-\title{Coreference Corpus Annotation Guidelines}
-\author{Ekaterina Lapshinova-Koltunski, Christian Hardmeier}
+\title{ParCorFull Coreference Corpus Annotation Guidelines for French}
+\author{Christian Hardmeier and Ekaterina Lapshinova-Koltunski}
 
 \begin{document}
 \maketitle
@@ -28,9 +28,22 @@
 
 \section{Introduction}
 
-These guidelines present instructions for the English and German annotators who work on the annotation of full coreference chains of the parallel English-German corpus. The parts of the corpora include texts from EU Bookshop and TED Talks texts and were included into the
-ParCor 1.0 corpus. 
-These guidelines base on the guidelines for pronoun annotation described by \cite{GuillouEtAlGuide}, combined with those by \cite{GrishinaStedeGuide}. Some categories are based on the descriptions by \cite{Kunz2012} and \cite{NedoluzhkoMirovsky201}.
+These guidelines contain instructions for the French annotators who work on the
+annotation of full coreference chains of the parallel English-French corpus.
+These guidelines are derived from the ParCorFull guidelines for English and
+German, which are in turn based on the guidelines for pronoun annotation
+described by \cite{GuillouEtAlGuide}, combined with those by
+\cite{GrishinaStedeGuide}. Some categories are based on the descriptions by
+\cite{Kunz2012} and \cite{NedoluzhkoMirovsky201}.
+
+The French files to be annotated are prepopulated with markables derived from
+the English part of the corpus by cross-lingual annotation projection. This is
+to help the annotator, but it is still important to consider the texts carefully
+because the the automatic projection cannot be completely accurate. You should
+expect both missing and extraneous markables as well as markables whose extent
+is incorrectly marked. Wherever necessary, you should add missing markables and
+correct markable spans. You do not have to delete unnecessary markables, as this
+can be done automatically when the annotation is complete.
 
 %\section{Underlying Data}
 %The pre-annotated corpora that we use \todo{We will describe the data that we are using}
@@ -39,50 +52,92 @@ These guidelines base on the guidelines for pronoun annotation described by \cit
 
 \subsection{Types of Markables: What to include}
 
+The ParCorFull annotation comprises referring expressions and their properties
+as well as coreference relations holding between referring expressions in the
+text. The main part of the elements to be marked up are lexical and pronominal
+noun phrases. We also annotate verb phrases and clauses that function as
+antecedents of referring expressions as well as cases of substitution and
+ellipsis. Elements that do not participate in a coreference relation in the text
+are not annotated.
+
 \subsubsection{Full NPs}
 
-For example: {\sl 24 EWSA-Mitglieder} in \Next[a] and {der Aktivitäten} in \Next[b].\todo{English examples?}
+For example: {\sl les cités} in \Next[a] and {l'état de l'art sur la
+reconnaissance vocale} in \Next[b].\todo{English examples?}
 
 \ex.
 \a.
-{\sl In diesem Buch berichten [24 EWSA-Mitglieder] über [ihren] Beitrag als Geschäftsleute und Gewerkschafter, Aktivisten und Freiwillige...}
-\b. {\sl Eine Liste [der Aktivitäten], [die] man der Kategorie ``aktive Bürgerschaft'' zurechnen könnte, würde sehr umfangreich ausfallen -- in [ihrer] Gesamtheit bilden [sie] das, was eine gesunde, partizipative Demokratie ausmacht.}
+\textsl{[Les cités] ne sont pas seulement les plus anciennes institutions ,
+[elles] sont les plus résistantes .}
+%{\sl In diesem Buch berichten [24 EWSA-Mitglieder] über [ihren] Beitrag als
+%Geschäftsleute und Gewerkschafter, Aktivisten und Freiwillige...}
+\b.
+\textsl{Quel est [l' état de l' art sur la reconnaissance vocale] ?}
+%{\sl Eine Liste [der Aktivitäten], [die] man der Kategorie ``aktive
+%Bürgerschaft'' zurechnen könnte, würde sehr umfangreich ausfallen -- in [ihrer]
+%Gesamtheit bilden [sie] das, was eine gesunde, partizipative Demokratie
+%ausmacht.}
 
 %\todo[inline, color=green]{What shall we do with synonyms like {\sl Marshmallow-Herausforderung} and {\sl Marshmallow-Challenge} as in {\sl Vor einigen Jahren, hier bei TED, stellte Peter Skillman einen Design-Wettbewerb namens ``Die Marshmallow-Herausforderung'' vor ....<...>... Und was die Marshmallow-Challenge tut ist, sie hilft ihnen versteckte Annahmen zu identifizieren.}}
 
 \paragraph*{Definite article}
 (from GECCo)
 
-Definite articles signal a coreference relation, if the meaning of the nominal phrase (used with the articles) refers to an antecedent and triggers an identity relation. And the distance between the elements is not important here.
+Definite articles signal a coreference relation, if the meaning of the nominal
+phrase (used with the articles) refers to an antecedent and triggers an identity
+relation. The distance between the elements is not important here.
 
-Here, we should differentiate between the case when the definite article is used with a nominal phrase but no coreference relation is triggered, as in \Next[b]. \Next[a] represents the case when the definite NP is coreferent with the antecedent in the previous sentence.
+Here, we should differentiate between the case when the definite article is used
+with a nominal phrase but no coreference relation is triggered, as in \Next[b].
+\Next[a] represents the case when the definite NP is coreferent with the
+antecedent in the previous sentence.
 
 \ex.
-\a. {\sl This past spring, the U.S. Department of Education issued [a report, The Condition of Education 2000]. [The report] found that the benefits of attending college are greater today than ever before. [...] }
-\b. {\sl Insgesamt stellen sich die ökonomischen Voraussetzungen zu Beginn des neuen Jahrhunderts für Deutschland recht gut dar. [Die Teilhabe] an den Weltmärkten hat sich verbessert -- dies belegt die positive Dynamik der Exporte und Dienstleistungen}.
+\a.
+\textsl{Voici und diapo [du programme PRISM] \ldots La meilleure manière de
+comprendre [PRISM], \ldots c'est d'abord de dire ce que [PRISM] n'est pas.}
+%{\sl This past spring, the U.S. Department of Education issued [a report, The
+%Condition of Education 2000]. [The report] found that the benefits of attending
+%college are greater today than ever before. [...] }
+\b.
+\textsl{On ne peut mas marche dans [l' herbe], parce qu'on pourrait \ldots tuer
+par inadvertance certains insectes quand on marche dans l'herbe.
+%{\sl Insgesamt stellen sich die ökonomischen Voraussetzungen zu Beginn des
+%neuen Jahrhunderts für Deutschland recht gut dar. [Die Teilhabe] an den
+%Weltmärkten hat sich verbessert -- dies belegt die positive Dynamik der Exporte
+%und Dienstleistungen}.
 
-In example \Next, all nominal phrases, no matter if they are expressed by the same word, refer to the same antecedent.%\todo{Here I am not sure...}
+In example \Next, all nominal phrases, no matter if they are expressed by the
+same word, refer to the same antecedent.%\todo{Here I am not sure...}
 
 \ex. {\sl Unfortunately, the Bangladesh health system is unprepared for [a crisis of this magnitude]...  [the arsenic problem]... [the crisis]... [the dilemma]... [the arsenic problem] .}
 
 \subsubsection{Proper names and Titles}
 
 %{\sl der EWSA} in \Next[a], 
-{\sl Herr Almeida Freire} in \Next[b].%\todo{PRUEFEN!!!}
+\textsl{Le photographe Phil Toledano} in \Next[b].
 
 \ex. 
 \a. \label{eswa}{\sl [Der EWSA] hat stets betont, dass aktive Bürgerschaft die gesellschaftliche Integration von Kindern und Jugendlichen unterstützen und ihnen das Gefühl vermitteln kann, ein Teil der Gemeinschaft zu sein.}
 \b. 
-{\sl In [seiner] EWSA-Stellungnahme zum im Januar 2011 veröffentlichten ``Bericht der Kommission zur Beobachtung des Handelsmarktes'' schreibt [Herr Almeida Freire]...}
+\textsl{Voici un portrait pris par [le photographe Phil Toledano].
+%{\sl In [seiner] EWSA-Stellungnahme zum im Januar 2011 veröffentlichten ``Bericht der Kommission zur Beobachtung des Handelsmarktes'' schreibt [Herr Almeida Freire]...}
 
 \subsubsection{NPs with quantifiers}
 
-Be careful when annotating NPs with quantifiers, e.g. {\sl all people, two people, 105 Million euro}, etc. If you are not sure about the definiteness of an NP, apply the following test: try inserting a definite article or a demonstrative pronoun. If the meaning of the phrase is not changed, then the NP is definite and should be annotated as coreferent. Example: {\sl all people $\rightarrow$ all these people} $\Rightarrow$ definite NP \cite[p. 3]{GrishinaStedeGuide}.
+Be careful when annotating NPs with quantifiers, e.g. {\sl all people, two
+people, 105 million euro}, etc. If you are not sure about the definiteness of an
+NP, apply the following test: try inserting a definite article or a
+demonstrative pronoun. If the meaning of the phrase is not changed, then the NP
+is definite and should be annotated as coreferent. Example: {\sl all people
+$\rightarrow$ all these people} $\Rightarrow$ definite NP \cite[p.
+3]{GrishinaStedeGuide}.
 
 When deciding whether to link a pronoun to an antecedent, the following rules apply \cite[p. 9]{GuillouEtAlGuide}:
 \begin{itemize}
 \item  {\sl many of them}...: {\sl them} should be linked to its antecedent
-\item {\sl one of the fast growing economies}: {\sl one} should be marked as a pronoun but not linked to anything. However, in the cases when one is used as a substitution, it is linked to its antecedent as in example \Next, see Section \ref{sec:substitution}
+\item {\sl one of the fast growing economies}: {\sl one} should be marked as a
+pronoun but not linked to anything. However, in the cases when \textsl{one} is used as a substitution, it is linked to its antecedent as in example \Next, see Section \ref{sec:substitution}
 
 \ex.
 {\sl Do you prefer the blue shirt or [the red shirt]? -- I would like the red [one].}
@@ -108,14 +163,28 @@ it has a head (as in {\sl both boys}), then the whole np should be marked and li
 \end{itemize}
 
 \subsubsection{Nominal premodifiers}
-In case of English nominal premodifiers, we only annotate a nominal premodifier if it can refer to a named entity (like [[{\sl EU}] {\sl supporter}] in example \Next) or it is an independent noun in the genitive form ([[{\sl creditor's}] {\sl choice}] ); in all other cases, nominal premodifiers are not annotated as separate markables ({\sl bank account}) \cite[p. 4]{GrishinaStedeGuide}.
+(not in French)
 
-%\todo[inline, color=green]{What shall we do with such cases like EWSA in German compounds as in example \ref{eswa} above?}
-
-\ex.
-{\sl The unionists used to be [[EU] supporters], but now they are questioning how [it] has developed...}
-
-In example \Last, the pronoun {\sl it} cannot be linked to the complete NP {\sl EU supporters}, but  to the {\sl EU} (the modifier). However, with compounds like {\sl EU-supporters} or {\sl EWSA} in German in example \ref{eswa} above, there is a single unit which cannot be split any further. In such cases, it is necessary to search for a standalone instance of {\sl EU} or {\sl EWSA} earlier in the text and link the pronoun {\sl it} to that instance (assuming one can be found) \cite[p. 7]{GuillouEtAlGuide}. The same is applied in German compounds that cannot be split.
+% In case of English nominal premodifiers, we only annotate a nominal premodifier
+% if it can refer to a named entity (like [[{\sl EU}] {\sl supporter}] in example
+% \Next) or it is an independent noun in the genitive form ([[{\sl creditor's}]
+% {\sl choice}] ); in all other cases, nominal premodifiers are not annotated as
+% separate markables ({\sl bank account}) \cite[p. 4]{GrishinaStedeGuide}.
+% 
+% %\todo[inline, color=green]{What shall we do with such cases like EWSA in German compounds as in example \ref{eswa} above?}
+% 
+% \ex.
+% {\sl The unionists used to be [[EU] supporters], but now they are questioning
+% how [it] has developed...}
+% 
+% In example \Last, the pronoun {\sl it} cannot be linked to the complete NP {\sl
+% EU supporters}, but  to the {\sl EU} (the modifier). However, with compounds
+% like {\sl EU-supporters} or {\sl EWSA} in German in example \ref{eswa} above,
+% there is a single unit which cannot be split any further. In such cases, it is
+% necessary to search for a standalone instance of {\sl EU} or {\sl EWSA} earlier
+% in the text and link the pronoun {\sl it} to that instance (assuming one can be
+% found) \cite[p. 7]{GuillouEtAlGuide}. The same is applied in German compounds
+% that cannot be split.
 
 \subsubsection{Generic reference}
 
@@ -139,12 +208,17 @@ In \Last, {\sl Anyone} is an indefinite pronoun as it does not refer to a specif
 
 We only annotate personal pronouns if they have a specific referent in the text like {\sl Tad Williams -- he} in \Next. %, like {\sl I/ich} and {\sl Daisy} or {\sl you/Ihnen} and {\sl the lady/die Dame} in example \Next.
 % They include: {\sl I, you, we, he, she, they, ich, du, wir, ihr, er, sie} and their forms in different cases ({\sl him, her, them, uns, ihnen}, etc.). First and second person pronouns are annotated only if they are repeated in the text.
-They include: {\sl he, she, they, wir, er, sie} and their forms in different cases ({\sl him, her, them, ihnen}, etc.). In the first release of ParCorFull, first and second person pronouns are not annotated.
+%They include: {\sl he, she, they, wir, er, sie} and their forms in different cases ({\sl him, her, them, ihnen}, etc.). In the first release of ParCorFull, first and second person pronouns are not annotated.
+They include: \textsl{il, elle, ils, elles} and their oblique forms
+({\sl le, la, lui, leur, eux}). In the current version of ParCorFull, first and
+second person pronouns are not annotated.
 
 \ex.
 %\a. {\sl Hello, can [I] help [you]? -- [Daisy] asked [the lady]}.
 %\b. {\sl Hallo, kann [ich] Ihnen helfen? -- fragte [Daisy] die Dame}.
-{\sl [Tad Williams] is one of the most famous writers of modern times. In addition to Memory, Sorrow and Thorn [he] has written the acclaimed Otherland series.}
+%{\sl [Tad Williams] is one of the most famous writers of modern times. In addition to Memory, Sorrow and Thorn [he] has written the acclaimed Otherland series.}
+\textsl{Voici un portrait pris par le photographe [Phil Toledano]. [Il] voulait
+capturer l'émotion du joueur.}
 
 %In example \Last, we annotate the first-person pronoun {\sl I/ich} as referring to the specific antecedent {\sl Daisy} and the second-person pronoun {\sl you} as referring to the specificantecedent {\sl lady}.
 
@@ -201,25 +275,36 @@ They include: {\sl he, she, they, wir, er, sie} and their forms in different cas
 % as normal.
 % \end{enumerate}
 
-Personal pronouns can also serve as {\bf pleonastic pronoun}. These do not actually refer to an entity \cite[p. 5]{GuillouEtAlGuide}. In other words, the
-pronoun could not be replaced with an NP as with a regular pronoun. Often a subject is required by syntax i.e. something is required in that position. In some cases there will not be a subject so a ``dummy'' pronoun is required to fill
-the gap. For example, in the following sentences the pronoun {\sl it} does not refer to anything but is included as something is required by the syntax of the language in the subject position, as in example \Next.
+Personal pronouns can also serve as {\bf pleonastic pronouns}. These do not
+actually refer to an entity \cite[p. 5]{GuillouEtAlGuide}. In other words, the
+pronoun could not be replaced with an NP as with a regular pronoun. Often a
+subject is required by syntax, i.e., something is required in that position. In
+some cases there will not be a subject so a ``dummy'' pronoun is required to
+fill the gap. For example, in the following sentences the pronoun {\sl it} does
+not refer to anything but is included as something is required by the syntax of
+the language in the subject position, as in example \Next.
 
 \ex.
-\a. {\sl [It] is raining. -- [Es] regnet.}
-\b. {\sl [It] is well known that apples taste different from oranges --  [Es] ist bekannt, dass...}
-\c. {\sl Der Europäische Rat hat einen ständigen Präsidenten, dessen Aufgabe [es] ist, die Arbeit des Europäischen Rates zu koordinieren und seine Kontinuität zu gewährleisten.}
+\a. {\sl [It] is raining. -- [Il] pleut.}
+\b. {\sl [It] is well known that apples taste different from oranges --  [Il]
+est indisputable que...}
+%\c. {\sl Der Europäische Rat hat einen ständigen Präsidenten, dessen Aufgabe [es] ist, die Arbeit des Europäischen Rates zu koordinieren und seine Kontinuität zu gewährleisten.}
 
-{\sl It/Es} is commonly used as a pleonastic pronoun in English/German. Other pronouns such as {\sl they} and {\sl you} may also be used in cases where they do not refer to a specific
-entity.
+\textsl{Il} and \textsl{ce} are commonly used as pleonastic pronouns in French.
+%Other pronouns such as {\sl they} and {\sl you} may also be used in cases where
+%they do not refer to a specific entity.
 
-\ex.
-\a. {\sl In this country, if [you] own a house you have to pay taxes}.
-\b. {\sl [They] say you should never mix business with pleasure}.
+% \ex.
+% \a. {\sl In this country, if [you] own a house you have to pay taxes}.
+% \b. {\sl [They] say you should never mix business with pleasure}.
 
-In German, the indefinite pronoun {\sl man} is often used. 
+% In German, the indefinite pronoun {\sl man} is often used. 
 
-In the case of pleonastic pronouns we wish to make a partial annotation: Marking these pronouns as pleonastic, but not linking them to anything (because they do not refer to anything). These are the cases, where there is no antecedent in the text to which the pronoun {\sl they} may be linked to, as in example \Next. In this case, the pronoun should be marked as ``anaphoric but no specific antecedent''.
+Pleonastic pronouns should be marked as pleonastic, but not linked to anything
+(because they do not refer to anything). They must be distinguished from
+pronouns that are anaphoric, but lack an antecedent in the text to which the
+pronoun may be linked to, as in example \Next. In this case, the pronoun should
+be marked as ``anaphoric but no specific antecedent''.
 
 \ex. {\sl There's a study called the streaming trials. {\sl They} took 100 people and split them into two groups.}
 
@@ -232,14 +317,14 @@ N.B. This is rarely required.
 
 %When the pronoun {\sl sie/they} is used to refer anaphorically to a collective noun (such as {\sl the government}), it should be considered a plural pronoun and marked as such \cite[p. 6]{GuillouEtAlGuide}.
 
-English lacks ungendered person pronouns. Therefore, there are instances of {\sl he or she} in a text, see example \Next.
-
-\ex.
-{\sl If your child is thinking about a gap year, [he or she] can get good advice from this website.}
-
-In such cases, {\sl he or she} should be considered a single unit (or markable), just as if it had been written {\sl s/he} (which is a common alternative). This solution will also make the phrase easier to resolve, since it can only be linked to a
-non-specific antecedent. The same applies to the instances of {\sl he or she} in dative and accusative, e.g. {\sl him or her}, {\sl his or her} and {\sl his or hers}. {\sl S/he}
-should be treated as a complete unit (or markable) and as a pronoun.
+% English lacks ungendered person pronouns. Therefore, there are instances of {\sl he or she} in a text, see example \Next.
+% 
+% \ex.
+% {\sl If your child is thinking about a gap year, [he or she] can get good advice from this website.}
+% 
+% In such cases, {\sl he or she} should be considered a single unit (or markable), just as if it had been written {\sl s/he} (which is a common alternative). This solution will also make the phrase easier to resolve, since it can only be linked to a
+% non-specific antecedent. The same applies to the instances of {\sl he or she} in dative and accusative, e.g. {\sl him or her}, {\sl his or her} and {\sl his or hers}. {\sl S/he}
+% should be treated as a complete unit (or markable) and as a pronoun.
 
 \subsubsection{Demonstrative pronouns}
 
@@ -251,28 +336,38 @@ should be treated as a complete unit (or markable) and as a pronoun.
 
 In example \Last, the demonstrative pronoun {\sl these} points back to its antecedent {\sl some very important areas} mentioned in the previous sentence and must be annotated. 
 
-In German, the forms {\sl der, die, das} can also serve as demonstratives, see \Next.
+In French, the pronouns \textsl{ce, ça, ceci, cela,} but also \textsl{celui-ci},
+\textsl{celui-là} and related forms can serve as demonstratives.
 
-\ex.
-{\sl Hast Du [Martin] gesehen? [Der] war heute nicht im Büro.}
+% In German, the forms {\sl der, die, das} can also serve as demonstratives, see \Next.
+% 
+% \ex.
+% {\sl Hast Du [Martin] gesehen? [Der] war heute nicht im Büro.}
 %Keep in mind that we do NOT annotate event coreference, that is why we do not consider 
 
-All the forms of demonstrative pronouns can also be exophoric, i.e. refer directly to the situational context and thus, do not have any links in the text as in examples in \Next. % direkt auf den Situationskontext verweisen:
+All the forms of demonstrative pronouns can also be exophoric, i.e. refer
+directly to the situational context and thus, do not have any links in the text
+as in example \Next. % direkt auf den Situationskontext verweisen:
 \ex.
-\a. {\sl Siehst Du [den] [da] drüben?}
-\b. {\sl [That man] over [there], he is strange.}
+%\a. {\sl Siehst Du [den] [da] drüben?}
+%\b.
+\textsl{[That man] over [there], he is strange.}
 %\c. {\sl [Die Sonne] steht immer höher am Himmel.}
 
 These cases should be marked as {\bf extratextual reference}. 
-In \cite{GrishinaStedeGuide}, predicative constructions are annotated in the following way: {\sl [This] is a bank, but [it] is not very well-known}. But in fact, {\sl bank} and {\sl it} corefer. %\todo{How shall we proceed here?} %\todo[inline, color=green]{The cases of predicative constructions should be clarified. In Yulia's corpus, they consider in the cases like: {\sl This is a bank, but it is not very well-known} that {\sl this} corefers with {\sl it}. }.
-So, we annotate {\sl bank} and {\sl it} as coreferent. % cases of predicative constructions should be clarified. 
+%In \cite{GrishinaStedeGuide}, predicative constructions are annotated in the following way: {\sl [This] is a bank, but [it] is not very well-known}. But in fact, {\sl bank} and {\sl it} corefer. %\todo{How shall we proceed here?} %\todo[inline, color=green]{The cases of predicative constructions should be clarified. In Yulia's corpus, they consider in the cases like: {\sl This is a bank, but it is not very well-known} that {\sl this} corefers with {\sl it}. }.
+%So, we annotate {\sl bank} and {\sl it} as coreferent. % cases of predicative constructions should be clarified. 
 
-There are cases of usage of demonstrative pronouns {\sl those, jene, der, die, das}, when they function as indefinite pronouns and do not have coreference relation (should not be linked), see examples in \Next. They are similar to the cases of 'Korrelat' described in Section \ref{sec:pronadv} below.
+There are cases of usage of demonstrative pronoun \textsl{celui} and related
+forms that function as indefinite pronouns and do not have coreference relation,
+see examples in \Next. These should not be linked. They are similar to the cases
+of 'Korrelat' described in Section \ref{sec:pronadv} below.
 
 \ex.
-\a. {\sl [Those], who hesitate, are lost.}
-\b. {\sl längst hat in diesem Feld die Wirklichkeit [jene], die es besser wussten, eingeholt.}
-\c. {\sl Für [die], die lieber von einer festen Unterkunft Tagestouren unternehmen wollen, bietet die Insel Sylt z.B. rund 200 km Radwege.}
+\a. {\sl [Those] who hesitate, are lost.}
+\b. \textsl{[Ceux] qui hesitent sont perdus.}
+%\b. {\sl längst hat in diesem Feld die Wirklichkeit [jene], die es besser wussten, eingeholt.}
+%\c. {\sl Für [die], die lieber von einer festen Unterkunft Tagestouren unternehmen wollen, bietet die Insel Sylt z.B. rund 200 km Radwege.}
 
 
 \paragraph*{Temporal adverbs}
@@ -280,20 +375,27 @@ There are cases of usage of demonstrative pronouns {\sl those, jene, der, die, d
 Temporal expressions are to be annotated if they co-refer.
 
 \ex.
-\a. {\sl [In my young days] we took these things more seriously. We had different ideas [then].}
+%\a.
+\textsl{[In my young days] we took these things more seriously. We had different ideas [then].}
 %\b. {\sl The plane touched down [at last]}. {[Now], we could breathe freely again.}
-\c. {\sl Annette ist endlich fertig. Sie ist ein bisschen bummelig und unordentlich, wie ich [als Kind] gewesen sein muss. [Damals] hätte ich nie geglaubt, dass ich meine Kinder zurechtweisen würde, wie meine Eltern mich zurechtwiesen.}
+%\c. {\sl Annette ist endlich fertig. Sie ist ein bisschen bummelig und unordentlich, wie ich [als Kind] gewesen sein muss. [Damals] hätte ich nie geglaubt, dass ich meine Kinder zurechtweisen würde, wie meine Eltern mich zurechtwiesen.}
 
-The temporal adverbial {\sl then} can trigger either coreference or conjunction (discourse relation). For disambiguation, we can use a rule that if the English {\sl then} can be translated as {\sl damals}, then it triggers a coreference relation as in example \Next[a]. In  other cases, it is likely to be a discourse marker. 
+The temporal adverbial \textsl{alors} can trigger either coreference or
+conjunction (discourse relation). For disambiguation, we can use a rule that if
+the French {\sl alors} can be substituted with {\sl à l'époque}, then it
+triggers a coreference relation as in example \Next[a]. In  other cases, it is
+likely to be a discourse marker. 
 
 \ex.
 \a. {\sl Well, though dollars were just as hard to come by in [the 1920s]. But you could have paid for the land with livestock [then] because there was still, you know, fifty-cent-an-acre-land -- an entire acre.}
-\b. {\sl To Add an Exception to the AutoCorrect Exceptions List 1. Choose Tools -- AutoCorrect, and [then] click the Exceptions tab.}
+\b. {\sl To add an Exception to the AutoCorrect Exceptions List 1. Choose Tools -- AutoCorrect, and [then] click the Exceptions tab.}
 \c. {\sl 
 Having lectures, we probably had about 20 hours a week, so we went obviously we were so close we could stay in the University to do work and [then] we could come home and we were near enough to the town center to just, you know, get a cab in to it and go out.}
 
 \paragraph*{Local adverbs}
-Local adverbs as {\sl here} and {\sl there} or {\sl da, dort} can also trigger coreference and should be annotated. In example \Next[a], {\sl there} refers to {\sl to the doctor}, in \Next[b], {\sl here} corefers with {\sl your new home}.
+Local adverbs as {\sl here} and {\sl there} or {\sl ici, là} can also trigger
+coreference and should be annotated. In example \Next[a], {\sl there} refers to
+{\sl to the doctor}, in \Next[b], {\sl here} corefers with {\sl your new home}.
 
 %\todo[inline, color=green]{What about local reference [new home] -- [there]?}
 \ex.
@@ -307,39 +409,50 @@ Demonstrative pronouns also refer to verb phrases or to bigger discourse units, 
 
 \ex.
 \a. {\sl The London G-20 meeting recognized that [the world's poorest countries and people should not be penalized by a crisis for which they are not responsible]. With [this] in mind, the G-20 leaders set out an ambitious agenda for an inclusive and wide-ranging response.}
-\b. {\sl Die Europäische Union wurde gegründet, um [politische Ziele zu verwirklichen]; erreicht werden sollte [dies] auf dem Weg der wirtschaftlichen Zusammenarbeit.}
+\b. \textsl{[Voir les données de cette façon] ressemble beaucoup à nager dans un
+bain vivant de données graphiques. Et si nous pouvons faire [cela] avec des
+bonnées brutes\ldots}
+%{\sl Die Europäische Union wurde gegründet, um [politische Ziele zu verwirklichen]; erreicht werden sollte [dies] auf dem Weg der wirtschaftlichen Zusammenarbeit.}
 
-In \Last[a], {\sl this} does not have a specific referent, but refers to the whole subordinate clause of the previous sentence (fact sentence). In \Last[b], {\sl dies} refers to the event-vp {\sl politische Ziele verwirklichen}. Neither \cite{GrishinaStedeGuide}, nor \cite{GuillouEtAlGuide} mark these cases. Event anaphors can refer back to whole sections of text or concepts evoked by the text \cite[p. 8]{GuillouEtAlGuide}. 
+In \Last[a], {\sl this} does not have a specific referent, but refers to the
+whole subordinate clause of the previous sentence (fact sentence). In \Last[b],
+\textsl{cela} refers to the event VP \textsl{voir les données de cette façon}.
+%Neither \cite{GrishinaStedeGuide}, nor \cite{GuillouEtAlGuide} mark these cases.
+Event anaphors can refer back to whole sections of text or concepts evoked by
+the text \cite[p. 8]{GuillouEtAlGuide}. 
 
 %For example in: Ted [arrived late]. [This] annoyed Mary. This refers to the event arrived late. KLK: or actually that Ted arrived late, not just arrived late?
 %Another example: Vulnerable consumers in particular might need [specific support] to enable them to finance necessary investments to reduce energy consumption. [This] task...
 
-Demonstrative {\sl da}, which often has a temporal or a local meaning may also refer to bigger segments as in example \Next.
-
-\ex.
-{\sl Das ist eine schwierige Frage, weil es natürlich immer darum geht, [wer ist denn hier eigentlich der wichtigere, die die das umsetzen, technisch, oder die, die das journalistisch erdenken]. Ich möchte [da] keinen Unterschied machen.}
+% Demonstrative {\sl da}, which often has a temporal or a local meaning may also refer to bigger segments as in example \Next.
+% 
+% \ex.
+% {\sl Das ist eine schwierige Frage, weil es natürlich immer darum geht, [wer ist denn hier eigentlich der wichtigere, die die das umsetzen, technisch, oder die, die das journalistisch erdenken]. Ich möchte [da] keinen Unterschied machen.}
 
 Using deictics that vaguely refer to what the speaker is talking about (as in example \Next) exist in some text registers/genres under analysis. 
 
 \ex.
-{\sl [Ein immer größerer Teil dieser Brennstoffe wird aus Ländern außerhalb der EU eingeführt. Gegenwärtig importieren wir 50 \% unseres Erdgasund Erdölbedarfs]; [diese Abhängigkeit] könnte sich bis 2030 auf 70\% erhöhen.}
+\textsl{[Un gamin qui naît à New Delhi aujourd'hui peut espérer vivre aussi
+longtemps que l'homme le plus riche du monde il y a 100 ans.] Pensez-[y].}
+%{\sl [Ein immer größerer Teil dieser Brennstoffe wird aus Ländern außerhalb der EU eingeführt. Gegenwärtig importieren wir 50 \% unseres Erdgasund Erdölbedarfs]; [diese Abhängigkeit] könnte sich bis 2030 auf 70\% erhöhen.}
 
-Here {\sl diese Abhängigkeit} should be treated as an instance of event reference that refers to a segment consisting of two sentences. 
+Here \textsl{y} should be treated as an instance of event reference that refers
+to the entire previous sentence.
 
 
-In general, events should be easy to identify as they should contain verbs. However, in some cases, the decision on how big the span of relation is could be difficult. For instance, in \Last, {\sl diese Abhängigkeit} could refer to the sentence {\sl Gegenwärtig importieren wir 50 \% unseres Erdgasund Erdölbedarfs} only. %As with the annotation of pleonastic pronouns a partial annotation is required: The pronoun is marked as event, but is not linked to the event itself.
-Identifying pronouns that refer to events can be difficult, therefore the following simple rule is proposed:
-
-\begin{itemize}
-\item English: Try replacing the pronoun with a period and then start a new
-sentence or test if you can replace an instance of which with this
-\item German: Try replacing the pronoun with a period and then start a new
-sentence with das
-\end{itemize}
-
-If the resulting ``new text'' reads OK, then it is likely that the pronoun refers to an event. As an example of how this test would work, consider the following sentence: {\sl Ted arrived late, [which] annoyed Mary.} Question: Is {\sl which} an event pronoun? Replace the pronoun {\sl which} with a period and start the new sentence with {\sl This}:
-{\sl Ted arrived late. [This] annoyed Mary.} Result: Mark {\sl which} as an event pronoun as the ``test'' passed.
-
+% In general, events should be easy to identify as they should contain verbs. However, in some cases, the decision on how big the span of relation is could be difficult. For instance, in \Last, {\sl diese Abhängigkeit} could refer to the sentence {\sl Gegenwärtig importieren wir 50 \% unseres Erdgasund Erdölbedarfs} only. %As with the annotation of pleonastic pronouns a partial annotation is required: The pronoun is marked as event, but is not linked to the event itself.
+% Identifying pronouns that refer to events can be difficult, therefore the following simple rule is proposed:
+% 
+% \begin{itemize}
+% \item English: Try replacing the pronoun with a period and then start a new
+% sentence or test if you can replace an instance of which with this
+% \item German: Try replacing the pronoun with a period and then start a new
+% sentence with das
+% \end{itemize}
+% 
+% If the resulting ``new text'' reads OK, then it is likely that the pronoun refers to an event. As an example of how this test would work, consider the following sentence: {\sl Ted arrived late, [which] annoyed Mary.} Question: Is {\sl which} an event pronoun? Replace the pronoun {\sl which} with a period and start the new sentence with {\sl This}:
+% {\sl Ted arrived late. [This] annoyed Mary.} Result: Mark {\sl which} as an event pronoun as the ``test'' passed.
+% 
 If two pronouns refer to the same event, each should be marked as an event pronoun (as opposed to marking the second as anaphoric to the first) and the two instances linked together.
 
 In some scenarios, it is possible to read the text in more than one way and both readings appear to be equally likely. For example, it may be possible to mark the pronoun as either event reference (referring to a phrase with a verb) or
@@ -361,46 +474,59 @@ If it is impossible to tell what the pronoun refers to or if the text is very po
 
 \subsubsection{Pronominal adverbs}\label{sec:pronadv}
 
-Pronominal adverbs are a type of adverb occurring in both English and German
-(although they appear to be used more frequently in the German texts, and in English, they are rather archaic). They are formed by replacing a preposition and a pronoun, like {\sl gegen+das $\rightarrow$ dagegen} in example \Next.
+(not in French)
 
-\ex. {\sl Viele Amerikaner haben Probleme mit [Rassismus]; doch wir sind [dagegen] immun.}
-
-{\sl Dagegen} refers to {\sl Rassismus} and should be annotated and linked with it.
-
-Some pronominal adverbs in German are used as 'Korrelat' and are not coreferential. In \Next[a], there is no coreference; in \Next[b], {\sl davor} refers to the event {\sl allein im Wald joggen}.
-
-\ex.
-\a. {\sl Ich habe Angst [davor], alleine im Wald zu joggen}
-\b. {\sl [Joggst Du denn auch alleine im Wald]? Also ich habe Angst [davor].}
-
-Some pronominal adverbs in German can be used both as reference (as in \Next[b]) and discourse markers (as in \Next[a]).
-
-\ex.
-\a. {\sl In den vergangenen beiden Jahren haben die 200 größten deutschen Firmen insgesamt weit über 50 000 Jobs abgebaut. Mittelständische Betriebe [dagegen] haben alleine im Jahr 2000 unterm Strich 350 000 Jobs zusätzlich geschaffen.}
-\b. {\sl dann werden [diese speziellen Aspekte der Komplexe] deutlich miterlebt, und die Jugendlichen müssen [dagegen] anarbeiten.}
+% Pronominal adverbs are a type of adverb occurring in both English and German
+% (although they appear to be used more frequently in the German texts, and in English, they are rather archaic). They are formed by replacing a preposition and a pronoun, like {\sl gegen+das $\rightarrow$ dagegen} in example \Next.
+% 
+% \ex. {\sl Viele Amerikaner haben Probleme mit [Rassismus]; doch wir sind [dagegen] immun.}
+% 
+% {\sl Dagegen} refers to {\sl Rassismus} and should be annotated and linked with it.
+% 
+% Some pronominal adverbs in German are used as 'Korrelat' and are not coreferential. In \Next[a], there is no coreference; in \Next[b], {\sl davor} refers to the event {\sl allein im Wald joggen}.
+% 
+% \ex.
+% \a. {\sl Ich habe Angst [davor], alleine im Wald zu joggen}
+% \b. {\sl [Joggst Du denn auch alleine im Wald]? Also ich habe Angst [davor].}
+% 
+% Some pronominal adverbs in German can be used both as reference (as in \Next[b]) and discourse markers (as in \Next[a]).
+% 
+% \ex.
+% \a. {\sl In den vergangenen beiden Jahren haben die 200 größten deutschen Firmen insgesamt weit über 50 000 Jobs abgebaut. Mittelständische Betriebe [dagegen] haben alleine im Jahr 2000 unterm Strich 350 000 Jobs zusätzlich geschaffen.}
+% \b. {\sl dann werden [diese speziellen Aspekte der Komplexe] deutlich miterlebt, und die Jugendlichen müssen [dagegen] anarbeiten.}
 
 \subsubsection{Relative pronouns}
 
-Relative pronouns include such cases as {\sl who, whom, whose, which, that}, etc.
+% Relative pronouns include such cases as {\sl who, whom, whose, which, that}, etc.
+The relative pronouns \textsl{qui, que, où, lequel} etc.\ should be linked to the
+governing noun phrases.
 
-In example \Next, {\sl which/die} is linked to {\sl The Army/die Arme}.
+In example \Next, {\sl which} is linked to \textsl{\sl The Army}.
 \ex.
-\a. {\sl [The Army], [which] recruits heavily in the Punjab, will not use [their] force there in the way [it] is doing in the tribal areas.}
-\b. {\sl [Die Armee], [die] einen Großteil [ihrer] Soldaten im Punjab rekrutiert,
-wird dort nicht mit Gewalt vorgehen, so wie [sie] es in den Stammesgebieten
-tut.}
+%\a.
+\textsl{[The Army], [which] recruits heavily in the Punjab, will not use [their] force there in the way [it] is doing in the tribal areas.}
+%\b. {\sl [Die Armee], [die] einen Großteil [ihrer] Soldaten im Punjab rekrutiert,
+% wird dort nicht mit Gewalt vorgehen, so wie [sie] es in den Stammesgebieten
+% tut.}
 %\c. {\sl Es gibt [Mechanismes], [die] Arbeitnehmern helfen, ihre Beschäftigungsfähigkeit weiter zu entwickeln.}
 
-Keep in mind that pronouns can be ambiguous. In example \Next[a], {\sl where} is a relative pronoun and refers to {\sl Kashmir} (to show this, one
-can substitute where by in which). Conversely, in \Next[b], {\sl where} is not a relative pronoun and should not be annotated.
+Keep in mind that some of these pronouns can be ambiguous. In example \Next[a],
+{\sl where} is a relative pronoun and refers to {\sl Kashmir} (to show this, one
+can substitute where by in which). Conversely, in \Next[b], {\sl where} is not a
+relative pronoun and should not be annotated. In French, similar cases could
+arise with \textsl{où}.
 
 \ex.
 \a. {\sl For both India and Pakistan, Afghanistan risks turning into a new disputed
 territory, like [Kashmir], [where] the conflict has damaged both countries for more than 50 years.}
 \b. {\sl Daisy managed to discover where Mr. Baccini’s dishonest partner was now living and was anxiously expecting her cheque.}
 
-This type of coreference is one of the cases of grammatical coreference --  a kind of coreference in which it is possible to identify the antecedent on the basis of grammatical rules. In German, the relative pronoun agrees in its gender, number and case with the antecedent, as {\sl die} in \LLast[b] -- female singular nominative.
+This type of coreference is one of the cases of grammatical coreference --  a
+kind of coreference in which it is possible to identify the antecedent on the
+basis of grammatical rules.
+% In German, the relative pronoun agrees in its
+% gender, number and case with the antecedent, as {\sl die} in \LLast[b] -- female
+% singular nominative.
 
 \subsubsection{Reflexive pronouns}
 %\todo[inline, color=green]{Here, we need to clarify what is understood as a reflexive -- it is ambiguous between a verb reflexive and an accusative form of a pronoun. in Yulia's guidelines, not reflexives but accusative forms are given as examples. In ParCor, any examples are missing - see the annos in the corpus for clarification?}
