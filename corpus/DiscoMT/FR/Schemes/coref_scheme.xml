@@ -10,20 +10,17 @@
   <value id="value_mention_np" name="np" next="level_nptype"/> <!-- Nominal mentions (and also comparative) should have this tag-->
   <value id="value_mention_vp" name="vp" next="level_vptype"/>
   <value id="value_mention_clause" name="clause" next="level_clausetype"/>
-  <!-- <value id="value_mention_subst-elli" name="subst-elli" next="level_subst_elli"/> This is for elliptical and subsitution elements in the chains-->
   <value id="value_mention_new" name="none"/> 
  </attribute>
 
 <!-- If the mention is pronominal then-->
 
  <attribute id="level_type" name="Type" type="nominal_list" text="Choose type of pronoun"> <!-- You need to chose the type of the pronoun-->
-  <value id="value_type_antecedent" name="antecedent" next = "level_agreement_they,level_position_it,level_pers_refl"/>  
-  <value id="value_type_anaphora" name="anaphoric" next = "level_split,level_agreement_they,level_position_it,level_pers_refl"/>  
-  <value id="value_type_cataphora" name="cataphoric" next = "level_split,level_agreement_they,level_position_it"/>  
+  <value id="value_type_antecedent" name="antecedent" next = "level_pers_refl"/>  
+  <value id="value_type_anaphora" name="anaphoric" next = "level_split,level_pers_refl"/>  
+  <value id="value_type_cataphora" name="cataphoric" next = "level_split"/>  
   <value id="value_type_comp" name="comparative" next = "level_split,level_comp"/>
   <value id="value_type_subst" name="nom substitution" next = "level_split"/>
-  <value id="value_type_addressee" name="addressee reference" next="level_audience_you,level_agreement_you,level_position_you,level_pers_refl"/>
-  <value id="value_type_speaker" name="speaker reference" next="level_audience_we,level_pers_refl"/>
   <value id="value_type_extratextual" name="extratextual reference"/>
   <value id="value_type_pleo" name="pleonastic"/>
   <value id="value_type_pro" name="pronoun"/> <!--indefinite pronouns without antecedents-->
@@ -40,19 +37,6 @@
  <value id="value_pers_refl_none" name="none"/> 
 </attribute>
 
- <attribute id="level_audience_we" name="audience" type="nominal_list" text="">
-  <value id="value_audience_none" name="none"/>
-  <value id="value_audience_we_exclusive" name="exclusive we"/>
-  <value id="value_audience_we_copresent" name="co-present we"/>
-  <value id="value_audience_we_allinclusive" name="all-inclusive we"/>
- </attribute>
-
- <attribute id="level_audience_you" name="audience" type="nominal_list" text="">
-  <value id="value_audience_none" name="none"/>
-  <value id="value_audience_you_deictic" name="deictic you"/>
-  <value id="value_audience_you_generic" name="generic you"/>
- </attribute>
-
  <attribute id="level_split" name="split" type="nominal_button" text="">
   <value id="value_split_simple" name="simple antecedent" next = "level_antetype"/>
   <value id="value_split_split" name="split reference"/>
@@ -65,30 +49,6 @@
   <value id="value_antetype_noant" name="generic"/>
  </attribute>
 
- <attribute id="level_agreement_they" name="agreement" type="nominal_list" text="">
-  <value id="value_agreement_none" name="none"/>
-  <value id="value_agreement_theySg" name="singular"/>
-  <value id="value_agreement_theyPl" name="plural"/>
- </attribute>
-
- <attribute id="level_agreement_you" name="agreement" type="nominal_list" text="">
-  <value id="value_agreement_none" name="none"/>
-  <value id="value_agreement_youSg" name="you (sg.)"/>
-  <value id="value_agreement_youPl" name="you (pl.)"/>
- </attribute>
-
- <attribute id="level_position_it" name="position" type="nominal_list" text="">
-  <value id="value_position_none" name="none"/>
-  <value id="value_position_itSubj" name="subject"/>
-  <value id="value_position_itNonSubj" name="non-subject"/>
- </attribute>
- 
- <attribute id="level_position_you" name="position" type="nominal_list" text="">
-  <value id="value_position_none" name="none"/>
-  <value id="value_position_youSubj" name="you (subject)"/>
-  <value id="value_position_youNonSubj" name="you (non-subject)"/>
- </attribute>
- 
  <attribute id="level_nptype" name="NPtype" type="nominal_list" text="Choose type of NP">
   <value id="value_type_antecedent" name="antecedent"/>  
    <value id="value_nptype_np" name="np" next = "level_split,level_anacata" />
@@ -133,13 +93,7 @@
   <value id="value_clausetype_antec" name="antecedent" />
   <value id="value_clausetype_subst" name="clause-substitution" />
   <value id="value_clausetype_elli" name="clause-ellipsis" />
- <!-- <value id="value_subst_elli_mix" name="mix" />-->
   <value id="value_clausetype_unsure" name="Not sure. HELP!"/>
  </attribute>
-
-  <!--<attribute id="level_core_substelli" name="Ante-or-Elli" type ="nominal_button" text ="Choose between antecedent or ellipsis"/>
- <value id="level_core_substelli_antecedent" name ="antecedent">
- <value id ="level_core_substelli_substelli" next="level_subst_elli">
- </attribute>-->
 
 </annotationscheme>
