@@ -1,0 +1,784 @@
+\documentclass[a4paper]{article}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{linguex}
+\usepackage{amsmath}
+\usepackage{amssymb}
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[disable,colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{Coreference Corpus Annotation Guidelines}
+\author{Ekaterina Lapshinova-Koltunski, Christian Hardmeier}
+
+\begin{document}
+\maketitle
+\tableofcontents
+%\begin{abstract}
+%Your abstract.
+%\end{abstract}
+
+\section{Introduction}
+
+These guidelines present instructions for the English and German annotators who work on the annotation of full coreference chains of the parallel English-German corpus. The parts of the corpora include texts from EU Bookshop and TED Talks texts and were included into the
+ParCor 1.0 corpus. 
+These guidelines base on the guidelines for pronoun annotation described by \cite{GuillouEtAlGuide}, combined with those by \cite{GrishinaStedeGuide}. Some categories are based on the descriptions by \cite{Kunz2012} and \cite{NedoluzhkoMirovsky201}.
+
+%\section{Underlying Data}
+%The pre-annotated corpora that we use \todo{We will describe the data that we are using}
+
+\section{Markables}
+
+\subsection{Types of Markables: What to include}
+
+\subsubsection{Full NPs}
+
+For example: {\sl 24 EWSA-Mitglieder} in \Next[a] and {der Aktivitäten} in \Next[b].\todo{English examples?}
+
+\ex.
+\a.
+{\sl In diesem Buch berichten [24 EWSA-Mitglieder] über [ihren] Beitrag als Geschäftsleute und Gewerkschafter, Aktivisten und Freiwillige...}
+\b. {\sl Eine Liste [der Aktivitäten], [die] man der Kategorie ``aktive Bürgerschaft'' zurechnen könnte, würde sehr umfangreich ausfallen -- in [ihrer] Gesamtheit bilden [sie] das, was eine gesunde, partizipative Demokratie ausmacht.}
+
+%\todo[inline, color=green]{What shall we do with synonyms like {\sl Marshmallow-Herausforderung} and {\sl Marshmallow-Challenge} as in {\sl Vor einigen Jahren, hier bei TED, stellte Peter Skillman einen Design-Wettbewerb namens ``Die Marshmallow-Herausforderung'' vor ....<...>... Und was die Marshmallow-Challenge tut ist, sie hilft ihnen versteckte Annahmen zu identifizieren.}}
+
+\paragraph*{Definite article}
+(from GECCo)
+
+Definite articles signal a coreference relation, if the meaning of the nominal phrase (used with the articles) refers to an antecedent and triggers an identity relation. And the distance between the elements is not important here.
+
+Here, we should differentiate between the case when the definite article is used with a nominal phrase but no coreference relation is triggered, as in \Next[b]. \Next[a] represents the case when the definite NP is coreferent with the antecedent in the previous sentence.
+
+\ex.
+\a. {\sl This past spring, the U.S. Department of Education issued [a report, The Condition of Education 2000]. [The report] found that the benefits of attending college are greater today than ever before. [...] }
+\b. {\sl Insgesamt stellen sich die ökonomischen Voraussetzungen zu Beginn des neuen Jahrhunderts für Deutschland recht gut dar. [Die Teilhabe] an den Weltmärkten hat sich verbessert -- dies belegt die positive Dynamik der Exporte und Dienstleistungen}.
+
+In example \Next, all nominal phrases, no matter if they are expressed by the same word, refer to the same antecedent.%\todo{Here I am not sure...}
+
+\ex. {\sl Unfortunately, the Bangladesh health system is unprepared for [a crisis of this magnitude]...  [the arsenic problem]... [the crisis]... [the dilemma]... [the arsenic problem] .}
+
+\subsubsection{Proper names and Titles}
+
+%{\sl der EWSA} in \Next[a], 
+{\sl Herr Almeida Freire} in \Next[b].%\todo{PRUEFEN!!!}
+
+\ex. 
+\a. \label{eswa}{\sl [Der EWSA] hat stets betont, dass aktive Bürgerschaft die gesellschaftliche Integration von Kindern und Jugendlichen unterstützen und ihnen das Gefühl vermitteln kann, ein Teil der Gemeinschaft zu sein.}
+\b. 
+{\sl In [seiner] EWSA-Stellungnahme zum im Januar 2011 veröffentlichten ``Bericht der Kommission zur Beobachtung des Handelsmarktes'' schreibt [Herr Almeida Freire]...}
+
+\subsubsection{NPs with quantifiers}
+
+Be careful when annotating NPs with quantifiers, e.g. {\sl all people, two people, 105 Million euro}, etc. If you are not sure about the definiteness of an NP, apply the following test: try inserting a definite article or a demonstrative pronoun. If the meaning of the phrase is not changed, then the NP is definite and should be annotated as coreferent. Example: {\sl all people $\rightarrow$ all these people} $\Rightarrow$ definite NP \cite[p. 3]{GrishinaStedeGuide}.
+
+When deciding whether to link a pronoun to an antecedent, the following rules apply \cite[p. 9]{GuillouEtAlGuide}:
+\begin{itemize}
+\item  {\sl many of them}...: {\sl them} should be linked to its antecedent
+\item {\sl one of the fast growing economies}: {\sl one} should be marked as a pronoun but not linked to anything. However, in the cases when one is used as a substitution, it is linked to its antecedent as in example \Next, see Section \ref{sec:substitution}
+
+\ex.
+{\sl Do you prefer the blue shirt or [the red shirt]? -- I would like the red [one].}
+
+%\todo{Prove again when dealing with substitution}
+%\todo{compar}
+\item {\sl others}...: {\sl others} is anaphoric and has an antecedent, but it is not coreferent with its antecedent. It is a case of comparative reference, see Section \ref{comp}. It should be marked as {\bf mention $\rightarrow$ pronoun $\rightarrow$ comparative} and linked to the antecedent. %\todo{Think of these: include/not include them?}
+In some cases, {\sl others} can be repeated in a text and should be in this case marked as coreferent as in example \Next.
+
+\ex. {\sl [Others] thought that I am stupid but I don't care what [the/these others] say.}
+
+If {\sl other} is a part of a nominal phrase ({\sl other people}), it could also function as comparative reference. In this case, the whole nominal phrase should be marked as {\bf mention $\rightarrow$ np $\rightarrow$ comparative}.
+
+%\todo{Aendern!}
+\item {\sl both}: This is anaphoric, either to two individuals or two events or situations. If {\sl both} here is a bare pronoun, it should be marked and linked. If
+it has a head (as in {\sl both boys}), then the whole np should be marked and linked to antecedents in cases like {Toni and Marc ... both boys}%\todo{Check this later}
+
+\item {\sl each}: This is anaphoric to a set. If {\sl each} here is a bare pronoun, it should be marked and linked. If it has a head (as in {\sl each boy}), then it should be marked as a pronoun but not linked to anything, as this is a relation of part-whole or set-subset or similar, but not coreference, see example \Next, where {\sl them} is coreferent with {\sl Three girls}, but {\sl each} is not, it would be a member of a set, but not identical.
+
+\ex.
+{\sl Three girls were walking on the street. Each of them was carrying a D\"oner.}
+
+\end{itemize}
+
+\subsubsection{Nominal premodifiers}
+In case of English nominal premodifiers, we only annotate a nominal premodifier if it can refer to a named entity (like [[{\sl EU}] {\sl supporter}] in example \Next) or it is an independent noun in the genitive form ([[{\sl creditor's}] {\sl choice}] ); in all other cases, nominal premodifiers are not annotated as separate markables ({\sl bank account}) \cite[p. 4]{GrishinaStedeGuide}.
+
+%\todo[inline, color=green]{What shall we do with such cases like EWSA in German compounds as in example \ref{eswa} above?}
+
+\ex.
+{\sl The unionists used to be [[EU] supporters], but now they are questioning how [it] has developed...}
+
+In example \Last, the pronoun {\sl it} cannot be linked to the complete NP {\sl EU supporters}, but  to the {\sl EU} (the modifier). However, with compounds like {\sl EU-supporters} or {\sl EWSA} in German in example \ref{eswa} above, there is a single unit which cannot be split any further. In such cases, it is necessary to search for a standalone instance of {\sl EU} or {\sl EWSA} earlier in the text and link the pronoun {\sl it} to that instance (assuming one can be found) \cite[p. 7]{GuillouEtAlGuide}. The same is applied in German compounds that cannot be split.
+
+\subsubsection{Generic reference}
+
+Generic nouns can co-refer with definite full NPs or pronouns, but not with other generic nouns (no repetitions).
+
+\ex.
+\a. {\sl [Computers] are expensive. But [they] are really useful. Computers cost a lot of money.}
+\b.  {\sl  [Computer] sind teuer. Aber [sie] sind richtig nützlich. Computer kosten viel Geld.}
+
+In example \Last, only the anaphoric pronoun {\sl they} should be linked to its antecedent in the first sentence ({\sl computers}), but we do not annotate the generic noun computers in the third sentence.
+
+\subsubsection{Indefinite pronouns}
+
+An indefinite pronoun is a pronoun that refers to one or more unspecified beings, objects, or places, such as {\sl anybody, anyone, anything, everybody, everyone, everything, nobody, nothing, one, somebody, something, someone}.
+
+\ex. {\sl [Anyone] can see that she was looking for trouble.}
+
+In \Last, {\sl Anyone} is an indefinite pronoun as it does not refer to a specific person or group of people. Indefinite pronouns should be marked as pronouns to indicate that they have been ``seen'' in the text. As they will be marked as instances of the type {\bf pronoun}, they will not be linked to anything, nor will any other features be recorded \cite[p. 9]{GuillouEtAlGuide}.
+
+\subsubsection{Personal pronouns}
+
+We only annotate personal pronouns if they have a specific referent in the text like {\sl Tad Williams -- he} in \Next. %, like {\sl I/ich} and {\sl Daisy} or {\sl you/Ihnen} and {\sl the lady/die Dame} in example \Next.
+% They include: {\sl I, you, we, he, she, they, ich, du, wir, ihr, er, sie} and their forms in different cases ({\sl him, her, them, uns, ihnen}, etc.). First and second person pronouns are annotated only if they are repeated in the text.
+They include: {\sl he, she, they, wir, er, sie} and their forms in different cases ({\sl him, her, them, ihnen}, etc.). In the first release of ParCorFull, first and second person pronouns are not annotated.
+
+\ex.
+%\a. {\sl Hello, can [I] help [you]? -- [Daisy] asked [the lady]}.
+%\b. {\sl Hallo, kann [ich] Ihnen helfen? -- fragte [Daisy] die Dame}.
+{\sl [Tad Williams] is one of the most famous writers of modern times. In addition to Memory, Sorrow and Thorn [he] has written the acclaimed Otherland series.}
+
+%In example \Last, we annotate the first-person pronoun {\sl I/ich} as referring to the specific antecedent {\sl Daisy} and the second-person pronoun {\sl you} as referring to the specificantecedent {\sl lady}.
+
+% In example \Next, we have a case of {\bf addressee} reference pronoun ({\sl you -- your/ Sie -- Ihre -- Sie }) that should be annotated, but it is not linked to anything.
+% 
+% \ex. 
+% \a. {\sl If [you] need more information about [your] medical condition, read the Package Leaflet.}
+% \b. {\sl Wenn [Sie] weitere Informationen über [Ihre] Krankheit oder deren Behandlung benötigen, lesen [Sie] bitte die Packungsbeilage.}
+% 
+% Addressee and {\bf speaker reference pronouns} are defined as \cite[p. 4]{GuillouEtAlGuide}:
+% 
+% \begin{itemize}
+% \item {\bf Addressee reference}: Where the pronoun primarily refers to the addressee (person being addressed)
+% \item {\bf Speaker reference}: Where the pronoun primarily refers to the speaker or may not include the addressee
+% \end{itemize}
+% 
+% As a guideline related to addressee/speaker:
+% \begin{itemize}
+% \item First-person pronouns normally refer to the speaker, in the case of the
+% singular (e.g. the English {\sl I}), or to the speaker and others, in the case of the plural (e.g. the English {\sl we})
+% \item  Second-person pronouns normally refer to the person or persons being addressed (e.g. the English {\sl you}); in the plural they may also refer to
+% the person or persons being addressed together with third parties
+% \item  Third-person pronouns normally refer to third parties other than the speaker or the person being addressed (e.g. the English {\sl he, she, it, they})
+% \item  Plural pronouns like {\sl us, you} and {\sl we} may be more difficult: {\sl we, us, our} will most likely be speaker reference, and instances of {\sl you} and {\sl your} will likely be addressee reference
+% \item  Be aware that it may be difficult to distinguish between speaker reference and addressee reference in some cases.
+% \end{itemize}
+% 
+% For pronouns that fall into the speaker reference category (used for all instances of {\sl we}), the audience should be recorded. There is an audience attribute (in MMAX2), which can be set as either:
+% \begin{itemize}
+% \item Exclusive {\sl we}, meaning the speaker and his/her clique but not the audience
+% \item Co-present {\sl we}, meaning the speaker plus everyone physically present in the room
+% \item All-inclusive {\sl we}, incorporating everything else
+% \end{itemize}
+% 
+% For pronouns that fall into the addressee reference category, the audience should be recorded. There is an audience attribute (in MMAX2), which can be set as:
+% \begin{itemize}
+% \item  Deictic, meaning that the speaker is really referring to the audience or a specific person
+% \item Generic, as in phrases such as: {\sl In England, if [you] own a house [you] have to pay taxes}.
+% \end{itemize}
+% 
+% When a speaker uses deictic {\sl you}, talking to the whole audience, it should always be marked as plural, even in cases like {\sl Imagine you're walking alone in the woods}, where there is clearly a singular sense to the word. For generic cases of {\sl you}, it is not necessary to make a singular vs. plural distinction. 
+% 
+% N.B. {\sl you} should not be labelled as as pleonastic
+% 
+% % and explain pleonastic pronouns which should be markes but are not coreferent.
+% 
+% Identifying whether a first-person or second-person pronoun corefer within quoted text can become difficult. Furthermore, the focus is on translating coreference in normal text, not quoted text. We therefore simplify the annotation task using
+% the following rules:
+% 
+% \begin{enumerate}
+% \item First and second-person pronouns within quoted text should simply be marked as instances of type pronoun;
+% \item third-person personal pronouns should be marked as normal:
+% \item in some cases, the text may read like an interview (with questions and answers) but with no quotes. In this case, the text is not to be treated as quoted text. Speaker/addressee reference pronouns should be annotated
+% as normal.
+% \end{enumerate}
+
+Personal pronouns can also serve as {\bf pleonastic pronoun}. These do not actually refer to an entity \cite[p. 5]{GuillouEtAlGuide}. In other words, the
+pronoun could not be replaced with an NP as with a regular pronoun. Often a subject is required by syntax i.e. something is required in that position. In some cases there will not be a subject so a ``dummy'' pronoun is required to fill
+the gap. For example, in the following sentences the pronoun {\sl it} does not refer to anything but is included as something is required by the syntax of the language in the subject position, as in example \Next.
+
+\ex.
+\a. {\sl [It] is raining. -- [Es] regnet.}
+\b. {\sl [It] is well known that apples taste different from oranges --  [Es] ist bekannt, dass...}
+\c. {\sl Der Europäische Rat hat einen ständigen Präsidenten, dessen Aufgabe [es] ist, die Arbeit des Europäischen Rates zu koordinieren und seine Kontinuität zu gewährleisten.}
+
+{\sl It/Es} is commonly used as a pleonastic pronoun in English/German. Other pronouns such as {\sl they} and {\sl you} may also be used in cases where they do not refer to a specific
+entity.
+
+\ex.
+\a. {\sl In this country, if [you] own a house you have to pay taxes}.
+\b. {\sl [They] say you should never mix business with pleasure}.
+
+In German, the indefinite pronoun {\sl man} is often used. 
+
+In the case of pleonastic pronouns we wish to make a partial annotation: Marking these pronouns as pleonastic, but not linking them to anything (because they do not refer to anything). These are the cases, where there is no antecedent in the text to which the pronoun {\sl they} may be linked to, as in example \Next. In this case, the pronoun should be marked as ``anaphoric but no specific antecedent''.
+
+\ex. {\sl There's a study called the streaming trials. {\sl They} took 100 people and split them into two groups.}
+
+For cases where the speaker refers to something such as a slide or prop, the pronoun should be marked as extra-textual. Two pronouns referring to the same object should both be marked as extra-textual and linked together as co-referents.
+The extra-textual category can also be used within quoted text when a third-person is referred to such as {\sl he} in example \Next.
+\ex.
+{\sl People when they see me say ``[he]'s a bit weird''}.
+
+N.B. This is rarely required.
+
+%When the pronoun {\sl sie/they} is used to refer anaphorically to a collective noun (such as {\sl the government}), it should be considered a plural pronoun and marked as such \cite[p. 6]{GuillouEtAlGuide}.
+
+English lacks ungendered person pronouns. Therefore, there are instances of {\sl he or she} in a text, see example \Next.
+
+\ex.
+{\sl If your child is thinking about a gap year, [he or she] can get good advice from this website.}
+
+In such cases, {\sl he or she} should be considered a single unit (or markable), just as if it had been written {\sl s/he} (which is a common alternative). This solution will also make the phrase easier to resolve, since it can only be linked to a
+non-specific antecedent. The same applies to the instances of {\sl he or she} in dative and accusative, e.g. {\sl him or her}, {\sl his or her} and {\sl his or hers}. {\sl S/he}
+should be treated as a complete unit (or markable) and as a pronoun.
+
+\subsubsection{Demonstrative pronouns}
+
+\ex.
+%\a. {\sl You need [a camera] that works in the dark. Hm, take [this].}
+%\b. {\sl Sie brauchen [ein Modell], das auch nachts funktioniert. Hm, nehmen Sie [dieses].}
+%{\sl The United States will be taking [three very important messages] to Johannesburg. America's vision for Johannesburg is to build on [these three messages]....}
+{\sl During the November/December ministerial, we created consensus in [some very important areas]. [These] include ...}
+
+In example \Last, the demonstrative pronoun {\sl these} points back to its antecedent {\sl some very important areas} mentioned in the previous sentence and must be annotated. 
+
+In German, the forms {\sl der, die, das} can also serve as demonstratives, see \Next.
+
+\ex.
+{\sl Hast Du [Martin] gesehen? [Der] war heute nicht im Büro.}
+%Keep in mind that we do NOT annotate event coreference, that is why we do not consider 
+
+All the forms of demonstrative pronouns can also be exophoric, i.e. refer directly to the situational context and thus, do not have any links in the text as in examples in \Next. % direkt auf den Situationskontext verweisen:
+\ex.
+\a. {\sl Siehst Du [den] [da] drüben?}
+\b. {\sl [That man] over [there], he is strange.}
+%\c. {\sl [Die Sonne] steht immer höher am Himmel.}
+
+These cases should be marked as {\bf extratextual reference}. 
+In \cite{GrishinaStedeGuide}, predicative constructions are annotated in the following way: {\sl [This] is a bank, but [it] is not very well-known}. But in fact, {\sl bank} and {\sl it} corefer. %\todo{How shall we proceed here?} %\todo[inline, color=green]{The cases of predicative constructions should be clarified. In Yulia's corpus, they consider in the cases like: {\sl This is a bank, but it is not very well-known} that {\sl this} corefers with {\sl it}. }.
+So, we annotate {\sl bank} and {\sl it} as coreferent. % cases of predicative constructions should be clarified. 
+
+There are cases of usage of demonstrative pronouns {\sl those, jene, der, die, das}, when they function as indefinite pronouns and do not have coreference relation (should not be linked), see examples in \Next. They are similar to the cases of 'Korrelat' described in Section \ref{sec:pronadv} below.
+
+\ex.
+\a. {\sl [Those], who hesitate, are lost.}
+\b. {\sl längst hat in diesem Feld die Wirklichkeit [jene], die es besser wussten, eingeholt.}
+\c. {\sl Für [die], die lieber von einer festen Unterkunft Tagestouren unternehmen wollen, bietet die Insel Sylt z.B. rund 200 km Radwege.}
+
+
+\paragraph*{Temporal adverbs}
+
+Temporal expressions are to be annotated if they co-refer.
+
+\ex.
+\a. {\sl [In my young days] we took these things more seriously. We had different ideas [then].}
+%\b. {\sl The plane touched down [at last]}. {[Now], we could breathe freely again.}
+\c. {\sl Annette ist endlich fertig. Sie ist ein bisschen bummelig und unordentlich, wie ich [als Kind] gewesen sein muss. [Damals] hätte ich nie geglaubt, dass ich meine Kinder zurechtweisen würde, wie meine Eltern mich zurechtwiesen.}
+
+The temporal adverbial {\sl then} can trigger either coreference or conjunction (discourse relation). For disambiguation, we can use a rule that if the English {\sl then} can be translated as {\sl damals}, then it triggers a coreference relation as in example \Next[a]. In  other cases, it is likely to be a discourse marker. 
+
+\ex.
+\a. {\sl Well, though dollars were just as hard to come by in [the 1920s]. But you could have paid for the land with livestock [then] because there was still, you know, fifty-cent-an-acre-land -- an entire acre.}
+\b. {\sl To Add an Exception to the AutoCorrect Exceptions List 1. Choose Tools -- AutoCorrect, and [then] click the Exceptions tab.}
+\c. {\sl 
+Having lectures, we probably had about 20 hours a week, so we went obviously we were so close we could stay in the University to do work and [then] we could come home and we were near enough to the town center to just, you know, get a cab in to it and go out.}
+
+\paragraph*{Local adverbs}
+Local adverbs as {\sl here} and {\sl there} or {\sl da, dort} can also trigger coreference and should be annotated. In example \Next[a], {\sl there} refers to {\sl to the doctor}, in \Next[b], {\sl here} corefers with {\sl your new home}.
+
+%\todo[inline, color=green]{What about local reference [new home] -- [there]?}
+\ex.
+\a. {\sl Is Lina going [to the doctor] today? -- No, she went [there] yesterday.}
+\b.. {\sl How do you like [your new home]? - Oh, it's really wonderful [here].}
+%(14) The Army, which recruits heavily in [the Punjab] 1 , will not use force [there] 1 .
+
+\paragraph*{Event Reference}
+
+Demonstrative pronouns also refer to verb phrases or to bigger discourse units, as in example \Next. 
+
+\ex.
+\a. {\sl The London G-20 meeting recognized that [the world's poorest countries and people should not be penalized by a crisis for which they are not responsible]. With [this] in mind, the G-20 leaders set out an ambitious agenda for an inclusive and wide-ranging response.}
+\b. {\sl Die Europäische Union wurde gegründet, um [politische Ziele zu verwirklichen]; erreicht werden sollte [dies] auf dem Weg der wirtschaftlichen Zusammenarbeit.}
+
+In \Last[a], {\sl this} does not have a specific referent, but refers to the whole subordinate clause of the previous sentence (fact sentence). In \Last[b], {\sl dies} refers to the event-vp {\sl politische Ziele verwirklichen}. Neither \cite{GrishinaStedeGuide}, nor \cite{GuillouEtAlGuide} mark these cases. Event anaphors can refer back to whole sections of text or concepts evoked by the text \cite[p. 8]{GuillouEtAlGuide}. 
+
+%For example in: Ted [arrived late]. [This] annoyed Mary. This refers to the event arrived late. KLK: or actually that Ted arrived late, not just arrived late?
+%Another example: Vulnerable consumers in particular might need [specific support] to enable them to finance necessary investments to reduce energy consumption. [This] task...
+
+Demonstrative {\sl da}, which often has a temporal or a local meaning may also refer to bigger segments as in example \Next.
+
+\ex.
+{\sl Das ist eine schwierige Frage, weil es natürlich immer darum geht, [wer ist denn hier eigentlich der wichtigere, die die das umsetzen, technisch, oder die, die das journalistisch erdenken]. Ich möchte [da] keinen Unterschied machen.}
+
+Using deictics that vaguely refer to what the speaker is talking about (as in example \Next) exist in some text registers/genres under analysis. 
+
+\ex.
+{\sl [Ein immer größerer Teil dieser Brennstoffe wird aus Ländern außerhalb der EU eingeführt. Gegenwärtig importieren wir 50 \% unseres Erdgasund Erdölbedarfs]; [diese Abhängigkeit] könnte sich bis 2030 auf 70\% erhöhen.}
+
+Here {\sl diese Abhängigkeit} should be treated as an instance of event reference that refers to a segment consisting of two sentences. 
+
+
+In general, events should be easy to identify as they should contain verbs. However, in some cases, the decision on how big the span of relation is could be difficult. For instance, in \Last, {\sl diese Abhängigkeit} could refer to the sentence {\sl Gegenwärtig importieren wir 50 \% unseres Erdgasund Erdölbedarfs} only. %As with the annotation of pleonastic pronouns a partial annotation is required: The pronoun is marked as event, but is not linked to the event itself.
+Identifying pronouns that refer to events can be difficult, therefore the following simple rule is proposed:
+
+\begin{itemize}
+\item English: Try replacing the pronoun with a period and then start a new
+sentence or test if you can replace an instance of which with this
+\item German: Try replacing the pronoun with a period and then start a new
+sentence with das
+\end{itemize}
+
+If the resulting ``new text'' reads OK, then it is likely that the pronoun refers to an event. As an example of how this test would work, consider the following sentence: {\sl Ted arrived late, [which] annoyed Mary.} Question: Is {\sl which} an event pronoun? Replace the pronoun {\sl which} with a period and start the new sentence with {\sl This}:
+{\sl Ted arrived late. [This] annoyed Mary.} Result: Mark {\sl which} as an event pronoun as the ``test'' passed.
+
+If two pronouns refer to the same event, each should be marked as an event pronoun (as opposed to marking the second as anaphoric to the first) and the two instances linked together.
+
+In some scenarios, it is possible to read the text in more than one way and both readings appear to be equally likely. For example, it may be possible to mark the pronoun as either event reference (referring to a phrase with a verb) or
+anaphoric (referring to an NP), i.e. it is ambiguous, see example \Next.
+
+\ex.
+{\sl In the framework of the North Seas Countries’ Offshore Grid Initiative, ENTSO-E is already conducting grid studies for northwestern Europe with a 2030 horizon. [This] should feed into ENTSO-E's work for a modular development plan of a pan-European electricity highways system up to 2050.}
+
+In this example, the pronoun {\sl This} could refer to:
+\begin{itemize}
+\item North Seas Countries’ Offshore Grid Initiative (NP)
+\item conducting grid studies for northwestern Europe with a 2030 horizon (Verb
+Phrase)
+\end{itemize}
+
+In such scenarios, if multiple labels would be possible, select anaphoric and link the pronoun to the NP. This will provide more information when the data is used for training translation systems.
+
+If it is impossible to tell what the pronoun refers to or if the text is very poorly written, the pronoun may be marked as {\sl Not sure. Help!}. This will help to identify those scenarios that are very difficult for humans (and therefore even more difficult for machines) to determine.
+
+\subsubsection{Pronominal adverbs}\label{sec:pronadv}
+
+Pronominal adverbs are a type of adverb occurring in both English and German
+(although they appear to be used more frequently in the German texts, and in English, they are rather archaic). They are formed by replacing a preposition and a pronoun, like {\sl gegen+das $\rightarrow$ dagegen} in example \Next.
+
+\ex. {\sl Viele Amerikaner haben Probleme mit [Rassismus]; doch wir sind [dagegen] immun.}
+
+{\sl Dagegen} refers to {\sl Rassismus} and should be annotated and linked with it.
+
+Some pronominal adverbs in German are used as 'Korrelat' and are not coreferential. In \Next[a], there is no coreference; in \Next[b], {\sl davor} refers to the event {\sl allein im Wald joggen}.
+
+\ex.
+\a. {\sl Ich habe Angst [davor], alleine im Wald zu joggen}
+\b. {\sl [Joggst Du denn auch alleine im Wald]? Also ich habe Angst [davor].}
+
+Some pronominal adverbs in German can be used both as reference (as in \Next[b]) and discourse markers (as in \Next[a]).
+
+\ex.
+\a. {\sl In den vergangenen beiden Jahren haben die 200 größten deutschen Firmen insgesamt weit über 50 000 Jobs abgebaut. Mittelständische Betriebe [dagegen] haben alleine im Jahr 2000 unterm Strich 350 000 Jobs zusätzlich geschaffen.}
+\b. {\sl dann werden [diese speziellen Aspekte der Komplexe] deutlich miterlebt, und die Jugendlichen müssen [dagegen] anarbeiten.}
+
+\subsubsection{Relative pronouns}
+
+Relative pronouns include such cases as {\sl who, whom, whose, which, that}, etc.
+
+In example \Next, {\sl which/die} is linked to {\sl The Army/die Arme}.
+\ex.
+\a. {\sl [The Army], [which] recruits heavily in the Punjab, will not use [their] force there in the way [it] is doing in the tribal areas.}
+\b. {\sl [Die Armee], [die] einen Großteil [ihrer] Soldaten im Punjab rekrutiert,
+wird dort nicht mit Gewalt vorgehen, so wie [sie] es in den Stammesgebieten
+tut.}
+%\c. {\sl Es gibt [Mechanismes], [die] Arbeitnehmern helfen, ihre Beschäftigungsfähigkeit weiter zu entwickeln.}
+
+Keep in mind that pronouns can be ambiguous. In example \Next[a], {\sl where} is a relative pronoun and refers to {\sl Kashmir} (to show this, one
+can substitute where by in which). Conversely, in \Next[b], {\sl where} is not a relative pronoun and should not be annotated.
+
+\ex.
+\a. {\sl For both India and Pakistan, Afghanistan risks turning into a new disputed
+territory, like [Kashmir], [where] the conflict has damaged both countries for more than 50 years.}
+\b. {\sl Daisy managed to discover where Mr. Baccini’s dishonest partner was now living and was anxiously expecting her cheque.}
+
+This type of coreference is one of the cases of grammatical coreference --  a kind of coreference in which it is possible to identify the antecedent on the basis of grammatical rules. In German, the relative pronoun agrees in its gender, number and case with the antecedent, as {\sl die} in \LLast[b] -- female singular nominative.
+
+\subsubsection{Reflexive pronouns}
+%\todo[inline, color=green]{Here, we need to clarify what is understood as a reflexive -- it is ambiguous between a verb reflexive and an accusative form of a pronoun. in Yulia's guidelines, not reflexives but accusative forms are given as examples. In ParCor, any examples are missing - see the annos in the corpus for clarification?}
+We annotate reflexives as in examples \Next.
+
+%From Yulia:
+\ex.
+\a. {\sl It's beginning to rain! -- [Daisy] exclaimed to [herself].}
+\b.  {\sl Es fängt an zu regnen! -- sagte [Daisy] zu [sich] [selbst].}
+
+\cite[p. 3]{GrishinaStedeGuide}: For German, reflexive pronouns must be annotated only if they are independent constituents, but not part of a reflexive verb. 
+The following test should be applied: if the position of the reflexive pronoun can be changed, then the pronoun is an independent unit (example \Next[b]), otherwise it belongs to the verb (example \Next[a]).
+
+\ex.
+\a.  {\sl Ich habe mich gestern gewundert. (*Mich habe ich gestern gewundert).}
+\b. {\sl Ich habe [mich] 1 gestern gesehen. (Mich habe ich gestern gesehen).}
+
+Similar to relatives, coreference with reflexives belongs to grammatical coreference. Reflexives agree in their number and case with the antecedent.
+
+%(11). Reflexivity in German and in Russian can also be marked by other units, such as selbst, selber, persönlich that also must be annotated.
+
+\subsubsection{Groups}
+
+\cite[p. 4]{GrishinaStedeGuide}: If all elements from a group are referred to by an anaphoric pronoun, create a group markable consisting of the set elements and then link the anaphoric pronoun to it.
+
+\ex. 
+\a. {\sl Did [your husband] buy Lorna, [Mrs. Humphries]? -- No, [we] bought her together.}
+\b. {\sl So wurden 2004 [Estland], [Lettland], [Litauen], [Polen], [die Slowakei], [Slowenien], [die Tschechische Republik] und [Ungarn] zusammen mit den Mittelmeerinseln [Malta] und [Zypern], Mitgliedstaaten der EU. [Bulgarien] und [Rumänien] folgten im Jahr 2007. Heute sind [sie] alle als Partner an dem großartigen Projekt beteiligt, das die Gründerväter der EU ersonnen haben.}
+%\subsubsection{Temporal expressions}
+
+%[John] likes documentaries. [Mary] likes films about animals. The last time [they] went to the cinema [they] compromised and saw a film about penguins.
+
+\cite[p. 6]{GuillouEtAlGuide}: In \Last[a], {\sl we} refers to 
+{\sl your husband} and {\sl Mrs. Humphries}, and in \Last[b], {\sl sie} refers to all the countries mentioned in separate sentences, so there is no NP span that covers all of them. In cases like these, if all of the antecedents can be identified and it is clear from the texts what the antecedents are, the pronoun should be linked to each of the separate antecedent
+``parts''. It is important to ensure that all ``parts'' are linked. All components of the antecedent should be linked to the pronoun directly, and not to each other.
+
+It is important to first ensure that no NP exists that covers all parts of the antecedent. So, if a sentence like \Next precedes the first sentence in \Last[b], then {\sl sie} would refer to {\sl Europäische Länder} and not to these concrete countries mentioned in the following sentences.
+
+\ex.
+{\sl Europäische Länder, die jahrzehntelang keine demokratischen Freiheiten genossen hatten, kehrten endlich zur Familie der demokratischen europäischen Nationen zurück.}
+
+
+\subsubsection{Substitution and Ellipsis}\label{sec:substitution}
+Coreference expresses the relation of identity, whereas substitution triggers type reference relation between referents belonging to the same class \cite{KunzSteiner2013,deBeaugrandeDressler1981}. In this sense,
+substitution is similar to ellipsis, whereas the latter use elided elements
+instead of substitutes.
+
+Ellipsis and substitution are subdivided into their structural types,
+according to the omitted/substituted element: nominal (e.g. nominal
+ellipsis in example \Next[a]), verbal (see a case of verbal substitution in
+example \Next[b]) and clausal (we illustrate clausal substitution in example
+\Next[c]).
+
+\ex.
+\a. {\sl You might have to come up afterwards to count but if I take
+any one of these balls in the middle and I count how many
+[neighboring balls] that there are around it, the answer's
+always twelve [].}
+\b. {\sl You'll see that it had [to accommodate] an incredible range
+of functions much more elaborate than any temple or palace in
+the past would have [done].}
+\c. {\sl [Does everybody have a handout, for today]? If [not]
+Aaron's got handouts.}
+\d. {\sl [So, well, any more questions]? -- [no], okay, ...}
+\e. {\sl [How many slices do you want]? - ``[Two]'', I said.}
+
+Following \cite{Menzel2017}, we also define two additional classes for
+ellipsis: yes-no type as in \Last[d] and mixed type (a combination of nominal
+and verbal or clausal) as illustrated in \Last[e]. Non-repetition of the
+constituents from a question or statement is seen as an ellipsis of the whole clause by \cite{HallidayHasan1976}. Like in case of coreference,
+substitution and ellipsis also form chains. The types of the antecedents
+(marked with curly brackets) in these chains are reflected in the types of
+their substituting or elliptical elements that we define: for instance, the
+elliptical element in \Last[a] establishes a relation to a nominal phrase.
+
+%shall we include? \todo{We need to decide if we include this one}
+
+%\subsubsection{Ellipsis}
+%shall we include? \todo{We need to decide if we include this one}
+
+\subsubsection{Comparative reference}\label{comp}
+
+Comparative reference does not trigger the relation of identity, co-reference in the strict sense. Together with other cases (substitution and ellipsis) it rather involves type-reference, co-classification or ``sloppy identity'', see \cite{KunzSteiner2012}.
+
+The linguistic means signaling comparative reference include the following words: 
+
+\begin{itemize}
+\item general: 
+\begin{itemize}
+\item EN: {\sl same, equal, identical, identically, similar, such, so, corresponding, similarly, likewise, other, different, else,
+differently, otherwise}
+\item DE: {\sl Derselbe (+Nomen), gleich, identisch, Ähnlich (adj+adv), genauso, gleichermaßen, Anders, unterschiedlich, gegensätzlich, andersartig}
+\end{itemize}
+\item particular:
+
+\begin{itemize}
+\item EN: {\sl More, fewer, less, further, additional, so/as/equally}+Quantifier, e.g. {\sl so many}
+\item DE: {\sl weniger, mehr}
+\item BOTH: comparative degree of adjectives such as {\sl better, faster; so/as/equally} + 
+adjective, e.g. {\sl equally good} and comparative adverbs
+\end{itemize}
+\end{itemize}
+
+%book... the same book
+Not all cases should be annotated. %nicht alle Vorkommen sind kohäsiv:
+Grammatical comparison should not be annotated, as in examples \Next[a-b].
+
+% Bei allen Vorkommen, die einen Vergleich innerhalb eines Einzelsatzes herstellen, ist der Vergleich grammatikalisiert und deshalb nicht kohäsiv:
+% It’s the same cat as the one we saw yesterday. = nicht kohäsiv
+\ex.
+\a. {\sl Paul is [bigger] than Jim.}
+\b. {\sl Ihr Appartment ist fast [so groß] wie meines.}
+
+Sometimes, cases of comparison can be generic, and don't have any link to other text elements, as in examples \Next[a-b].
+
+\ex.
+\a. {\sl Most people have [the same] breakfast everyday.}
+\b. {\sl Alle Befragten beschrieben [ähnliche] Situationen}.
+
+
+\subsection{Span of Markables}
+\todo[inline, color=green]{What do we do with German compounds?}
+
+\cite{GrishinaStedeGuide,GuillouEtAlGuide}:
+
+A markable is any pronoun, noun or NP that will be marked because it forms part of pronoun-antecedent pair, or a pronoun for which there is no antecedent to be marked. For pronouns, the markable will be a single word. For a pronoun's antecedent(s), the markable will be a noun or an NP or a VP and sentence(s) in case of event reference. For noun or NP markables, the following rules apply. The markable must:
+
+\begin{itemize}
+\item contain the syntactic head of the NP
+\begin{itemize}
+\item {\sl task} is the head in {\sl the coreference task}
+\item If the head is name then the entire name (not just a part of it) should be marked: {\sl Frederick F. Fernwhistle Jr.} in {\sl the Honorable Frederick F. Fernwhistle Jr.}
+\end{itemize}
+
+\item  determiners and adjectives (if any) that modify the NP
+\begin{itemize}
+\item {\sl the Honorable Frederick F. Fernwhistle Jr.}
+\item {\sl Mr. Holland}
+\item {\sl the coreference task} (where {\sl task} is the head) -- this provides information about what the task is and separates it from other coreference tasks, the scheduling task, etc.
+\item {\sl the big black dog} (where {\sl dog} is the head)
+\item Determiners such as {\sl the} should be included
+\end{itemize}
+
+\item deverbal modifiers (participial constructions, regardless whether in pre- or postposition) that
+can be substituted by a subordinate clause as in example  {\sl [Regional conflict, involving all of the region's states and increasing numbers of non-state actors], has produced large numbers of [trained fighters, waiting for the call to glory]}. 
+In this case, both {\sl regional conflict, involving all of the region’s states and increasing numbers of non-state actors} and {\sl trained fighters, waiting for the call to glory} are markables.
+\item dependent prepositional phrases (for example, {\sl Queen of England}).
+\item  appositions, i.e., additive material that is not syntactically integrated, are included into the markable span, but are not annotated separately: {\sl [JuD, Party of Proselytizing,] was founded in 1972. / [Jud, Partei der Missionierung,] wurde 1972 gegründet.}
+\end{itemize}
+
+However, full clauses, in particular relative clauses, are not taken as parts of the markable rooted in the NP head. Therefore we annotate relative pronouns separately.
+
+\subsection{Anaphoric and Cataphoric Reference}
+
+\cite[p. 4]{GuillouEtAlGuide}:
+
+When a pronoun appears after its antecedent/referent in a text we call this anaphora (the relationship is anaphoric). The pronouns in the above examples are anaphoric. When a pronoun appears before its referent in a text we call this
+cataphora (the relationship is cataphoric). The pronoun {\sl she} in example \Next is cataphoric.
+
+\ex.
+{\sl If [she] is in town, [Mary] can join us for dinner.}
+
+We are only interested in cataphoric relations in which the pronoun and its referent occur in the same sentence. Also, consider the following rule for deciding if a pronoun is anaphoric/cataphoric: if the pronoun can be marked as anaphoric, mark it as such. If no possible antecedent appears before the pronoun, then consider linking it as cataphoric. (We will use the term antecedent to refer to
+the NP that either a cataphoric or anaphoric pronoun refers to).
+
+\section{Antecedents}
+\todo[inline, color=green]{we can also include this one into the 'Markables' section.}
+
+Once an anaphoric or cataphoric pronoun has been identified a pronoun, its antecedent needs to be determined. There are several cases. The pronoun may refer to:
+
+\begin{itemize}
+\item An entity represented by lexical word, e.g. proper noun (example \Next[a]) or common noun or a nominal phrase(example \Next[b]), but also a pronoun \todo{OR SHALL WE HAVE A SEPARATE CATEGORY?} 
+\ex. 
+\a. {\sl [Tad Williams]? I just read a novel of [his].}
+\b. {\sl \([Eine verantwortungsbewusste Politik]_1\) kann\\ \([diesen Prozess, der zudem von objektiven Faktoren determiniert wird,]_2\) nicht nur flankieren. \([Sie]_1\) muss \([ihn]_2\) vielmehr formen.}
+
+\item a verbal phrase (event-vp)
+
+\ex.
+\a. {\sl just to remind you, for project number three which is due on Wednesday ... you have to basically [combine everything you learned from project one and project two]. ultimately [that]'s the goal .}
+\b. {\sl Also das Alphabet dieses Prozesses wäre jetzt [anzünden, ausgehen]. [Das] sind die beiden Aktionen, die das Ding machen kann.}
+\c. {\sl Hier geht es darum, [eine praktische Lösung zu einer aktuellen Fraestellung zu bearbeiten]. [Das] macht man üblicherweise auch in einer Kleingruppe.}
+
+\item a fact-sentence
+
+\ex.
+\a.  {\sl  [We work for prosperity and opportunity]1 because they’re right. \([It]_1\) 's the right thing to do.}
+\b. {\sl [Wir arbeiten für Wohlstand und Chancen]1, weil [das]1 richtig ist. Wir tun [damit]1 das Richtige.}
+%\b. {\sl Moreover he was charged by his father with a mission, which he might not reveal in that place. ‘It is known to us already,’ said the three damsels.}
+
+%An event (see Section \ref{sec:event})
+\item Nothing (see Section ...)
+\item  no explicit antecedent It may be possible to tell that a pronoun is anaphoric, but there is no specific antecedent in the text. For example the pronoun {\sl these} in {\sl Access
+to 0800 numbers...[these calls]} (see page 5, ex. 14).
+
+\item Split antecedent: This should be marked if the pronoun has multiple antecedents. All components
+of the antecedent should be linked to the pronoun directly, and not to each other.
+
+\item A word may have been marked as a pronoun in error 
+\end{itemize}
+
+In order to identify what a pronoun refers to, the pronoun itself should be used as a starting point. Look back earlier in the text (working backwards sentence by sentence) until the nearest non-pronominal antecedent is identified. In example \Next, the pronoun {\sl he} should be linked to {\sl Musashi}, the nearest antecedent, and not
+to {\sl Miyamoto Musashi} which appears earlier in the text.
+
+\ex.
+{\sl The details of [Miyamoto Musashi]'s early life are difficult to verify. [Musashi] simply states in Gorin no Sho that [he] was born in Harima Province.}
+
+
+
+\section{Annotation Process}
+
+\subsection{Colours in MMAX}
+
+\begin{itemize}
+\item All marked structures are in blue font. %<rule pattern="{all}" style="foreground=blue"/>
+\item if something is in italics, then it is a member of a chain (and no chain means no italics:)
+\item if a pronoun is of type `pronoun' (indefinite or not yet assigned a type), then it is bold and coloured in magenta % <rule pattern="mention={pronoun};type={pronoun}" style="bold=true background=magenta"/>
+\item all events are marked in pink (dirty pink) -- events were marked in the previous framework but were not linked to any antecedents. Now, you need to find their antecedents and change the annotation accordingly. %"mention={pronoun};type={event}" style="background=pink"/> <!-- Marked the events in pink, so they are visible and can be annotated-->
+\item All the pronouns marked as `Not sure. HELP!' are in bold font. % style="bold=true"/>
+\item mentions that have the value `none' are marked with green colour. % style="background=green"/>
+ \item Green colour is also given to all cases of `speaker reference' when the audience is marked as `none' % style="background=green"/>
+\item the cases of `addressee reference' with the audience marked as `none', we have red background colour % style="background=red"/>
+\item all anaphoric pronouns have bold font %style="bold=true"/>
+\item all pleonastic pronouns are in bold font and coloured with cyan background % style="bold=true background=cyan"/>
+\item `speaker reference' and `addressee reference' are in bold
+\end{itemize}
+%\todo[inline, color=green!40]{This is an inline comment.}
+
+\subsection{Structures and their values in MMAX and in the annotated Markable files}
+Representation of the guidelines in the scheme.
+
+\begin{enumerate}
+
+\item Coreference chains: every chain has the same ID represented by the following tag in the annotated data: coref\_class="set\_230".
+
+\item Mentions: mentions are marked as mention="VALUE", and the VALUE can be 
+\begin{itemize}
+\item "pronoun" for pronominal mentions and non-referring pronouns
+\item "nps" for nominal mentions (and also comparative)
+\item "vp" for verbal mentions (antecedents, substitution and ellipsis  only)
+\item "clause" for clausal mentions (antecedents, substitution and ellipsis  only)
+\item "none" for those elements that did not fit into one of the above categories 
+\end{itemize}
+
+\item If the mention is pronominal then it has:
+\begin{itemize}
+\item  an attribute type="VALUE" and the VALUE can be:
+\begin{itemize}
+\item "antecedent" for pronominal antecedents 
+\item "anaphoric" for anaphora
+\item "cataphoric" for cataphora
+\item "comparative" for comparative reference
+\item"nom substitution" nominal substitution
+\item "addressee reference" (not used in ParCorFull)
+\item "speaker reference"  (not used in ParCorFull)
+\item "extratextual reference" for those cases of non-textual relation (world reference)
+\item "pleonastic"
+\item "pronoun" for indefinite pronouns without antecedents
+\item "none"
+ \item "Not sure. HELP!"
+ \end{itemize}
+ 
+ \item an attribute agreement="VALUE" and the VALUE can be:
+ \begin{itemize}
+ \item  "none", where the agreement is not applicable
+  \item "they (sg.)" for all singular pronouns (in both languages)
+\item "they (pl.)" for all plural pronouns (in both languages)
+ \end{itemize}
+ 
+ \item an attribute position="VALUE"  and the VALUE can be:
+ \begin{itemize}
+ \item  "none"
+  \item "it (subject)" for all pronouns in subject position (in both languages)
+\item "it (non-subject)" for all pronouns in non-subject position (in both languages)
+ \end{itemize}
+ 
+ \item an attribute type\_of\_pronoun="VALUE" and the VALUE can be:
+ \begin{itemize}
+ \item "personal"
+ \item "possessive"
+ \item "demonstrative" (quantifiers like both boys are also marked as demonstratives)
+ \item "reflexive"
+ \item "relative"
+ \item "none"
+ \end{itemize}
+
+\end{itemize}
+%  <!-- <value id="value_mention_subst-elli" name="subst-elli" next="level_subst_elli"/> This is for elliptical and subsitution elements in the chains-->
+
+\item If the mention is pronominal or nominal (not antecedents) it has:
+\begin{itemize}
+\item an attribute antetype="VALUE", where value can be:
+\begin{itemize}
+\item "entity" for the reference to entities represented by nominal groups
+\item "event" for the reference to non-entities represented either by verbal phrases or by clauses (also longer text passages)
+\item "generic" for generic nouns
+\end{itemize}
+ 
+ \item an attribute split="VALUE", where value can be:
+ \begin{itemize}
+ \item "simple antecedent" for antecedents representing one entity or one event
+ \item "split reference" representing reference to two or more entities / events
+ \item "no explicit antecedent" when the antecedent is difficult to identify
+ \end{itemize}
+ 
+ \item an attribute comparative="VALUE" and the VALUE can be:
+  \begin{itemize}
+ \item "part" for particular comparative reference
+ \item "gen" for general comparative reference
+ \end{itemize}
+
+\end{itemize}
+
+\item If the mention is nominal, then it has: 
+
+\begin{itemize}
+
+\item an attribute nptype="VALUE" and the VALUE can be:
+\begin{itemize}
+\item "antecedent" for nominal antecedents 
+\item "np" for anaphoric or cataphoric nominal phrases
+\item "comparative" for comparative reference
+\item "nom-ellipsis" for nominal ellipsis
+\item "apposition" for elements further identifying the preceding NP
+\item "Not sure. HELP!"
+\end{itemize}
+  
+ \item an attribute anacata="VALUE" and the VALUE can be:
+  \begin{itemize}
+ \item "anaphoric" 
+ \item "cataphoric" 
+ \end{itemize}
+ 
+ \item an attribute npmod="VALUE" and the VALUE can be:
+ \begin{itemize}
+ \item "possessive" for possessive pronouns
+ \item "demonstrative"  for demonstrative pronouns
+\item "def-article"  for definite articles
+\item "indefinite"  for indefinite pronouns like each, every/jede(e), alle
+\item "none" for bare nouns
+ \end{itemize}
+ 
+ 
+ \item nominal mentions of nptype="apposition" can have attribute sub\_apposition="VALUE" and the VALUE can be
+ \begin{itemize}
+ \item "none" (not used in ParCor)
+ \item "head" for (not used in ParCor)
+ \item "attribute" for all appositions
+ \end{itemize}
+\end{itemize}
+
+\item  If the mention is verbal, then it has: 
+
+\begin{itemize}
+\item an attribute vptype="VALUE" and the VALUE can be:
+\begin{itemize}
+\item "antecedent" for verbal antecedents
+\item "verb-substitution" 
+\item "verb-ellipsis"
+\item "not sure. help!"
+\end{itemize}
+\end{itemize}
+
+\item  If the mention is clausal, then it has: 
+
+\begin{itemize}
+\item an attribute clausetype="VALUE" and the VALUE can be:
+\begin{itemize}
+\item "antecedent" for clausal antecedents
+\item "clause-substitution"
+\item "clause-ellipsis"
+\item "not sure. help!"
+\end{itemize}
+\end{itemize}
+
+\end{enumerate}
+
+\bibliographystyle{alpha}
+\bibliography{sample}
+
+\end{document}
