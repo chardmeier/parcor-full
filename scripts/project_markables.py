@@ -70,7 +70,7 @@ def main():
             in_sentence_start = [get_start_idx(insnt.get('span')) for insnt in in_sentence_xml.iter(sentence_markable)]
         else:
             in_sentence_start = []
-            i = 0
+            i = 1
             for line in f:
                 in_sentence_start.append(i)
                 i += len(line.split(' '))
