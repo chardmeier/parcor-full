@@ -54,7 +54,7 @@
    <value id="value_nptype_np" name="np" next = "level_split,level_anacata" />
   <value id="value_nptype_comp" name="comparative" next = "level_split,level_comp"/>
   <value id="value_nptype_elli" name="nom-ellipsis" next = "level_split"/>
-  <value id="value_nptype_appos" name="apposition" next="level_sub_apposition"/>
+  <value id="value_nptype_appos" name="apposition"/>
   <value id="value_nptype_unsure" name="Not sure. HELP!"/>
  </attribute>
 
@@ -69,12 +69,6 @@
  <value id="value_npmod_art" name="def-article"/>  
  <value id="value_npmod_indef" name="indefinite"/>  
  <value id="value_npmod_barenoun" name="none"/>  
- </attribute>
-
- <attribute id="level_sub_apposition" name="sub_apposition" type="nominal_button" text="Choose appositional component">
-  <value id="value_sub_apposition_none" name="none"/>
-  <value id="value_sub_apposition_head" name="head"/>
-  <value id="value_sub_apposition_attribute" name="attribute"/>
  </attribute>
 
 <attribute id="level_comp" name="comparative" type="nominal_list" text="">
