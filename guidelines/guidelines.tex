@@ -94,14 +94,14 @@ antecedent in the previous sentence.
 
 \ex.
 \a.
-\textsl{Voici und diapo [du programme PRISM] \ldots La meilleure manière de
-comprendre [PRISM], \ldots c'est d'abord de dire ce que [PRISM] n'est pas.}
+\textsl{Voici und diapo [du programme PRISM]. La meilleure manière de
+comprendre [PRISM], c'est d'abord de dire ce que [PRISM] n'est pas\ldots}
 %{\sl This past spring, the U.S. Department of Education issued [a report, The
 %Condition of Education 2000]. [The report] found that the benefits of attending
 %college are greater today than ever before. [...] }
 \b.
-\textsl{On ne peut mas marche dans [l' herbe], parce qu'on pourrait \ldots tuer
-par inadvertance certains insectes quand on marche dans l'herbe.
+\textsl{On ne peut pas marcher dans [l' herbe], parce qu'on pourrait \ldots tuer
+par inadvertance certains insectes quand on marche dans l'herbe.}
 %{\sl Insgesamt stellen sich die ökonomischen Voraussetzungen zu Beginn des
 %neuen Jahrhunderts für Deutschland recht gut dar. [Die Teilhabe] an den
 %Weltmärkten hat sich verbessert -- dies belegt die positive Dynamik der Exporte
@@ -120,7 +120,7 @@ same word, refer to the same antecedent.%\todo{Here I am not sure...}
 \ex. 
 \a. \label{eswa}{\sl [Der EWSA] hat stets betont, dass aktive Bürgerschaft die gesellschaftliche Integration von Kindern und Jugendlichen unterstützen und ihnen das Gefühl vermitteln kann, ein Teil der Gemeinschaft zu sein.}
 \b. 
-\textsl{Voici un portrait pris par [le photographe Phil Toledano].
+\textsl{Voici un portrait pris par [le photographe Phil Toledano].}
 %{\sl In [seiner] EWSA-Stellungnahme zum im Januar 2011 veröffentlichten ``Bericht der Kommission zur Beobachtung des Handelsmarktes'' schreibt [Herr Almeida Freire]...}
 
 \subsubsection{NPs with quantifiers}
@@ -556,7 +556,7 @@ coreference. %Reflexives agree in their number and case with the antecedent.
 
 %(11). Reflexivity in German and in Russian can also be marked by other units, such as selbst, selber, persönlich that also must be annotated.
 
-\subsubsection{Groups}
+\subsubsection{\label{sec:groups}Groups}
 
 % This is not how it was done in English and German!
 %\cite[p. 4]{GrishinaStedeGuide}:
@@ -784,7 +784,9 @@ Representation of the guidelines in the scheme.
 
 \begin{enumerate}
 
-\item Coreference chains: every chain has the same ID represented by the following tag in the annotated data: coref\_class="set\_230".
+\item Coreference chains are marked in MMAX2 using the \emph{markable set}
+functionality.
+% : every chain has the same ID represented by the following tag in the annotated data: coref\_class="set\_230".
 
 \item Mentions: mentions are marked as mention="VALUE", and the VALUE can be 
 \begin{itemize}
@@ -803,9 +805,9 @@ Representation of the guidelines in the scheme.
 \item "anaphoric" for anaphora
 \item "cataphoric" for cataphora
 \item "comparative" for comparative reference
-\item"nom substitution" nominal substitution
-\item "addressee reference" (not used in ParCorFull)
-\item "speaker reference"  (not used in ParCorFull)
+\item "nom substitution" for nominal substitution
+% \item "addressee reference" (not used in ParCorFull)
+% \item "speaker reference"  (not used in ParCorFull)
 \item "extratextual reference" for those cases of non-textual relation (world reference)
 \item "pleonastic"
 \item "pronoun" for indefinite pronouns without antecedents
@@ -813,25 +815,25 @@ Representation of the guidelines in the scheme.
  \item "Not sure. HELP!"
  \end{itemize}
  
- \item an attribute agreement="VALUE" and the VALUE can be:
- \begin{itemize}
- \item  "none", where the agreement is not applicable
-  \item "they (sg.)" for all singular pronouns (in both languages)
-\item "they (pl.)" for all plural pronouns (in both languages)
- \end{itemize}
- 
- \item an attribute position="VALUE"  and the VALUE can be:
- \begin{itemize}
- \item  "none"
-  \item "it (subject)" for all pronouns in subject position (in both languages)
-\item "it (non-subject)" for all pronouns in non-subject position (in both languages)
- \end{itemize}
+%  \item an attribute agreement="VALUE" and the VALUE can be:
+%  \begin{itemize}
+%  \item  "none", where the agreement is not applicable
+%   \item "they (sg.)" for all singular pronouns (in both languages)
+% \item "they (pl.)" for all plural pronouns (in both languages)
+%  \end{itemize}
+%  
+%  \item an attribute position="VALUE"  and the VALUE can be:
+%  \begin{itemize}
+%  \item  "none"
+%   \item "it (subject)" for all pronouns in subject position (in both languages)
+% \item "it (non-subject)" for all pronouns in non-subject position (in both languages)
+%  \end{itemize}
  
  \item an attribute type\_of\_pronoun="VALUE" and the VALUE can be:
  \begin{itemize}
  \item "personal"
  \item "possessive"
- \item "demonstrative" (quantifiers like both boys are also marked as demonstratives)
+ \item "demonstrative" (quantifiers as in \textsl{both boys} are also marked as demonstratives)
  \item "reflexive"
  \item "relative"
  \item "none"
@@ -852,8 +854,11 @@ Representation of the guidelines in the scheme.
  \item an attribute split="VALUE", where value can be:
  \begin{itemize}
  \item "simple antecedent" for antecedents representing one entity or one event
- \item "split reference" representing reference to two or more entities / events
- \item "no explicit antecedent" when the antecedent is difficult to identify
+ \item "split reference" representing reference to groups of two or more
+ entities/events (see Section~\ref{sec:groups})
+ \item "no explicit antecedent" when the pronoun is anaphoric, but the
+ antecedent is not realised as a linguistic element in the text (e.g., if it is
+ implicit or requires additional inference).
  \end{itemize}
  
  \item an attribute comparative="VALUE" and the VALUE can be:
@@ -894,12 +899,12 @@ Representation of the guidelines in the scheme.
  \end{itemize}
  
  
- \item nominal mentions of nptype="apposition" can have attribute sub\_apposition="VALUE" and the VALUE can be
- \begin{itemize}
- \item "none" (not used in ParCor)
- \item "head" for (not used in ParCor)
- \item "attribute" for all appositions
- \end{itemize}
+% \item nominal mentions of nptype="apposition" can have attribute sub\_apposition="VALUE" and the VALUE can be
+% \begin{itemize}
+% \item "none" (not used in ParCor)
+% \item "head" for (not used in ParCor)
+% \item "attribute" for all appositions
+% \end{itemize}
 \end{itemize}
 
 \item  If the mention is verbal, then it has: 
