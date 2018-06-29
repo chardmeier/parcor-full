@@ -349,6 +349,17 @@ In example \Last, the demonstrative pronoun {\sl these} points back to its antec
 In French, the pronouns \textsl{ce, ça, ceci, cela,} but also \textsl{celui-ci},
 \textsl{celui-là} and related forms can serve as demonstratives.
 
+The pronoun \textsl{ce} in \textsl{c'est} and \textsl{ce sont} can be have a
+demonstrative or pleonastic function. It is annotated as a demonstrative
+pronoun, and included in a coreference chain, if it could be substituted in the
+same context with the demonstrative \textsl{cela}, as in example~\Next[a]. It
+is annotated as pleonastic if this is not possible, as in example~\Next[b].
+
+\ex.
+\a. \textsl{Pourquoi~? [C'] est une question qui m'a personnellement intriguée pendant longtemps.}
+\b. \textsl{Depuis le début de l'histoire humaine, la maladie infectieuse qui a causé le plus de décès humains
+[c'] est le paludisme.}
+
 % In German, the forms {\sl der, die, das} can also serve as demonstratives, see \Next.
 % 
 % \ex.
@@ -370,8 +381,7 @@ These cases should be marked as {\bf extratextual reference}.
 
 There are cases of usage of demonstrative pronoun \textsl{celui} and related
 forms that function as indefinite pronouns and do not have coreference relation,
-see examples in \Next. These should not be linked. They are similar to the cases
-of 'Korrelat' described in Section \ref{sec:pronadv} below.
+see examples in \Next. These should not be linked.
 
 \ex.
 \a. {\sl [Those] who hesitate, are lost.}
@@ -379,39 +389,6 @@ of 'Korrelat' described in Section \ref{sec:pronadv} below.
 %\b. {\sl längst hat in diesem Feld die Wirklichkeit [jene], die es besser wussten, eingeholt.}
 %\c. {\sl Für [die], die lieber von einer festen Unterkunft Tagestouren unternehmen wollen, bietet die Insel Sylt z.B. rund 200 km Radwege.}
 
-
-\paragraph*{Temporal adverbs}
-
-Temporal expressions are to be annotated if they co-refer.
-
-\ex.
-%\a.
-\textsl{[In my young days] we took these things more seriously. We had different ideas [then].}
-%\b. {\sl The plane touched down [at last]}. {[Now], we could breathe freely again.}
-%\c. {\sl Annette ist endlich fertig. Sie ist ein bisschen bummelig und unordentlich, wie ich [als Kind] gewesen sein muss. [Damals] hätte ich nie geglaubt, dass ich meine Kinder zurechtweisen würde, wie meine Eltern mich zurechtwiesen.}
-
-The temporal adverbial \textsl{alors} can trigger either coreference or
-conjunction (discourse relation). For disambiguation, we can use a rule that if
-the French {\sl alors} can be substituted with {\sl à l'époque}, then it
-triggers a coreference relation as in example \Next[a]. In  other cases, it is
-likely to be a discourse marker. 
-
-\ex.
-\a. {\sl Well, though dollars were just as hard to come by in [the 1920s]. But you could have paid for the land with livestock [then] because there was still, you know, fifty-cent-an-acre-land -- an entire acre.}
-\b. {\sl To add an Exception to the AutoCorrect Exceptions List 1. Choose Tools -- AutoCorrect, and [then] click the Exceptions tab.}
-\c. {\sl 
-Having lectures, we probably had about 20 hours a week, so we went obviously we were so close we could stay in the University to do work and [then] we could come home and we were near enough to the town center to just, you know, get a cab in to it and go out.}
-
-\paragraph*{Local adverbs}
-Local adverbs as {\sl here} and {\sl there} or {\sl ici, là} can also trigger
-coreference and should be annotated. In example \Next[a], {\sl there} refers to
-{\sl to the doctor}, in \Next[b], {\sl here} corefers with {\sl your new home}.
-
-%\todo[inline, color=green]{What about local reference [new home] -- [there]?}
-\ex.
-\a. {\sl Is Lina going [to the doctor] today? -- No, she went [there] yesterday.}
-\b.. {\sl How do you like [your new home]? - Oh, it's really wonderful [here].}
-%(14) The Army, which recruits heavily in [the Punjab] 1 , will not use force [there] 1 .
 
 \paragraph*{Event Reference}
 
@@ -482,9 +459,81 @@ In such scenarios, if multiple labels would be possible, select anaphoric and li
 
 If it is impossible to tell what the pronoun refers to or if the text is very poorly written, the pronoun may be marked as {\sl Not sure. Help!}. This will help to identify those scenarios that are very difficult for humans (and therefore even more difficult for machines) to determine.
 
-\subsubsection{Pronominal adverbs}\label{sec:pronadv}
+\paragraph*{Temporal adverbs}
 
-(not in French)
+Temporal expressions are to be annotated if they co-refer.
+
+\ex.
+%\a.
+\textsl{[In my young days] we took these things more seriously. We had different ideas [then].}
+%\b. {\sl The plane touched down [at last]}. {[Now], we could breathe freely again.}
+%\c. {\sl Annette ist endlich fertig. Sie ist ein bisschen bummelig und unordentlich, wie ich [als Kind] gewesen sein muss. [Damals] hätte ich nie geglaubt, dass ich meine Kinder zurechtweisen würde, wie meine Eltern mich zurechtwiesen.}
+
+The temporal adverbial \textsl{alors} can trigger either coreference or
+conjunction (discourse relation). For disambiguation, we can use a rule that if
+the French {\sl alors} can be substituted with {\sl à l'époque}, then it
+triggers a coreference relation as in example \Next[a]. In  other cases, it is
+likely to be a discourse marker. 
+
+\ex.
+\a. {\sl Well, though dollars were just as hard to come by in [the 1920s]. But you could have paid for the land with livestock [then] because there was still, you know, fifty-cent-an-acre-land -- an entire acre.}
+\b. {\sl To add an Exception to the AutoCorrect Exceptions List 1. Choose Tools -- AutoCorrect, and [then] click the Exceptions tab.}
+\c. {\sl 
+Having lectures, we probably had about 20 hours a week, so we went obviously we were so close we could stay in the University to do work and [then] we could come home and we were near enough to the town center to just, you know, get a cab in to it and go out.}
+
+\paragraph*{Local adverbs}
+Local adverbs as {\sl here} and {\sl there} or {\sl ici, là} can also trigger
+coreference and should be annotated. In example \Next[a], {\sl there} refers to
+{\sl to the doctor}, in \Next[b], {\sl here} corefers with {\sl your new home}.
+
+%\todo[inline, color=green]{What about local reference [new home] -- [there]?}
+\ex.
+\a. {\sl Is Lina going [to the doctor] today? -- No, she went [there] yesterday.}
+\b.. {\sl How do you like [your new home]? - Oh, it's really wonderful [here].}
+%(14) The Army, which recruits heavily in [the Punjab] 1 , will not use force [there] 1 .
+
+\subsubsection{Temporal and local adverbs}
+
+%\paragraph*{Temporal adverbs}
+
+\textbf{Temporal expressions} are to be annotated if they co-refer.
+
+\ex.
+%\a.
+\textsl{[In my young days] we took these things more seriously. We had different ideas [then].}
+%\b. {\sl The plane touched down [at last]}. {[Now], we could breathe freely again.}
+%\c. {\sl Annette ist endlich fertig. Sie ist ein bisschen bummelig und unordentlich, wie ich [als Kind] gewesen sein muss. [Damals] hätte ich nie geglaubt, dass ich meine Kinder zurechtweisen würde, wie meine Eltern mich zurechtwiesen.}
+
+The temporal adverbial \textsl{alors} can trigger either coreference or
+conjunction (discourse relation). For disambiguation, we can use a rule that if
+the French {\sl alors} can be substituted with {\sl à l'époque}, then it
+triggers a coreference relation as in example \Next[a]. In  other cases, it is
+likely to be a discourse marker. 
+
+\ex.
+\a. {\sl Well, though dollars were just as hard to come by in [the 1920s]. But you could have paid for the land with livestock [then] because there was still, you know, fifty-cent-an-acre-land -- an entire acre.}
+\b. {\sl To add an Exception to the AutoCorrect Exceptions List 1. Choose Tools -- AutoCorrect, and [then] click the Exceptions tab.}
+\c. {\sl 
+Having lectures, we probably had about 20 hours a week, so we went obviously we were so close we could stay in the University to do work and [then] we could come home and we were near enough to the town center to just, you know, get a cab in to it and go out.}
+
+%\paragraph*{Local adverbs}
+\textbf{Local adverbs} as {\sl here} and {\sl there} or {\sl ici, là} can also trigger
+coreference and should be annotated. In example \Next[a], {\sl there} refers to
+{\sl to the doctor}, in \Next[b], {\sl here} corefers with {\sl your new home}.
+
+%\todo[inline, color=green]{What about local reference [new home] -- [there]?}
+\ex.
+\a. {\sl Is Lina going [to the doctor] today? -- No, she went [there] yesterday.}
+\b.. {\sl How do you like [your new home]? - Oh, it's really wonderful [here].}
+%(14) The Army, which recruits heavily in [the Punjab] 1 , will not use force [there] 1 .
+
+Temporal and local \textbf{subordinating conjunctions} such as \textsl{where},
+\textsl{when}; \textsl{wo}, \textsl{als}, \textsl{wenn}; \textsl{où},
+\textsl{quand} are annotated as relative pronouns.
+
+% \subsubsection{Pronominal adverbs}\label{sec:pronadv}
+% 
+% (not in French)
 
 % Pronominal adverbs are a type of adverb occurring in both English and German
 % (although they appear to be used more frequently in the German texts, and in English, they are rather archaic). They are formed by replacing a preposition and a pronoun, like {\sl gegen+das $\rightarrow$ dagegen} in example \Next.
@@ -822,6 +871,7 @@ functionality.
 \item "nps" for nominal mentions (and also comparative)
 \item "vp" for verbal mentions (antecedents, substitution and ellipsis  only)
 \item "clause" for clausal mentions (antecedents, substitution and ellipsis  only)
+\item "adverb" for temporal and local adverbs
 \item "none" for those elements that did not fit into one of the above categories 
 \end{itemize}
 
@@ -877,6 +927,8 @@ functionality.
 \item "entity" for the reference to entities represented by nominal groups
 \item "event" for the reference to non-entities represented either by verbal phrases or by clauses (also longer text passages)
 \item "generic" for generic nouns
+\item "temporal" for temporal relative conjunctions (\textit{when}, \textit{als/wenn}, \textit{quand})
+\item "local" for local relative conjunctions (\textit{where}, \textit{wo}, \textit{où})
 \end{itemize}
  
  \item an attribute split="VALUE", where value can be:
@@ -956,6 +1008,16 @@ functionality.
 \item "clause-substitution"
 \item "clause-ellipsis"
 \item "not sure. help!"
+\end{itemize}
+\end{itemize}
+
+\item If the mention is adverbial, then it has:
+
+\begin{itemize}
+\item an attribute adverbtype="VALUE" and the VALUE can be:
+\begin{itemize}
+\item "temporal"
+\item "local"
 \end{itemize}
 \end{itemize}
 
