@@ -10,6 +10,7 @@
   <value id="value_mention_np" name="np" next="level_nptype"/> <!-- Nominal mentions (and also comparative) should have this tag-->
   <value id="value_mention_vp" name="vp" next="level_vptype"/>
   <value id="value_mention_clause" name="clause" next="level_clausetype"/>
+  <value id="value_mention_adverb" name="adverb" next="level_adverbtype"/>
   <value id="value_mention_new" name="none"/> 
  </attribute>
 
@@ -47,6 +48,8 @@
   <value id="value_antetype_simple" name="entity"/>
   <value id="value_antetype_split" name="event"/>
   <value id="value_antetype_noant" name="generic"/>
+  <value id="value_antetype_temporal" name="temporal"/>
+  <value id="value_antetype_local" name="local"/>
  </attribute>
 
  <attribute id="level_nptype" name="NPtype" type="nominal_list" text="Choose type of NP">
@@ -88,6 +91,11 @@
   <value id="value_clausetype_subst" name="clause-substitution" />
   <value id="value_clausetype_elli" name="clause-ellipsis" />
   <value id="value_clausetype_unsure" name="Not sure. HELP!"/>
+ </attribute>
+
+<attribute id="level_adverbtype" name="AdverbType" type="nominal_button" text="Is this temporal or a local adverb?">
+  <value id="value_adverbtype_temporal" name="temporal" />
+  <value id="value_adverbtype_local" name="local" />
  </attribute>
 
 </annotationscheme>
