@@ -1,222 +1,258 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE markables SYSTEM "markables.dtd">
 <markables xmlns="www.eml.org/NameSpaces/coref">
-<markable id="markable_445" span="word_2201..word_2203" mmax_level="coref" mention="none"/>
-<markable id="markable_444" span="word_2195..word_2196" mmax_level="coref" mention="none"/>
-<markable id="markable_447" span="word_2210" mmax_level="coref" mention="none"/>
-<markable id="markable_204" span="word_938" mmax_level="coref" mention="none"/>
-<markable id="markable_322" span="word_1506" mmax_level="coref" mention="none"/>
-<markable id="markable_317" span="word_1476" mmax_level="coref" mention="none"/>
-<markable id="markable_690" span="word_1335" mmax_level="coref" mention="none"/>
-<markable id="markable_691" span="word_1395..word_1396" mmax_level="coref" mention="none"/>
-<markable id="markable_337" span="word_1612" mmax_level="coref" mention="none"/>
-<markable id="markable_452" span="word_2236" mmax_level="coref" mention="none"/>
-<markable id="markable_210" span="word_962" mmax_level="coref" mention="none"/>
-<markable id="markable_451" span="word_2231..word_2232" mmax_level="coref" mention="none"/>
-<markable id="markable_693" span="word_1457" mmax_level="coref" mention="none"/>
-<markable id="markable_454" span="word_2245" mmax_level="coref" mention="none"/>
-<markable id="markable_333" span="word_1586" mmax_level="coref" mention="none"/>
-<markable id="markable_453" span="word_2240" mmax_level="coref" mention="none"/>
-<markable id="markable_695" span="word_1495" mmax_level="coref" mention="none"/>
-<markable id="markable_332" span="word_1581" mmax_level="coref" mention="none"/>
-<markable id="markable_328" span="word_1561" mmax_level="coref" mention="none"/>
-<markable id="markable_208" span="word_957" mmax_level="coref" mention="none"/>
-<markable id="markable_329" span="word_1571" mmax_level="coref" mention="none"/>
-<markable id="markable_461" span="word_2289" mmax_level="coref" mention="none"/>
-<markable id="markable_467" span="word_2312" mmax_level="coref" mention="none"/>
-<markable id="markable_104" span="word_512" mmax_level="coref" mention="none"/>
-<markable id="markable_345" span="word_1668" mmax_level="coref" mention="none"/>
-<markable id="markable_463" span="word_2295..word_2296" mmax_level="coref" mention="none"/>
-<markable id="markable_100" span="word_476" mmax_level="coref" mention="none"/>
-<markable id="markable_342" span="word_1623" mmax_level="coref" mention="none"/>
-<markable id="markable_339" span="word_1617" mmax_level="coref" mention="none"/>
-<markable id="markable_591" span="word_2846" mmax_level="coref" mention="none"/>
-<markable id="markable_593" span="word_2853" mmax_level="coref" mention="none"/>
-<markable id="markable_351" span="word_1693..word_1694" mmax_level="coref" mention="none"/>
-<markable id="markable_471" span="word_2328" mmax_level="coref" mention="none"/>
-<markable id="markable_350" span="word_1691" mmax_level="coref" mention="none"/>
-<markable id="markable_357" span="word_1712" mmax_level="coref" mention="none"/>
-<markable id="markable_356" span="word_1709" mmax_level="coref" mention="none"/>
-<markable id="markable_238" span="word_1079" mmax_level="coref" mention="none"/>
-<markable id="markable_352" span="word_1697" mmax_level="coref" mention="none"/>
-<markable id="markable_596" span="word_2864" mmax_level="coref" mention="none"/>
-<markable id="markable_354" span="word_1702" mmax_level="coref" mention="none"/>
-<markable id="markable_904" span="word_1676" mmax_level="coref" mention="none"/>
-<markable id="markable_903" span="word_830..word_848" mmax_level="coref" mention="none"/>
-<markable id="markable_900" span="word_3046..word_3048" mmax_level="coref" mention="none"/>
-<markable id="markable_349" span="word_1685" mmax_level="coref" mention="none"/>
-<markable id="markable_901" span="word_3064..word_3067" mmax_level="coref" mention="none"/>
-<markable id="markable_480" span="word_2366..word_2368" mmax_level="coref" mention="none"/>
-<markable id="markable_362" span="word_1742" mmax_level="coref" mention="none"/>
-<markable id="markable_489" span="word_2405" mmax_level="coref" mention="none"/>
-<markable id="markable_368" span="word_1782" mmax_level="coref" mention="none"/>
-<markable id="markable_242" span="word_1097" mmax_level="coref" mention="none"/>
-<markable id="markable_487" span="word_2401" mmax_level="coref" mention="none"/>
-<markable id="markable_124" span="word_600" mmax_level="coref" mention="none"/>
-<markable id="markable_244" span="word_1102" mmax_level="coref" mention="none"/>
-<markable id="markable_239" span="word_1083" mmax_level="coref" mention="none"/>
-<markable id="markable_36" span="word_158" mmax_level="coref" mention="none"/>
-<markable id="markable_33" span="word_142..word_141" mmax_level="coref" mention="none"/>
-<markable id="markable_375" span="word_1810" mmax_level="coref" mention="none"/>
-<markable id="markable_497" span="word_2436" mmax_level="coref" mention="none"/>
-<markable id="markable_805" span="word_1255" mmax_level="coref" mention="none"/>
-<markable id="markable_804" span="word_1088" mmax_level="coref" mention="none"/>
-<markable id="markable_806" span="word_1293" mmax_level="coref" mention="none"/>
-<markable id="markable_809" span="word_1532" mmax_level="coref" mention="none"/>
-<markable id="markable_261" span="word_1228" mmax_level="coref" mention="none"/>
-<markable id="markable_260" span="word_1222..word_1220" mmax_level="coref" mention="none"/>
-<markable id="markable_263" span="word_1235" mmax_level="coref" mention="none"/>
-<markable id="markable_380" span="word_1856" mmax_level="coref" mention="none"/>
-<markable id="markable_267" span="word_1261" mmax_level="coref" mention="none"/>
-<markable id="markable_388" span="word_1899" mmax_level="coref" mention="none"/>
-<markable id="markable_816" span="word_2335" mmax_level="coref" mention="none"/>
-<markable id="markable_815" span="word_2205" mmax_level="coref" mention="none"/>
-<markable id="markable_818" span="word_2479" mmax_level="coref" mention="none"/>
-<markable id="markable_817" span="word_2366" mmax_level="coref" mention="none"/>
-<markable id="markable_812" span="word_1913" mmax_level="coref" mention="none"/>
-<markable id="markable_814" span="word_1999" mmax_level="coref" mention="none"/>
-<markable id="markable_813" span="word_1943" mmax_level="coref" mention="none"/>
-<markable id="markable_819" span="word_2483" mmax_level="coref" mention="none"/>
-<markable id="markable_393" span="word_1932..word_1933" mmax_level="coref" mention="none"/>
-<markable id="markable_391" span="word_1910" mmax_level="coref" mention="none"/>
-<markable id="markable_830" span="word_2128" mmax_level="coref" mention="none"/>
-<markable id="markable_711" span="word_1846..word_1846" mmax_level="coref" mention="none"/>
-<markable id="markable_832" span="word_2499" mmax_level="coref" mention="none"/>
-<markable id="markable_831" span="word_2389" mmax_level="coref" mention="none"/>
-<markable id="markable_154" span="word_719" mmax_level="coref" mention="none"/>
-<markable id="markable_157" span="word_733" mmax_level="coref" mention="none"/>
-<markable id="markable_399" span="word_1972..word_1973" mmax_level="coref" mention="none"/>
-<markable id="markable_826" span="word_1298..word_1301" mmax_level="coref" mention="none"/>
-<markable id="markable_829" span="word_1988..word_1990" mmax_level="coref" mention="none"/>
-<markable id="markable_828" span="word_1879..word_1880" mmax_level="coref" mention="none"/>
-<markable id="markable_702" span="word_1627..word_1628" mmax_level="coref" mention="none"/>
-<markable id="markable_823" span="word_321..word_320" mmax_level="coref" mention="none"/>
-<markable id="markable_701" span="word_1547" mmax_level="coref" mention="none"/>
-<markable id="markable_704" span="word_1652..word_1653" mmax_level="coref" mention="none"/>
-<markable id="markable_825" span="word_1271..word_1285" mmax_level="coref" mention="none"/>
-<markable id="markable_824" span="word_975" mmax_level="coref" mention="none"/>
-<markable id="markable_709" span="word_1806" mmax_level="coref" mention="none"/>
-<markable id="markable_285" span="word_1341" mmax_level="coref" mention="none"/>
-<markable id="markable_163" span="word_760" mmax_level="coref" mention="none"/>
-<markable id="markable_160" span="word_743" mmax_level="coref" mention="none"/>
-<markable id="markable_281" span="word_1317..word_1317" mmax_level="coref" mention="none"/>
-<markable id="markable_280" span="word_1313" mmax_level="coref" mention="none"/>
-<markable id="markable_841" span="word_172..word_186" mmax_level="coref" mention="none"/>
-<markable id="markable_169" span="word_784" mmax_level="coref" mention="none"/>
-<markable id="markable_840" span="word_38" mmax_level="coref" mention="none"/>
-<markable id="markable_843" span="word_221..word_222" mmax_level="coref" mention="none"/>
-<markable id="markable_842" span="word_193..word_194" mmax_level="coref" mention="none"/>
-<markable id="markable_167" span="word_776" mmax_level="coref" mention="none"/>
-<markable id="markable_838" span="word_2..word_5" mmax_level="coref" mention="none"/>
-<markable id="markable_837" span="word_9" mmax_level="coref" mention="none"/>
-<markable id="markable_834" span="word_2939..word_2943" mmax_level="coref" mention="none"/>
-<markable id="markable_833" span="word_2833..word_2837" mmax_level="coref" mention="none"/>
-<markable id="markable_836" span="word_1549" mmax_level="coref" mention="none"/>
-<markable id="markable_835" span="word_1176" mmax_level="coref" mention="none"/>
-<markable id="markable_78" span="word_340" mmax_level="coref" mention="none"/>
-<markable id="markable_294" span="word_1374" mmax_level="coref" mention="none"/>
-<markable id="markable_172" span="word_797..word_796" mmax_level="coref" mention="none"/>
-<markable id="markable_292" span="word_1369" mmax_level="coref" mention="none"/>
-<markable id="markable_291" span="word_1367" mmax_level="coref" mention="none"/>
-<markable id="markable_852" span="word_709" mmax_level="coref" mention="none"/>
-<markable id="markable_851" span="word_710..word_708" mmax_level="coref" mention="none"/>
-<markable id="markable_853" span="word_758..word_763" mmax_level="coref" mention="none"/>
-<markable id="markable_850" span="word_687..word_688" mmax_level="coref" mention="none"/>
-<markable id="markable_728" span="word_2471" mmax_level="coref" mention="none"/>
-<markable id="markable_849" span="word_683..word_684" mmax_level="coref" mention="none"/>
-<markable id="markable_727" span="word_2397..word_2398" mmax_level="coref" mention="none"/>
-<markable id="markable_848" span="word_524" mmax_level="coref" mention="none"/>
-<markable id="markable_724" span="word_2331..word_2332" mmax_level="coref" mention="none"/>
-<markable id="markable_845" span="word_316" mmax_level="coref" mention="none"/>
-<markable id="markable_844" span="word_313..word_314" mmax_level="coref" mention="none"/>
-<markable id="markable_847" span="word_520" mmax_level="coref" mention="none"/>
-<markable id="markable_725" span="word_2359..word_2360" mmax_level="coref" mention="none"/>
-<markable id="markable_846" span="word_441..word_468" mmax_level="coref" mention="none"/>
-<markable id="markable_183" span="word_850" mmax_level="coref" mention="none"/>
-<markable id="markable_863" span="word_841..word_843" mmax_level="coref" mention="none"/>
-<markable id="markable_0" span="word_2" mmax_level="coref" mention="none"/>
-<markable id="markable_620" span="word_2960" mmax_level="coref" mention="none"/>
-<markable id="markable_3" span="word_12" mmax_level="coref" mention="none"/>
-<markable id="markable_865" span="word_887..word_891" mmax_level="coref" mention="none"/>
-<markable id="markable_501" span="word_2453" mmax_level="coref" mention="none"/>
-<markable id="markable_864" span="word_845" mmax_level="coref" mention="none"/>
-<markable id="markable_7" span="word_26" mmax_level="coref" mention="none"/>
-<markable id="markable_861" span="word_836" mmax_level="coref" mention="none"/>
-<markable id="markable_6" span="word_22" mmax_level="coref" mention="none"/>
-<markable id="markable_860" span="word_832" mmax_level="coref" mention="none"/>
-<markable id="markable_617" span="word_2950" mmax_level="coref" mention="none"/>
-<markable id="markable_859" span="word_828..word_827" mmax_level="coref" mention="none"/>
-<markable id="markable_856" span="word_786" mmax_level="coref" mention="none"/>
-<markable id="markable_855" span="word_761..word_763" mmax_level="coref" mention="none"/>
-<markable id="markable_858" span="word_808" mmax_level="coref" mention="none"/>
-<markable id="markable_857" span="word_804..word_806" mmax_level="coref" mention="none"/>
-<markable id="markable_874" span="word_1335..word_1360" mmax_level="coref" mention="none"/>
-<markable id="markable_873" span="word_1327..word_1328" mmax_level="coref" mention="none"/>
-<markable id="markable_876" span="word_1403" mmax_level="coref" mention="none"/>
-<markable id="markable_512" span="word_2506" mmax_level="coref" mention="none"/>
-<markable id="markable_875" span="word_1361" mmax_level="coref" mention="none"/>
-<markable id="markable_870" span="word_1184" mmax_level="coref" mention="none"/>
-<markable id="markable_872" span="word_1314..word_1324" mmax_level="coref" mention="none"/>
-<markable id="markable_871" span="word_1222..word_1257" mmax_level="coref" mention="none"/>
-<markable id="markable_867" span="word_953..word_954" mmax_level="coref" mention="none"/>
-<markable id="markable_866" span="word_893" mmax_level="coref" mention="none"/>
-<markable id="markable_869" span="word_948..word_966" mmax_level="coref" mention="none"/>
-<markable id="markable_505" span="word_2477" mmax_level="coref" mention="none"/>
-<markable id="markable_868" span="word_955" mmax_level="coref" mention="none"/>
-<markable id="markable_401" span="word_1983" mmax_level="coref" mention="none"/>
-<markable id="markable_522" span="word_2534" mmax_level="coref" mention="none"/>
-<markable id="markable_885" span="word_2309..word_2310" mmax_level="coref" mention="none"/>
-<markable id="markable_521" span="word_2531" mmax_level="coref" mention="none"/>
-<markable id="markable_884" span="word_2013" mmax_level="coref" mention="none"/>
-<markable id="markable_403" span="word_1981" mmax_level="coref" mention="none"/>
-<markable id="markable_887" span="word_2319..word_2319" mmax_level="coref" mention="none"/>
-<markable id="markable_402" span="word_1979" mmax_level="coref" mention="none"/>
-<markable id="markable_523" span="word_2539" mmax_level="coref" mention="none"/>
-<markable id="markable_886" span="word_2311" mmax_level="coref" mention="none"/>
-<markable id="markable_881" span="word_1959" mmax_level="coref" mention="none"/>
-<markable id="markable_880" span="word_1935..word_1954" mmax_level="coref" mention="none"/>
-<markable id="markable_882" span="word_1966..word_1986" mmax_level="coref" mention="none"/>
-<markable id="markable_519" span="word_2526" mmax_level="coref" mention="none"/>
-<markable id="markable_515" span="word_2517" mmax_level="coref" mention="none"/>
-<markable id="markable_878" span="word_1755..word_1768" mmax_level="coref" mention="none"/>
-<markable id="markable_877" span="word_1730..word_1736" mmax_level="coref" mention="none"/>
-<markable id="markable_516" span="word_2520" mmax_level="coref" mention="none"/>
-<markable id="markable_879" span="word_1870..word_1871" mmax_level="coref" mention="none"/>
-<markable id="markable_896" span="word_2750..word_2815" mmax_level="coref" mention="none"/>
-<markable id="markable_895" span="word_2823" mmax_level="coref" mention="none"/>
-<markable id="markable_413" span="word_2028" mmax_level="coref" mention="none"/>
-<markable id="markable_655" span="word_355..word_358,word_360..word_361,word_365..word_365,word_370..word_369,word_385..word_387" mmax_level="coref" mention="none"/>
-<markable id="markable_897" span="word_2945" mmax_level="coref" mention="none"/>
-<markable id="markable_892" span="word_2416" mmax_level="coref" mention="none"/>
-<markable id="markable_891" span="word_2411" mmax_level="coref" mention="none"/>
-<markable id="markable_531" span="word_2578" mmax_level="coref" mention="none"/>
-<markable id="markable_894" span="word_2740" mmax_level="coref" mention="none"/>
-<markable id="markable_893" span="word_2695..word_2739" mmax_level="coref" mention="none"/>
-<markable id="markable_526" span="word_2552..word_2550" mmax_level="coref" mention="none"/>
-<markable id="markable_889" span="word_2362..word_2363" mmax_level="coref" mention="none"/>
-<markable id="markable_888" span="word_2316..word_2319" mmax_level="coref" mention="none"/>
-<markable id="markable_407" span="word_1997" mmax_level="coref" mention="none"/>
-<markable id="markable_423" span="word_2079" mmax_level="coref" mention="none"/>
-<markable id="markable_422" span="word_2076" mmax_level="coref" mention="none"/>
-<markable id="markable_304" span="word_1425" mmax_level="coref" mention="none"/>
-<markable id="markable_424" span="word_2082" mmax_level="coref" mention="none"/>
-<markable id="markable_303" span="word_1422" mmax_level="coref" mention="none"/>
-<markable id="markable_421" span="word_2072" mmax_level="coref" mention="none"/>
-<markable id="markable_94" span="word_431" mmax_level="coref" mention="none"/>
-<markable id="markable_419" span="word_2067" mmax_level="coref" mention="none"/>
-<markable id="markable_91" span="word_421" mmax_level="coref" mention="none"/>
-<markable id="markable_98" span="word_471" mmax_level="coref" mention="none"/>
-<markable id="markable_416" span="word_2049..word_2052" mmax_level="coref" mention="none"/>
-<markable id="markable_97" span="word_439" mmax_level="coref" mention="none"/>
-<markable id="markable_899" span="word_3005..word_3006" mmax_level="coref" mention="none"/>
-<markable id="markable_417" span="word_2056" mmax_level="coref" mention="none"/>
-<markable id="markable_797" span="word_167" mmax_level="coref" mention="none"/>
-<markable id="markable_434" span="word_2147" mmax_level="coref" mention="none"/>
-<markable id="markable_433" span="word_2137" mmax_level="coref" mention="none"/>
-<markable id="markable_315" span="word_1469" mmax_level="coref" mention="none"/>
-<markable id="markable_435" span="word_2150" mmax_level="coref" mention="none"/>
-<markable id="markable_311" span="word_1449" mmax_level="coref" mention="none"/>
-<markable id="markable_83" span="word_392" mmax_level="coref" mention="none"/>
-<markable id="markable_306" span="word_1430" mmax_level="coref" mention="none"/>
-<markable id="markable_308" span="word_1435" mmax_level="coref" mention="none"/>
+<markable id="markable_928" span="word_397" type_of_pronoun="relative"  coref_class="empty"  mmax_level="coref"  antetype="entity"  split="simple antecedent"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_927" span="word_341" type_of_pronoun="personal"  coref_class="set_15"  mmax_level="coref"  mention="pronoun"  type="antecedent" />
+<markable id="markable_308" span="word_1435" mmax_level="coref"  mention="none" />
+<markable id="markable_926" span="word_322" type_of_pronoun="relative"  coref_class="set_13"  mmax_level="coref"  antetype="local"  split="simple antecedent"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_925" span="word_282" type_of_pronoun="personal"  coref_class="empty"  mmax_level="coref"  antetype="generic"  split="simple antecedent"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_306" span="word_1430" mmax_level="coref"  mention="none" />
+<markable id="markable_924" span="word_288" type_of_pronoun="personal"  coref_class="empty"  mmax_level="coref"  antetype="generic"  split="simple antecedent"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_512" span="word_2506" mmax_level="coref"  mention="none" />
+<markable id="markable_923" span="word_2116" type_of_pronoun="personal"  coref_class="empty"  mmax_level="coref"  antetype="generic"  split="simple antecedent"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_922" span="word_549" type_of_pronoun="personal"  coref_class="empty"  mmax_level="coref"  antetype="generic"  split="simple antecedent"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_921" span="word_541" type_of_pronoun="personal"  coref_class="empty"  mmax_level="coref"  antetype="generic"  split="simple antecedent"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_825" span="word_1271..word_1285" mmax_level="coref"  mention="none" />
+<markable id="markable_824" span="word_975" mmax_level="coref"  mention="none" />
+<markable id="markable_823" span="word_319..word_321" coref_class="set_13"  mmax_level="coref"  nptype="antecedent"  mention="np" />
+<markable id="markable_829" span="word_1988..word_1990" mmax_level="coref"  mention="none" />
+<markable id="markable_828" span="word_1879..word_1880" mmax_level="coref"  mention="none" />
+<markable id="markable_826" span="word_1298..word_1301" mmax_level="coref"  mention="none" />
+<markable id="markable_100" span="word_476" coref_class="empty"  mmax_level="coref"  mention="pronoun"  type="pleonastic" />
+<markable id="markable_831" span="word_2389" mmax_level="coref"  mention="none" />
+<markable id="markable_832" span="word_2499" mmax_level="coref"  mention="none" />
+<markable id="markable_104" span="word_512" type_of_pronoun="personal"  coref_class="set_23"  mmax_level="coref"  antetype="entity"  split="simple antecedent"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_830" span="word_2128" mmax_level="coref"  mention="none" />
+<markable id="markable_930" span="word_478" coref_class="set_23"  adverbtype="local"  mmax_level="coref"  mention="adverb" />
+<markable id="markable_311" span="word_1449" mmax_level="coref"  mention="none" />
+<markable id="markable_931" span="word_484" coref_class="set_23"  adverbtype="local"  mmax_level="coref"  mention="adverb" />
+<markable id="markable_505" span="word_2477" mmax_level="coref"  mention="none" />
+<markable id="markable_315" span="word_1469" mmax_level="coref"  mention="none" />
+<markable id="markable_915" span="word_215" type_of_pronoun="personal"  coref_class="empty"  mmax_level="coref"  antetype="generic"  split="simple antecedent"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_819" span="word_2483" mmax_level="coref"  mention="none" />
+<markable id="markable_917" span="word_303" type_of_pronoun="personal"  coref_class="empty"  mmax_level="coref"  antetype="generic"  split="simple antecedent"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_916" span="word_217" type_of_pronoun="personal"  coref_class="set_12"  mmax_level="coref"  antetype="entity"  split="simple antecedent"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_911" span="word_82" type_of_pronoun="personal"  coref_class="set_6"  mmax_level="coref"  antetype="entity"  split="simple antecedent"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_910" span="word_76..word_77,word_79..word_80" type_of_pronoun="personal"  coref_class="set_6"  mmax_level="coref"  split="split reference"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_913" span="word_195" type_of_pronoun="reflexive"  coref_class="set_12"  mmax_level="coref"  antetype="entity"  split="simple antecedent"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_501" span="word_2453" mmax_level="coref"  mention="none" />
+<markable id="markable_912" span="word_138..word_144" type_of_pronoun="personal"  coref_class="set_8"  mmax_level="coref"  mention="pronoun"  type="antecedent" />
+<markable id="markable_812" span="word_1913" mmax_level="coref"  mention="none" />
+<markable id="markable_814" span="word_1999" mmax_level="coref"  mention="none" />
+<markable id="markable_813" span="word_1943" mmax_level="coref"  mention="none" />
+<markable id="markable_919" span="word_529" type_of_pronoun="personal"  coref_class="empty"  mmax_level="coref"  antetype="generic"  split="simple antecedent"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_816" span="word_2335" mmax_level="coref"  mention="none" />
+<markable id="markable_918" span="word_311" type_of_pronoun="personal"  coref_class="empty"  mmax_level="coref"  antetype="generic"  split="simple antecedent"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_815" span="word_2205" mmax_level="coref"  mention="none" />
+<markable id="markable_818" span="word_2479" mmax_level="coref"  mention="none" />
+<markable id="markable_817" span="word_2366" mmax_level="coref"  mention="none" />
+<markable id="markable_78" span="word_340" type_of_pronoun="demonstrative"  coref_class="set_15"  mmax_level="coref"  mention="pronoun"  type="antecedent" />
+<markable id="markable_920" span="word_534" type_of_pronoun="personal"  coref_class="empty"  mmax_level="coref"  antetype="generic"  split="simple antecedent"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_304" span="word_1425" mmax_level="coref"  mention="none" />
+<markable id="markable_303" span="word_1422" mmax_level="coref"  mention="none" />
+<markable id="markable_946" span="word_633..word_634" type_of_pronoun="personal"  coref_class="set_28"  mmax_level="coref"  mention="pronoun"  type="antecedent" />
+<markable id="markable_945" span="word_635" type_of_pronoun="reflexive"  coref_class="set_28"  mmax_level="coref"  antetype="generic"  split="simple antecedent"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_944" span="word_588..word_593" coref_class="set_27"  mmax_level="coref"  clausetype="antecedent"  mention="clause" />
+<markable id="markable_809" span="word_1532" mmax_level="coref"  mention="none" />
+<markable id="markable_947" span="word_641" coref_class="empty"  mmax_level="coref"  mention="pronoun"  type="pleonastic" />
+<markable id="markable_806" span="word_1293" mmax_level="coref"  mention="none" />
+<markable id="markable_805" span="word_1255" mmax_level="coref"  mention="none" />
+<markable id="markable_804" span="word_1088" mmax_level="coref"  mention="none" />
+<markable id="markable_933" span="word_489" type_of_pronoun="relative"  coref_class="set_23"  mmax_level="coref"  antetype="local"  split="simple antecedent"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_932" span="word_485" type_of_pronoun="relative"  coref_class="set_23"  mmax_level="coref"  antetype="local"  split="simple antecedent"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_935" span="word_499" type_of_pronoun="relative"  coref_class="set_23"  mmax_level="coref"  antetype="local"  split="simple antecedent"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_934" span="word_498" coref_class="set_23"  adverbtype="local"  mmax_level="coref"  mention="adverb" />
+<markable id="markable_937" span="word_548,word_566" type_of_pronoun="relative"  coref_class="set_25"  mmax_level="coref"  antetype="entity"  split="simple antecedent"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_936" span="word_479" type_of_pronoun="relative"  coref_class="set_23"  mmax_level="coref"  antetype="local"  split="simple antecedent"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_691" span="word_1395..word_1396" mmax_level="coref"  mention="none" />
+<markable id="markable_939" span="word_564..word_565" coref_class="set_25"  mmax_level="coref"  nptype="antecedent"  mention="np" />
+<markable id="markable_690" span="word_1335" mmax_level="coref"  mention="none" />
+<markable id="markable_938" span="word_546..word_547" coref_class="set_25"  mmax_level="coref"  nptype="antecedent"  mention="np" />
+<markable id="markable_695" span="word_1495" mmax_level="coref"  mention="none" />
+<markable id="markable_693" span="word_1457" mmax_level="coref"  mention="none" />
+<markable id="markable_940" span="word_600" type_of_pronoun="demonstrative"  coref_class="set_27"  mmax_level="coref"  antetype="entity"  split="simple antecedent"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_941" span="word_575" type_of_pronoun="relative"  coref_class="set_26"  mmax_level="coref"  antetype="entity"  split="simple antecedent"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_942" span="word_568..word_569,word_572..word_573" coref_class="set_26"  mmax_level="coref"  nptype="antecedent"  mention="np" />
+<markable id="markable_413" span="word_2028" mmax_level="coref"  mention="none" />
+<markable id="markable_160" span="word_743" mmax_level="coref"  mention="none" />
+<markable id="markable_163" span="word_760" mmax_level="coref"  mention="none" />
+<markable id="markable_167" span="word_776" mmax_level="coref"  mention="none" />
+<markable id="markable_169" span="word_784" mmax_level="coref"  mention="none" />
+<markable id="markable_407" span="word_1997" mmax_level="coref"  mention="none" />
+<markable id="markable_401" span="word_1983" mmax_level="coref"  mention="none" />
+<markable id="markable_403" span="word_1981" mmax_level="coref"  mention="none" />
+<markable id="markable_402" span="word_1979" mmax_level="coref"  mention="none" />
+<markable id="markable_172" span="word_797" mmax_level="coref"  mention="none" />
+<markable id="markable_154" span="word_719" coref_class="empty"  mmax_level="coref"  mention="pronoun"  type="pleonastic" />
+<markable id="markable_157" span="word_732..word_733" coref_class="empty"  mmax_level="coref"  npmod="def-article"  nptype="np"  antetype="entity"  split="simple antecedent"  mention="np"  anacata="anaphoric" />
+<markable id="markable_909" span="word_68" type_of_pronoun="reflexive"  coref_class="set_5"  mmax_level="coref"  antetype="entity"  split="simple antecedent"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_907" span="word_67" type_of_pronoun="relative"  coref_class="set_5"  mmax_level="coref"  split="split reference"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_908" span="word_61..word_62,word_64..word_65" coref_class="set_5"  mmax_level="coref"  vptype="antecedent"  mention="vp" />
+<markable id="markable_435" span="word_2150" mmax_level="coref"  mention="none" />
+<markable id="markable_434" span="word_2147" mmax_level="coref"  mention="none" />
+<markable id="markable_433" span="word_2137" mmax_level="coref"  mention="none" />
+<markable id="markable_901" span="word_3064..word_3067" mmax_level="coref"  mention="none" />
+<markable id="markable_900" span="word_3046..word_3048" mmax_level="coref"  mention="none" />
+<markable id="markable_905" span="word_21" type_of_pronoun="relative"  coref_class="set_3"  mmax_level="coref"  antetype="entity"  split="simple antecedent"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_531" span="word_2578" mmax_level="coref"  mention="none" />
+<markable id="markable_906" span="word_39" coref_class="empty"  mmax_level="coref"  mention="none" />
+<markable id="markable_711" span="word_1846" mmax_level="coref"  mention="none" />
+<markable id="markable_903" span="word_830..word_848" mmax_level="coref"  mention="none" />
+<markable id="markable_904" span="word_1676" mmax_level="coref"  mention="none" />
+<markable id="markable_704" span="word_1652..word_1653" mmax_level="coref"  mention="none" />
+<markable id="markable_183" span="word_850" mmax_level="coref"  mention="none" />
+<markable id="markable_83" span="word_392" type_of_pronoun="demonstrative"  coref_class="set_16"  mmax_level="coref"  split="split reference"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_702" span="word_1627..word_1628" mmax_level="coref"  mention="none" />
+<markable id="markable_701" span="word_1547" mmax_level="coref"  mention="none" />
+<markable id="markable_526" span="word_2552" mmax_level="coref"  mention="none" />
+<markable id="markable_280" span="word_1313" mmax_level="coref"  mention="none" />
+<markable id="markable_709" span="word_1806" mmax_level="coref"  mention="none" />
+<markable id="markable_281" span="word_1317" mmax_level="coref"  mention="none" />
+<markable id="markable_285" span="word_1341" mmax_level="coref"  mention="none" />
+<markable id="markable_421" span="word_2072" mmax_level="coref"  mention="none" />
+<markable id="markable_423" span="word_2079" mmax_level="coref"  mention="none" />
+<markable id="markable_422" span="word_2076" mmax_level="coref"  mention="none" />
+<markable id="markable_424" span="word_2082" mmax_level="coref"  mention="none" />
+<markable id="markable_522" span="word_2534" mmax_level="coref"  mention="none" />
+<markable id="markable_521" span="word_2531" mmax_level="coref"  mention="none" />
+<markable id="markable_523" span="word_2539" mmax_level="coref"  mention="none" />
+<markable id="markable_94" span="word_431" type_of_pronoun="personal"  coref_class="set_17"  mmax_level="coref"  antetype="entity"  split="simple antecedent"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_519" span="word_2526" mmax_level="coref"  mention="none" />
+<markable id="markable_91" span="word_420..word_421" coref_class="set_17"  mmax_level="coref"  nptype="antecedent"  mention="np" />
+<markable id="markable_98" span="word_470..word_471" coref_class="set_23"  mmax_level="coref"  nptype="antecedent"  mention="np" />
+<markable id="markable_97" span="word_439" coref_class="set_19"  mmax_level="coref"  antetype="event"  split="simple antecedent"  mention="pronoun"  type="cataphoric" />
+<markable id="markable_515" span="word_2517" mmax_level="coref"  mention="none" />
+<markable id="markable_516" span="word_2520" mmax_level="coref"  mention="none" />
+<markable id="markable_291" span="word_1367" mmax_level="coref"  mention="none" />
+<markable id="markable_416" span="word_2049..word_2052" mmax_level="coref"  mention="none" />
+<markable id="markable_292" span="word_1369" mmax_level="coref"  mention="none" />
+<markable id="markable_417" span="word_2056" mmax_level="coref"  mention="none" />
+<markable id="markable_419" span="word_2067" mmax_level="coref"  mention="none" />
+<markable id="markable_294" span="word_1374" mmax_level="coref"  mention="none" />
+<markable id="markable_391" span="word_1910" mmax_level="coref"  mention="none" />
+<markable id="markable_617" span="word_2950" mmax_level="coref"  mention="none" />
+<markable id="markable_393" span="word_1932..word_1933" mmax_level="coref"  mention="none" />
+<markable id="markable_399" span="word_1972..word_1973" mmax_level="coref"  mention="none" />
+<markable id="markable_596" span="word_2864" mmax_level="coref"  mention="none" />
+<markable id="markable_620" span="word_2960" mmax_level="coref"  mention="none" />
+<markable id="markable_451" span="word_2231..word_2232" mmax_level="coref"  mention="none" />
+<markable id="markable_452" span="word_2236" mmax_level="coref"  mention="none" />
+<markable id="markable_591" span="word_2846" mmax_level="coref"  mention="none" />
+<markable id="markable_453" span="word_2240" mmax_level="coref"  mention="none" />
+<markable id="markable_899" span="word_3005..word_3006" mmax_level="coref"  mention="none" />
+<markable id="markable_454" span="word_2245" mmax_level="coref"  mention="none" />
+<markable id="markable_593" span="word_2853" mmax_level="coref"  mention="none" />
+<markable id="markable_380" span="word_1856" mmax_level="coref"  mention="none" />
+<markable id="markable_244" span="word_1102" mmax_level="coref"  mention="none" />
+<markable id="markable_242" span="word_1097" mmax_level="coref"  mention="none" />
+<markable id="markable_388" span="word_1899" mmax_level="coref"  mention="none" />
+<markable id="markable_724" span="word_2331..word_2332" mmax_level="coref"  mention="none" />
+<markable id="markable_725" span="word_2359..word_2360" mmax_level="coref"  mention="none" />
+<markable id="markable_727" span="word_2397..word_2398" mmax_level="coref"  mention="none" />
+<markable id="markable_728" span="word_2471" mmax_level="coref"  mention="none" />
+<markable id="markable_447" span="word_2210" mmax_level="coref"  mention="none" />
+<markable id="markable_444" span="word_2195..word_2196" mmax_level="coref"  mention="none" />
+<markable id="markable_445" span="word_2201..word_2203" mmax_level="coref"  mention="none" />
+<markable id="markable_239" span="word_1083" mmax_level="coref"  mention="none" />
+<markable id="markable_882" span="word_1966..word_1986" mmax_level="coref"  mention="none" />
+<markable id="markable_880" span="word_1935..word_1954" mmax_level="coref"  mention="none" />
+<markable id="markable_881" span="word_1959" mmax_level="coref"  mention="none" />
+<markable id="markable_886" span="word_2311" mmax_level="coref"  mention="none" />
+<markable id="markable_887" span="word_2319" mmax_level="coref"  mention="none" />
+<markable id="markable_884" span="word_2013" mmax_level="coref"  mention="none" />
+<markable id="markable_885" span="word_2309..word_2310" mmax_level="coref"  mention="none" />
+<markable id="markable_375" span="word_1810" mmax_level="coref"  mention="none" />
+<markable id="markable_36" span="word_158" type_of_pronoun="personal"  coref_class="set_8"  mmax_level="coref"  antetype="entity"  split="simple antecedent"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_471" span="word_2328" mmax_level="coref"  mention="none" />
+<markable id="markable_879" span="word_1870..word_1871" mmax_level="coref"  mention="none" />
+<markable id="markable_878" span="word_1755..word_1768" mmax_level="coref"  mention="none" />
+<markable id="markable_877" span="word_1730..word_1736" mmax_level="coref"  mention="none" />
+<markable id="markable_362" span="word_1742" mmax_level="coref"  mention="none" />
+<markable id="markable_267" span="word_1261" mmax_level="coref"  mention="none" />
+<markable id="markable_891" span="word_2411" mmax_level="coref"  mention="none" />
+<markable id="markable_892" span="word_2416" mmax_level="coref"  mention="none" />
+<markable id="markable_893" span="word_2695..word_2739" mmax_level="coref"  mention="none" />
+<markable id="markable_894" span="word_2740" mmax_level="coref"  mention="none" />
+<markable id="markable_895" span="word_2823" mmax_level="coref"  mention="none" />
+<markable id="markable_896" span="word_2750..word_2815" mmax_level="coref"  mention="none" />
+<markable id="markable_897" span="word_2945" mmax_level="coref"  mention="none" />
+<markable id="markable_368" span="word_1782" mmax_level="coref"  mention="none" />
+<markable id="markable_263" span="word_1235" mmax_level="coref"  mention="none" />
+<markable id="markable_261" span="word_1228" mmax_level="coref"  mention="none" />
+<markable id="markable_260" span="word_1222" mmax_level="coref"  mention="none" />
+<markable id="markable_7" span="word_26" type_of_pronoun="personal"  coref_class="set_3"  mmax_level="coref"  antetype="entity"  split="simple antecedent"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_6" span="word_22" type_of_pronoun="personal"  coref_class="set_3"  mmax_level="coref"  antetype="entity"  split="simple antecedent"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_3" span="word_12" type_of_pronoun="demonstrative"  coref_class="set_1"  mmax_level="coref"  antetype="entity"  split="simple antecedent"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_461" span="word_2289" mmax_level="coref"  mention="none" />
+<markable id="markable_0" span="word_1..word_2" coref_class="set_3"  mmax_level="coref"  nptype="antecedent"  mention="np" />
+<markable id="markable_889" span="word_2362..word_2363" mmax_level="coref"  mention="none" />
+<markable id="markable_888" span="word_2316..word_2319" mmax_level="coref"  mention="none" />
+<markable id="markable_463" span="word_2295..word_2296" mmax_level="coref"  mention="none" />
+<markable id="markable_467" span="word_2312" mmax_level="coref"  mention="none" />
+<markable id="markable_352" span="word_1697" mmax_level="coref"  mention="none" />
+<markable id="markable_354" span="word_1702" mmax_level="coref"  mention="none" />
+<markable id="markable_356" span="word_1709" mmax_level="coref"  mention="none" />
+<markable id="markable_357" span="word_1712" mmax_level="coref"  mention="none" />
+<markable id="markable_865" span="word_887..word_891" mmax_level="coref"  mention="none" />
+<markable id="markable_864" span="word_845" mmax_level="coref"  mention="none" />
+<markable id="markable_863" span="word_841..word_843" mmax_level="coref"  mention="none" />
+<markable id="markable_861" span="word_836" mmax_level="coref"  mention="none" />
+<markable id="markable_210" span="word_962" mmax_level="coref"  mention="none" />
+<markable id="markable_860" span="word_832" mmax_level="coref"  mention="none" />
+<markable id="markable_350" span="word_1691" mmax_level="coref"  mention="none" />
+<markable id="markable_351" span="word_1693..word_1694" mmax_level="coref"  mention="none" />
+<markable id="markable_859" span="word_828" mmax_level="coref"  mention="none" />
+<markable id="markable_857" span="word_804..word_806" mmax_level="coref"  mention="none" />
+<markable id="markable_858" span="word_808" mmax_level="coref"  mention="none" />
+<markable id="markable_855" span="word_761..word_763" mmax_level="coref"  mention="none" />
+<markable id="markable_208" span="word_957" mmax_level="coref"  mention="none" />
+<markable id="markable_497" span="word_2436" mmax_level="coref"  mention="none" />
+<markable id="markable_856" span="word_786" mmax_level="coref"  mention="none" />
+<markable id="markable_349" span="word_1685" mmax_level="coref"  mention="none" />
+<markable id="markable_342" span="word_1623" mmax_level="coref"  mention="none" />
+<markable id="markable_345" span="word_1668" mmax_level="coref"  mention="none" />
+<markable id="markable_204" span="word_938" mmax_level="coref"  mention="none" />
+<markable id="markable_874" span="word_1335..word_1360" mmax_level="coref"  mention="none" />
+<markable id="markable_873" span="word_1327..word_1328" mmax_level="coref"  mention="none" />
+<markable id="markable_876" span="word_1403" mmax_level="coref"  mention="none" />
+<markable id="markable_875" span="word_1361" mmax_level="coref"  mention="none" />
+<markable id="markable_870" span="word_1184" mmax_level="coref"  mention="none" />
+<markable id="markable_872" span="word_1314..word_1324" mmax_level="coref"  mention="none" />
+<markable id="markable_871" span="word_1222..word_1257" mmax_level="coref"  mention="none" />
+<markable id="markable_489" span="word_2405" mmax_level="coref"  mention="none" />
+<markable id="markable_487" span="word_2401" mmax_level="coref"  mention="none" />
+<markable id="markable_866" span="word_893" mmax_level="coref"  mention="none" />
+<markable id="markable_867" span="word_953..word_954" mmax_level="coref"  mention="none" />
+<markable id="markable_868" span="word_955" mmax_level="coref"  mention="none" />
+<markable id="markable_869" span="word_948..word_966" mmax_level="coref"  mention="none" />
+<markable id="markable_339" span="word_1617" mmax_level="coref"  mention="none" />
+<markable id="markable_480" span="word_2366..word_2368" mmax_level="coref"  mention="none" />
+<markable id="markable_337" span="word_1612" mmax_level="coref"  mention="none" />
+<markable id="markable_332" span="word_1581" mmax_level="coref"  mention="none" />
+<markable id="markable_333" span="word_1586" mmax_level="coref"  mention="none" />
+<markable id="markable_843" span="word_221..word_222" coref_class="set_12"  mmax_level="coref"  npmod="demonstrative"  nptype="np"  antetype="entity"  split="simple antecedent"  mention="np"  anacata="anaphoric" />
+<markable id="markable_842" span="word_193..word_194" coref_class="set_9"  mmax_level="coref"  npmod="demonstrative"  nptype="np"  antetype="entity"  split="simple antecedent"  mention="np"  anacata="anaphoric" />
+<markable id="markable_841" span="word_171..word_191" coref_class="set_9"  mmax_level="coref"  clausetype="antecedent"  mention="clause" />
+<markable id="markable_840" span="word_38" mmax_level="coref"  mention="none" />
+<markable id="markable_238" span="word_1079" mmax_level="coref"  mention="none" />
+<markable id="markable_835" span="word_1176" mmax_level="coref"  mention="none" />
+<markable id="markable_836" span="word_1549" mmax_level="coref"  mention="none" />
+<markable id="markable_833" span="word_2833..word_2837" mmax_level="coref"  mention="none" />
+<markable id="markable_834" span="word_2939..word_2943" mmax_level="coref"  mention="none" />
+<markable id="markable_837" span="word_9" coref_class="set_1"  adverbtype="temporal"  mmax_level="coref"  mention="adverb" />
+<markable id="markable_838" span="word_1..word_5" coref_class="set_1"  mmax_level="coref"  mention="clause"  clausetype="antecedent" />
+<markable id="markable_328" span="word_1561" mmax_level="coref"  mention="none" />
+<markable id="markable_329" span="word_1571" mmax_level="coref"  mention="none" />
+<markable id="markable_322" span="word_1506" mmax_level="coref"  mention="none" />
+<markable id="markable_850" span="word_687..word_688" coref_class="set_29"  mmax_level="coref"  npmod="def-article"  nptype="np"  antetype="entity"  split="simple antecedent"  mention="np"  anacata="anaphoric" />
+<markable id="markable_853" span="word_758..word_763" mmax_level="coref"  mention="none" />
+<markable id="markable_844" span="word_313..word_314" coref_class="set_14"  mmax_level="coref"  nptype="antecedent"  mention="np" />
+<markable id="markable_845" span="word_316" type_of_pronoun="relative"  coref_class="set_14"  mmax_level="coref"  antetype="entity"  split="simple antecedent"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_846" span="word_441..word_468" coref_class="set_19"  mmax_level="coref"  nptype="antecedent"  mention="np" />
+<markable id="markable_847" span="word_520,word_522" coref_class="set_24"  mmax_level="coref"  nptype="antecedent"  mention="np" />
+<markable id="markable_848" span="word_524" type_of_pronoun="relative"  coref_class="set_24"  mmax_level="coref"  antetype="entity"  split="simple antecedent"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_849" span="word_683..word_684" coref_class="set_29"  mmax_level="coref"  nptype="antecedent"  mention="np" />
+<markable id="markable_655" span="word_354..word_358,word_360..word_362,word_364..word_366,word_368..word_370,word_384..word_387" coref_class="set_16"  mmax_level="coref"  nptype="antecedent"  mention="np" />
+<markable id="markable_797" span="word_167" type_of_pronoun="possessive"  coref_class="set_8"  mmax_level="coref"  antetype="entity"  split="simple antecedent"  mention="pronoun"  type="anaphoric" />
+<markable id="markable_317" span="word_1476" mmax_level="coref"  mention="none" />
 </markables>
