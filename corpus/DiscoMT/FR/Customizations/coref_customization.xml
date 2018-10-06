@@ -4,7 +4,7 @@
 <rule pattern="!coref_class={empty}" style="italic=true"/>
 <rule pattern="mention={pronoun};type={pronoun}" style="bold=true background=magenta"/>
 <rule pattern="mention={pronoun};type={event}" style="background=pink"/> <!-- Marked the events in pink, so they are visible and can be annotated-->
-<rule pattern="mention={pronoun};type={Not sure. HELP!}" style="bold=true"/>
+<rule pattern="mention={pronoun};type={Not sure. HELP!}" style="bold=true background=lightGray foreground=white"/>
 <!--<rule pattern="mention={np}" style="background=pink"/>-->
 <rule pattern="mention={none}" style="background=green"/>
 <rule pattern="type={speaker reference};audience={none}" style="background=green"/>
