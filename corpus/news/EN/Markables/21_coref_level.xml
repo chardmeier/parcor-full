@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/coref">
+<markable id="markable_32" span="word_413" type_of_pronoun="personal"  agreement="singular"  split="simple antecedent"  coref_class="set_30"  mmax_level="coref"  position="subject"  type="anaphoric"  antetype="entity"  mention="pronoun" />
+<markable id="markable_31" span="word_405" type_of_pronoun="possessive"  agreement="singular"  split="simple antecedent"  coref_class="set_30"  mmax_level="coref"  position="subject"  type="anaphoric"  antetype="entity"  mention="pronoun" />
+<markable id="markable_30" span="word_403" type_of_pronoun="personal"  agreement="singular"  split="simple antecedent"  coref_class="set_30"  mmax_level="coref"  position="subject"  type="anaphoric"  antetype="entity"  mention="pronoun" />
+<markable id="markable_36" span="word_445" type_of_pronoun="personal"  agreement="plural"  split="simple antecedent"  coref_class="set_19"  mmax_level="coref"  position="subject"  type="anaphoric"  antetype="entity"  mention="pronoun" />
+<markable id="markable_35" span="word_436" type_of_pronoun="personal"  agreement="plural"  split="simple antecedent"  coref_class="set_19"  mmax_level="coref"  position="non-subject"  type="anaphoric"  antetype="entity"  mention="pronoun" />
+<markable id="markable_34" span="word_427..word_428" coref_class="set_19"  mmax_level="coref"  nptype="antecedent"  mention="np" />
+<markable id="markable_39" span="word_548..word_549" coref_class="set_21"  mmax_level="coref"  nptype="antecedent"  mention="np" />
+<markable id="markable_38" span="word_511" type_of_pronoun="possessive"  agreement="plural"  split="simple antecedent"  coref_class="set_20"  mmax_level="coref"  position="non-subject"  type="anaphoric"  antetype="entity"  mention="pronoun" />
+<markable id="markable_37" span="word_509" coref_class="set_20"  mmax_level="coref"  nptype="antecedent"  mention="np" />
+<markable id="markable_19" span="word_371" type_of_pronoun="personal"  agreement="singular"  split="simple antecedent"  coref_class="set_12"  mmax_level="coref"  position="subject"  type="anaphoric"  antetype="entity"  mention="pronoun" />
+<markable id="markable_21" span="word_378" npmod="none"  split="simple antecedent"  coref_class="set_30"  mmax_level="coref"  anacata="anaphoric"  nptype="np"  antetype="entity"  mention="np" />
+<markable id="markable_20" span="word_368" coref_class="set_30"  mmax_level="coref"  nptype="antecedent"  mention="np" />
+<markable id="markable_25" span="word_378..word_379" coref_class="set_15"  mmax_level="coref"  nptype="antecedent"  mention="np" />
+<markable id="markable_24" span="word_387" type_of_pronoun="personal"  agreement="singular"  split="simple antecedent"  coref_class="set_15"  mmax_level="coref"  position="subject"  type="anaphoric"  antetype="entity"  mention="pronoun" />
+<markable id="markable_23" span="word_385..word_386" split="simple antecedent"  coref_class="set_12"  mmax_level="coref"  nptype="nom-ellipsis"  antetype="entity"  mention="np" />
+<markable id="markable_22" span="word_383" type_of_pronoun="personal"  agreement="singular"  split="simple antecedent"  coref_class="set_12"  mmax_level="coref"  position="subject"  type="anaphoric"  antetype="entity"  mention="pronoun" />
+<markable id="markable_29" span="word_401" npmod="none"  split="simple antecedent"  coref_class="set_30"  mmax_level="coref"  nptype="np"  anacata="anaphoric"  mention="np"  antetype="entity" />
+<markable id="markable_28" span="word_399" type_of_pronoun="demonstrative"  agreement="none"  split="simple antecedent"  coref_class="set_16"  mmax_level="coref"  position="none"  type="anaphoric"  antetype="entity"  mention="pronoun" />
+<markable id="markable_27" span="word_396" type_of_pronoun="personal"  agreement="singular"  split="simple antecedent"  coref_class="set_15"  mmax_level="coref"  position="subject"  type="anaphoric"  antetype="entity"  mention="pronoun" />
+<markable id="markable_26" span="word_390..word_391" npmod="def-article"  split="simple antecedent"  coref_class="set_16"  mmax_level="coref"  anacata="anaphoric"  nptype="np"  antetype="entity"  mention="np" />
+<markable id="markable_1" span="word_40..word_41" coref_class="set_0"  mmax_level="coref"  nptype="antecedent"  mention="np" />
+<markable id="markable_3" span="word_17" coref_class="set_1"  mmax_level="coref"  nptype="antecedent"  mention="np" />
+<markable id="markable_2" span="word_50" type_of_pronoun="possessive"  split="simple antecedent"  agreement="plural"  coref_class="set_0"  mmax_level="coref"  position="non-subject"  type="anaphoric"  mention="pronoun"  antetype="entity" />
+<markable id="markable_5" span="word_147..word_148" coref_class="set_2"  mmax_level="coref"  nptype="antecedent"  mention="np" />
+<markable id="markable_4" span="word_35..word_36" npmod="def-article"  split="simple antecedent"  coref_class="set_1"  mmax_level="coref"  nptype="np"  anacata="anaphoric"  mention="np"  antetype="entity" />
+<markable id="markable_7" span="word_189..word_191,word_196..word_197" coref_class="set_4"  mmax_level="coref"  nptype="antecedent"  mention="np" />
+<markable id="markable_6" span="word_167..word_168" npmod="def-article"  split="simple antecedent"  coref_class="set_2"  mmax_level="coref"  anacata="anaphoric"  nptype="np"  antetype="entity"  mention="np" />
+<markable id="markable_50" span="word_233" type_of_pronoun="personal"  agreement="singular"  split="simple antecedent"  coref_class="set_33"  mmax_level="coref"  position="subject"  type="anaphoric"  antetype="entity"  mention="pronoun" />
+<markable id="markable_10" span="word_325..word_328" coref_class="set_16"  mmax_level="coref"  nptype="antecedent"  mention="np" />
+<markable id="markable_54" span="word_422" npmod="none"  split="simple antecedent"  coref_class="set_30"  mmax_level="coref"  nptype="np"  anacata="anaphoric"  mention="np"  antetype="entity" />
+<markable id="markable_53" span="word_381" npmod="none"  split="simple antecedent"  coref_class="set_30"  mmax_level="coref"  nptype="np"  anacata="anaphoric"  mention="np"  antetype="entity" />
+<markable id="markable_52" span="word_320" npmod="none"  split="simple antecedent"  coref_class="set_30"  mmax_level="coref"  nptype="np"  anacata="anaphoric"  mention="np"  antetype="entity" />
+<markable id="markable_51" span="word_307" type_of_pronoun="possessive"  agreement="singular"  split="simple antecedent"  coref_class="set_30"  mmax_level="coref"  position="subject"  type="anaphoric"  antetype="entity"  mention="pronoun" />
+<markable id="markable_14" span="word_346" type_of_pronoun="personal"  agreement="singular"  split="simple antecedent"  coref_class="set_30"  mmax_level="coref"  position="subject"  type="anaphoric"  antetype="entity"  mention="pronoun" />
+<markable id="markable_58" span="word_655..word_656" coref_class="set_34"  mmax_level="coref"  nptype="antecedent"  mention="np" />
+<markable id="markable_13" span="word_339" type_of_pronoun="possessive"  agreement="singular"  split="simple antecedent"  coref_class="set_30"  mmax_level="coref"  position="non-subject"  type="anaphoric"  antetype="entity"  mention="pronoun" />
+<markable id="markable_57" span="word_488" npmod="none"  split="simple antecedent"  coref_class="set_33"  mmax_level="coref"  nptype="np"  anacata="anaphoric"  mention="np"  antetype="entity" />
+<markable id="markable_12" span="word_304..word_305" coref_class="set_30"  mmax_level="coref"  nptype="antecedent"  mention="np" />
+<markable id="markable_56" span="word_471" npmod="none"  split="simple antecedent"  coref_class="set_33"  mmax_level="coref"  nptype="np"  anacata="anaphoric"  mention="np"  antetype="entity" />
+<markable id="markable_11" span="word_330" type_of_pronoun="relative"  agreement="singular"  split="simple antecedent"  coref_class="set_16"  mmax_level="coref"  position="subject"  type="anaphoric"  antetype="entity"  mention="pronoun" />
+<markable id="markable_55" span="word_450" npmod="none"  split="simple antecedent"  coref_class="set_33"  mmax_level="coref"  nptype="np"  anacata="anaphoric"  mention="np"  antetype="entity" />
+<markable id="markable_18" span="word_361..word_362" coref_class="set_12"  mmax_level="coref"  nptype="antecedent"  mention="np" />
+<markable id="markable_17" span="word_350" type_of_pronoun="relative"  agreement="singular"  split="simple antecedent"  coref_class="set_8"  mmax_level="coref"  position="subject"  type="anaphoric"  antetype="entity"  mention="pronoun" />
+<markable id="markable_16" span="word_348..word_349" coref_class="set_8"  mmax_level="coref"  nptype="antecedent"  mention="np" />
+<markable id="markable_15" span="word_354" type_of_pronoun="personal"  agreement="singular"  split="simple antecedent"  coref_class="set_30"  mmax_level="coref"  position="non-subject"  type="anaphoric"  antetype="entity"  mention="pronoun" />
+<markable id="markable_59" span="word_670..word_671" split="simple antecedent"  coref_class="set_34"  mmax_level="coref"  nptype="nom-ellipsis"  antetype="entity"  mention="np" />
+<markable id="markable_9" span="word_247..word_249" npmod="demonstrative"  split="simple antecedent"  coref_class="set_4"  mmax_level="coref"  anacata="anaphoric"  nptype="np"  antetype="entity"  mention="np" />
+<markable id="markable_8" span="word_220..word_221" npmod="demonstrative"  split="simple antecedent"  coref_class="set_4"  mmax_level="coref"  anacata="anaphoric"  nptype="np"  antetype="entity"  mention="np" />
+<markable id="markable_43" span="word_556..word_559" coref_class="set_23"  mmax_level="coref"  nptype="antecedent"  mention="np" />
+<markable id="markable_42" span="word_595" type_of_pronoun="personal"  agreement="plural"  split="simple antecedent"  coref_class="set_22"  mmax_level="coref"  position="subject"  type="anaphoric"  antetype="entity"  mention="pronoun" />
+<markable id="markable_41" span="word_589..word_592" coref_class="set_22"  mmax_level="coref"  nptype="antecedent"  mention="np" />
+<markable id="markable_40" span="word_551" split="simple antecedent"  coref_class="set_21"  mmax_level="coref"  type="nom substitution"  antetype="entity"  mention="pronoun" />
+<markable id="markable_47" span="word_744" coref_class="set_25"  mmax_level="coref"  nptype="antecedent"  mention="np" />
+<markable id="markable_46" span="word_699" type_of_pronoun="personal"  agreement="singular"  split="simple antecedent"  coref_class="set_24"  mmax_level="coref"  position="subject"  type="anaphoric"  antetype="entity"  mention="pronoun" />
+<markable id="markable_45" span="word_684..word_689" coref_class="set_24"  mmax_level="coref"  nptype="antecedent"  mention="np" />
+<markable id="markable_44" span="word_610" type_of_pronoun="personal"  agreement="singular"  split="simple antecedent"  coref_class="set_23"  mmax_level="coref"  position="subject"  type="anaphoric"  antetype="entity"  mention="pronoun" />
+<markable id="markable_49" span="word_216..word_218" coref_class="set_33"  mmax_level="coref"  nptype="antecedent"  mention="np" />
+<markable id="markable_48" span="word_760" type_of_pronoun="personal"  agreement="singular"  split="simple antecedent"  coref_class="set_25"  mmax_level="coref"  position="subject"  type="anaphoric"  antetype="entity"  mention="pronoun" />
+</markables>
