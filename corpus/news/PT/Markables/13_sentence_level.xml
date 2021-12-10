@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/sentence">
+<markable id="markable_19" span="word_434..word_440" orderid="19"  imported="false"  mmax_level="sentence" />
+<markable id="markable_1" span="word_9..word_23" orderid="1"  imported="false"  mmax_level="sentence" />
+<markable id="markable_0" span="word_1..word_8" orderid="0"  imported="false"  mmax_level="sentence" />
+<markable id="markable_3" span="word_50..word_81" orderid="3"  imported="false"  mmax_level="sentence" />
+<markable id="markable_2" span="word_24..word_49" orderid="2"  imported="false"  mmax_level="sentence" />
+<markable id="markable_5" span="word_99..word_114" orderid="5"  mmax_level="sentence" />
+<markable id="markable_4" span="word_82..word_98" orderid="4"  mmax_level="sentence" />
+<markable id="markable_7" span="word_131..word_153" orderid="7"  mmax_level="sentence" />
+<markable id="markable_6" span="word_115..word_130" orderid="6"  mmax_level="sentence" />
+<markable id="markable_9" span="word_170..word_198" orderid="9"  mmax_level="sentence" />
+<markable id="markable_8" span="word_154..word_169" orderid="8"  mmax_level="sentence" />
+<markable id="markable_10" span="word_199..word_229" orderid="10"  imported="false"  mmax_level="sentence" />
+<markable id="markable_14" span="word_319..word_355" orderid="14"  mmax_level="sentence" />
+<markable id="markable_13" span="word_307..word_318" orderid="13"  mmax_level="sentence" />
+<markable id="markable_12" span="word_279..word_306" orderid="12"  imported="false"  mmax_level="sentence" />
+<markable id="markable_11" span="word_230..word_278" orderid="11"  mmax_level="sentence" />
+<markable id="markable_18" span="word_412..word_433" orderid="18"  imported="false"  mmax_level="sentence" />
+<markable id="markable_17" span="word_384..word_411" orderid="17"  mmax_level="sentence" />
+<markable id="markable_16" span="word_370..word_383" orderid="16"  mmax_level="sentence" />
+<markable id="markable_15" span="word_356..word_369" orderid="15"  mmax_level="sentence" />
+</markables>

@@ -52,7 +52,7 @@
 <markable id="markable_0" span="word_1..word_14" orderid="0"  mmax_level="sentence" />
 <markable id="markable_103" span="word_2117..word_2133" orderid="103"  mmax_level="sentence" />
 <markable id="markable_3" span="word_67..word_79" orderid="3"  mmax_level="sentence" />
-<markable id="markable_106" span="word_2165..word_2230" orderid="106"  imported="false"  mmax_level="sentence" />
+<markable id="markable_106" span="word_2165..word_2230" orderid="106"  mmax_level="sentence" />
 <markable id="markable_2" span="word_35..word_66" orderid="2"  mmax_level="sentence" />
 <markable id="markable_105" span="word_2147..word_2164" orderid="105"  mmax_level="sentence" />
 <markable id="markable_5" span="word_94..word_106" orderid="5"  mmax_level="sentence" />
