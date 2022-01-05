@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/checks2">
+<markable mmax_level="checks2" id="markable_0" span="word_122" check="NE:LOC" />
+<markable mmax_level="checks2" id="markable_1" span="word_181..word_182" check="NE:PER" />
+<markable mmax_level="checks2" id="markable_2" span="word_279" check="NE:LOC" />
+<markable mmax_level="checks2" id="markable_3" span="word_696" check="NE:LOC" />
+<markable mmax_level="checks2" id="markable_4" span="word_1255" check="NE:LOC" />
+<markable mmax_level="checks2" id="markable_5" span="word_1296..word_1297" check="NE:PER" />
+<markable mmax_level="checks2" id="markable_6" span="word_1433" check="NE:PER" />
+<markable mmax_level="checks2" id="markable_7" span="word_1584" check="NE:LOC" />
+<markable mmax_level="checks2" id="markable_8" span="word_2325..word_2329" check="NE:MISC" />
+<markable mmax_level="checks2" id="markable_9" span="word_2682" check="NE:LOC" />
+<markable mmax_level="checks2" id="markable_10" span="word_2691" check="NE:LOC" />
+<markable mmax_level="checks2" id="markable_11" span="word_2889" check="NE:PER" />
+<markable mmax_level="checks2" id="markable_12" span="word_2913" check="NE:PER" />
+<markable mmax_level="checks2" id="markable_13" span="word_2929" check="NE:MISC" />
+<markable mmax_level="checks2" id="markable_14" span="word_3394" check="NE:PER" />
+<markable mmax_level="checks2" id="markable_15" span="word_2627..word_2651" check="cross-sentence overlapping-in-chain" />
+<markable mmax_level="checks2" id="markable_16" span="word_929..word_930" check="overlapping-in-chain" />
+<markable mmax_level="checks2" id="markable_17" span="word_1238..word_1247" check="overlapping-in-chain" />
+<markable mmax_level="checks2" id="markable_18" span="word_1278..word_1292" check="overlapping-in-chain" />
+<markable mmax_level="checks2" id="markable_19" span="word_1712..word_1719" check="overlapping-in-chain" />
+<markable mmax_level="checks2" id="markable_20" span="word_1559..word_1566" check="overlapping-in-chain" />
+<markable mmax_level="checks2" id="markable_21" span="word_2078..word_2103" check="overlapping-in-chain" />
+<markable mmax_level="checks2" id="markable_22" span="word_2095" check="overlapping-in-chain" />
+<markable mmax_level="checks2" id="markable_23" span="word_2094" check="overlapping-in-chain" />
+<markable mmax_level="checks2" id="markable_24" span="word_2567..word_2624" check="overlapping-in-chain" />
+<markable mmax_level="checks2" id="markable_25" span="word_2629" check="overlapping-in-chain" />
+<markable mmax_level="checks2" id="markable_26" span="word_2959..word_2966" check="overlapping-in-chain" />
+<markable mmax_level="checks2" id="markable_27" span="word_2850" check="overlapping-in-chain" />
+<markable mmax_level="checks2" id="markable_28" span="word_2845..word_2846" check="overlapping-in-chain" />
+<markable mmax_level="checks2" id="markable_29" span="word_2601" check="overlapping-in-chain" />
+<markable mmax_level="checks2" id="markable_30" span="word_2239" check="overlapping-in-chain" />
+<markable mmax_level="checks2" id="markable_31" span="word_1738..word_1746" check="overlapping-in-chain" />
+<markable mmax_level="checks2" id="markable_32" span="word_2118..word_2124" check="overlapping-in-chain" />
+<markable mmax_level="checks2" id="markable_33" span="word_509" check="overlapping-in-chain" />
+<markable mmax_level="checks2" id="markable_34" span="word_1014" check="overlapping-in-chain" />
+<markable mmax_level="checks2" id="markable_35" span="word_82..word_85" check="overlapping-in-chain" />
+<markable mmax_level="checks2" id="markable_36" span="word_794" check="overlapping-in-chain" />
+<markable mmax_level="checks2" id="markable_37" span="word_2363" check="overlapping-in-chain" />
+<markable mmax_level="checks2" id="markable_38" span="word_2664" check="overlapping-in-chain" />
+<markable mmax_level="checks2" id="markable_39" span="word_2211" check="overlapping-in-chain" />
+<markable mmax_level="checks2" id="markable_40" span="word_420..word_422" check="overlapping-in-chain" />
+<markable mmax_level="checks2" id="markable_41" span="word_1863" check="overlapping-in-chain" />
+<markable mmax_level="checks2" id="markable_42" span="word_1927..word_1928" check="overlapping-in-chain" />
+</markables>

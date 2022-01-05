@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/checks2">
+<markable id="markable_1" span="word_86" mmax_level="checks2"  check="ne:per" />
+<markable id="markable_0" span="word_24..word_25" mmax_level="checks2"  check="ne:per" />
+<markable id="markable_3" span="word_421" mmax_level="checks2"  check="ne:per" />
+<markable id="markable_2" span="word_308" mmax_level="checks2"  check="ne:misc" />
+<markable id="markable_5" span="word_509" mmax_level="checks2"  check="ne:loc" />
+<markable id="markable_4" span="word_506" mmax_level="checks2"  check="ne:misc" />
+<markable id="markable_7" span="word_617" mmax_level="checks2"  check="ne:loc" />
+<markable id="markable_6" span="word_614" mmax_level="checks2"  check="ne:loc" />
+<markable id="markable_10" span="word_645" mmax_level="checks2"  check="ne:loc" />
+<markable id="markable_32" span="word_3280" mmax_level="checks2"  check="ne:loc" />
+<markable id="markable_31" span="word_3278" mmax_level="checks2"  check="ne:loc" />
+<markable id="markable_30" span="word_3268" mmax_level="checks2"  check="ne:loc" />
+<markable id="markable_14" span="word_1933" mmax_level="checks2"  check="ne:per" />
+<markable id="markable_36" span="word_3324" mmax_level="checks2"  check="ne:loc" />
+<markable id="markable_13" span="word_805" mmax_level="checks2"  check="ne:loc" />
+<markable id="markable_35" span="word_3286..word_3289" mmax_level="checks2"  check="ne:misc" />
+<markable id="markable_12" span="word_654..word_655" mmax_level="checks2"  check="ne:misc" />
+<markable id="markable_34" span="word_3284..word_3285" mmax_level="checks2"  check="ne:misc" />
+<markable id="markable_11" span="word_651..word_652" mmax_level="checks2"  check="ne:misc" />
+<markable id="markable_33" span="word_3282" mmax_level="checks2"  check="ne:loc" />
+<markable id="markable_18" span="word_2451..word_2452" mmax_level="checks2"  check="ne:per" />
+<markable id="markable_17" span="word_2445" mmax_level="checks2"  check="ne:loc" />
+<markable id="markable_39" span="word_3618" mmax_level="checks2"  check="ne:per" />
+<markable id="markable_16" span="word_2410" mmax_level="checks2"  check="ne:loc" />
+<markable id="markable_38" span="word_3357..word_3358" mmax_level="checks2"  check="ne:per" />
+<markable id="markable_15" span="word_2406" mmax_level="checks2"  check="ne:loc" />
+<markable id="markable_37" span="word_3333" mmax_level="checks2"  check="ne:loc" />
+<markable id="markable_19" span="word_2483" mmax_level="checks2"  check="ne:org" />
+<markable id="markable_9" span="word_628" mmax_level="checks2"  check="ne:loc" />
+<markable id="markable_8" span="word_626" mmax_level="checks2"  check="ne:loc" />
+<markable id="markable_21" span="word_2538" mmax_level="checks2"  check="ne:per" />
+<markable id="markable_43" span="word_3686" mmax_level="checks2"  check="ne:loc" />
+<markable id="markable_20" span="word_2485" mmax_level="checks2"  check="ne:per" />
+<markable id="markable_42" span="word_3653" mmax_level="checks2"  check="ne:misc" />
+<markable id="markable_41" span="word_3649" mmax_level="checks2"  check="ne:misc" />
+<markable id="markable_40" span="word_3625..word_3626" mmax_level="checks2"  check="ne:per" />
+<markable id="markable_25" span="word_2835" mmax_level="checks2"  check="ne:misc" />
+<markable id="markable_47" span="word_2151" mmax_level="checks2"  check="overlapping-in-chain" />
+<markable id="markable_24" span="word_2833" mmax_level="checks2"  check="ne:per" />
+<markable id="markable_46" span="word_3558" mmax_level="checks2"  check="duplicate-markable" />
+<markable id="markable_23" span="word_2795" mmax_level="checks2"  check="ne:misc" />
+<markable id="markable_45" span="word_3696" mmax_level="checks2"  check="ne:loc" />
+<markable id="markable_22" span="word_2781" mmax_level="checks2"  check="ne:org" />
+<markable id="markable_44" span="word_3691" mmax_level="checks2"  check="ne:loc" />
+<markable id="markable_29" span="word_3237..word_3239" mmax_level="checks2"  check="ne:loc" />
+<markable id="markable_28" span="word_3106" mmax_level="checks2"  check="ne:per" />
+<markable id="markable_27" span="word_2929" mmax_level="checks2"  check="ne:per" />
+<markable id="markable_26" span="word_2848" mmax_level="checks2"  check="ne:misc" />
+</markables>

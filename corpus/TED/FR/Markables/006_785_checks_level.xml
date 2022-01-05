@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/checks">
+<markable id="markable_1180" span="word_3175" mmax_level="checks"  check="markable-without-chain antecedent-not-first" />
+<markable id="markable_1191" span="word_3633..word_3634" mmax_level="checks"  check="split-discontinuous" />
+<markable id="markable_1192" span="word_3637..word_3638" mmax_level="checks"  check="antecedent-not-first" />
+<markable id="markable_680" span="word_3272" mmax_level="checks"  check="markable-without-chain" />
+<markable id="markable_1133" span="word_1976..word_1984" mmax_level="checks"  check="antecedent-not-first" />
+<markable id="markable_1156" span="word_2494..word_2495" mmax_level="checks"  check="antecedent-not-first" />
+<markable id="markable_744" span="word_3562" mmax_level="checks"  check="markable-without-chain" />
+<markable id="markable_1158" span="word_2529" mmax_level="checks"  check="antecedent-not-first" />
+<markable id="markable_1027" span="word_3424..word_3436" mmax_level="checks"  check="markable-without-chain antecedent-not-first" />
+<markable id="markable_1018" span="word_1965..word_1973" mmax_level="checks"  check="antecedent-not-first" />
+</markables>

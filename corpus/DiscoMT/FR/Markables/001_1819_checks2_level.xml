@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/checks2">
+<markable id="markable_1" span="word_122" mmax_level="checks2"  check="ne:loc" />
+<markable id="markable_0" span="word_114" mmax_level="checks2"  check="ne:per" />
+<markable id="markable_3" span="word_1255" mmax_level="checks2"  check="ne:loc" />
+<markable id="markable_2" span="word_696" mmax_level="checks2"  check="ne:loc" />
+<markable id="markable_5" span="word_1433" mmax_level="checks2"  check="ne:per" />
+<markable id="markable_4" span="word_1296..word_1297" mmax_level="checks2"  check="ne:per" />
+<markable id="markable_7" span="word_2325..word_2329" mmax_level="checks2"  check="ne:misc" />
+<markable id="markable_6" span="word_1584" mmax_level="checks2"  check="ne:loc" />
+<markable id="markable_9" span="word_2691" mmax_level="checks2"  check="ne:loc" />
+<markable id="markable_8" span="word_2682" mmax_level="checks2"  check="ne:loc" />
+<markable id="markable_10" span="word_2889" mmax_level="checks2"  check="ne:per" />
+<markable id="markable_14" span="word_2627..word_2651" mmax_level="checks2"  check="cross-sentence" />
+<markable id="markable_13" span="word_3394" mmax_level="checks2"  check="ne:per" />
+<markable id="markable_12" span="word_2929" mmax_level="checks2"  check="ne:misc" />
+<markable id="markable_11" span="word_2913" mmax_level="checks2"  check="ne:per" />
+</markables>

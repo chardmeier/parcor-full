@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Mark-Christoph Mueller, European Media Lab, Heidelberg, Germany (mueller@eml.org) -->
+<annotationscheme>
+        <attribute id="level_tag" name="check" text="" type="freetext">
+                <value id="value_3" name="check"/>
+        </attribute>
+	<attribute id="level_details" name="details" text=""  type="freetext">
+		<value id="value_1" name="details"/>
+	</attribute>
+</annotationscheme>

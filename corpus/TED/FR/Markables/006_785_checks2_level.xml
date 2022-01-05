@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/checks2">
+<markable id="markable_1" span="word_558" mmax_level="checks2"  check="ne:loc" />
+<markable id="markable_0" span="word_504" mmax_level="checks2"  check="ne:loc" />
+<markable id="markable_3" span="word_599..word_600" mmax_level="checks2"  check="ne:loc" />
+<markable id="markable_2" span="word_597" mmax_level="checks2"  check="ne:loc" />
+<markable id="markable_5" span="word_634" mmax_level="checks2"  check="ne:loc" />
+<markable id="markable_4" span="word_625" mmax_level="checks2"  check="ne:org" />
+<markable id="markable_7" span="word_664" mmax_level="checks2"  check="ne:loc" />
+<markable id="markable_6" span="word_636..word_637" mmax_level="checks2"  check="ne:loc" />
+<markable id="markable_10" span="word_904" mmax_level="checks2"  check="ne:misc" />
+<markable id="markable_14" span="word_1303..word_1304" mmax_level="checks2"  check="ne:misc" />
+<markable id="markable_13" span="word_1159" mmax_level="checks2"  check="ne:misc" />
+<markable id="markable_12" span="word_1116" mmax_level="checks2"  check="ne:per" />
+<markable id="markable_11" span="word_910" mmax_level="checks2"  check="ne:misc" />
+<markable id="markable_18" span="word_1902" mmax_level="checks2"  check="ne:loc" />
+<markable id="markable_17" span="word_1827" mmax_level="checks2"  check="ne:per" />
+<markable id="markable_16" span="word_1521" mmax_level="checks2"  check="ne:per" />
+<markable id="markable_15" span="word_1519" mmax_level="checks2"  check="ne:per" />
+<markable id="markable_19" span="word_2066" mmax_level="checks2"  check="ne:loc" />
+<markable id="markable_9" span="word_899" mmax_level="checks2"  check="ne:per" />
+<markable id="markable_8" span="word_895" mmax_level="checks2"  check="ne:per" />
+<markable id="markable_21" span="word_2689..word_2691" mmax_level="checks2"  check="ne:misc" />
+<markable id="markable_20" span="word_2660" mmax_level="checks2"  check="ne:loc" />
+<markable id="markable_24" span="word_1976..word_1984" mmax_level="checks2"  check="duplicate-markable overlapping-in-chain" />
+<markable id="markable_23" span="word_3705" mmax_level="checks2"  check="ne:org" />
+<markable id="markable_22" span="word_3555" mmax_level="checks2"  check="ne:per" />
+</markables>
